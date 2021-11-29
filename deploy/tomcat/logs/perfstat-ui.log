@@ -1651,3 +1651,80 @@ Tag                                                  Avg(ms)         Min        
 Performance Statistics   2021-11-29 16:38:00 - 2021-11-29 16:40:00
 Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
 
+Performance Statistics   2021-11-29 16:40:00 - 2021-11-29 16:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 16:42:00 - 2021-11-29 16:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 16:44:00 - 2021-11-29 16:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 16:46:00 - 2021-11-29 16:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 17:26:00 - 2021-11-29 17:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         24,0          18          30         6,0           2
+MenuItem.wf$Proc.browse                               1054,0        1054        1054         0,0           1
+TDS null                                                39,5          19          60        20,5           2
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   2,0           2           2         0,0           1
+loginWindow#create                                     134,0         134         134         0,0           1
+loginWindow#init                                        37,0          37          37         0,0           1
+loginWindow#inject                                      98,0          98          98         0,0           1
+loginWindow#load                                       839,0         839         839         0,0           1
+loginWindow#uiPermissions                                2,0           2           2         0,0           1
+loginWindow#xml                                          8,5           0          17         8,5           2
+lookupWindowActions#create                               1,0           1           1         0,0           1
+lookupWindowActions#inject                               3,0           3           3         0,0           1
+lookupWindowActions#load                                 1,0           1           1         0,0           1
+lookupWindowActions#xml                                  0,5           0           1         0,5           2
+mainWindow#afterShow                                     3,0           3           3         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                       26,0          26          26         0,0           1
+mainWindow#init                                        200,0         200         200         0,0           1
+mainWindow#inject                                       15,0          15          15         0,0           1
+mainWindow#load                                       1613,0        1613        1613         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                          13,0           0          26        13,0           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    6,0           6           6         0,0           1
+mainWindow.voiceControlConsole#load                     41,0          41          41         0,0           1
+voiceControlConsole#create                              61,0          61          61         0,0           1
+voiceControlConsole#xml                                  1,0           1           1         0,0           1
+wf$Proc.browse#afterShow                                 0,0           0           0         0,0           1
+wf$Proc.browse#beforeShow                                4,0           4           4         0,0           1
+wf$Proc.browse#create                                   15,0          15          15         0,0           1
+wf$Proc.browse#init                                      9,0           9           9         0,0           1
+wf$Proc.browse#inject                                   32,0          32          32         0,0           1
+wf$Proc.browse#load                                    529,0         529         529         0,0           1
+wf$Proc.browse#uiPermissions                             0,0           0           0         0,0           1
+wf$Proc.browse#xml                                       1,5           0           3         1,5           2
+wf$Proc.browse.lookupWindowActions#init                  0,0           0           0         0,0           1
+wf$Proc.browse@procDs                                  369,0         369         369         0,0           1
+
+Performance Statistics   2021-11-29 17:28:00 - 2021-11-29 17:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+MenuItem.wf$Design.browse                             1683,0        1683        1683         0,0           1
+wf$Design.browse#afterShow                               0,0           0           0         0,0           1
+wf$Design.browse#beforeShow                              0,0           0           0         0,0           1
+wf$Design.browse#companion                               2,0           2           2         0,0           1
+wf$Design.browse#create                                  1,0           1           1         0,0           1
+wf$Design.browse#init                                  241,0         241         241         0,0           1
+wf$Design.browse#inject                                 16,0          16          16         0,0           1
+wf$Design.browse#load                                  738,0         738         738         0,0           1
+wf$Design.browse#uiPermissions                           0,0           0           0         0,0           1
+wf$Design.browse#xml                                    56,0           0         112        56,0           2
+wf$Design.browse@designDs                               30,0          30          30         0,0           1
+wf$Design.browse@designProcessVariableDs                12,0          12          12         0,0           1
+wf$DesignScript.browse#afterShow                         0,0           0           0         0,0           1
+wf$DesignScript.browse#beforeShow                        3,0           3           3         0,0           1
+wf$DesignScript.browse#create                            0,0           0           0         0,0           1
+wf$DesignScript.browse#init                             13,0          13          13         0,0           1
+wf$DesignScript.browse#inject                            5,0           5           5         0,0           1
+wf$DesignScript.browse#load                            176,0         176         176         0,0           1
+wf$DesignScript.browse#uiPermissions                     0,0           0           0         0,0           1
+wf$DesignScript.browse#xml                               4,3           0          26         9,7           6
+wf$DesignScript.browse@scriptsDs                         8,0           8           8         0,0           1
+
