@@ -170,3 +170,434 @@ Tag                                                  Avg(ms)         Min        
 Performance Statistics   2021-11-29 13:14:00 - 2021-11-29 13:16:00
 Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
 
+Performance Statistics   2021-11-29 13:28:00 - 2021-11-29 13:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         25,0          25          25         0,0           1
+TDS null                                                55,0          55          55         0,0           1
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   2,0           2           2         0,0           1
+loginWindow#create                                     107,0         107         107         0,0           1
+loginWindow#init                                        32,0          32          32         0,0           1
+loginWindow#inject                                      84,0          84          84         0,0           1
+loginWindow#load                                       487,0         487         487         0,0           1
+loginWindow#uiPermissions                                1,0           1           1         0,0           1
+loginWindow#xml                                          5,5           0          11         5,5           2
+mainWindow#afterShow                                     4,0           4           4         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                       16,0          16          16         0,0           1
+mainWindow#init                                        207,0         207         207         0,0           1
+mainWindow#inject                                       14,0          14          14         0,0           1
+mainWindow#load                                       1499,0        1499        1499         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           1,0           0           2         1,0           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    5,0           5           5         0,0           1
+mainWindow.voiceControlConsole#load                     39,0          39          39         0,0           1
+voiceControlConsole#create                              60,0          60          60         0,0           1
+voiceControlConsole#xml                                  1,0           1           1         0,0           1
+
+Performance Statistics   2021-11-29 13:30:00 - 2021-11-29 13:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         17,0          17          17         0,0           1
+MenuItem.wf$Design.browse                             1137,0        1137        1137         0,0           1
+MenuItem.wf$Proc.browse                                896,0         896         896         0,0           1
+TDS null                                                18,0          18          18         0,0           1
+editWindowActions#create                                22,0          22          22         0,0           1
+editWindowActions#xml                                    0,5           0           1         0,5           2
+lookupWindowActions#create                               1,0           1           1         0,0           1
+lookupWindowActions#inject                               3,0           3           3         0,0           1
+lookupWindowActions#load                                 1,0           1           1         0,0           1
+lookupWindowActions#xml                                  0,0           0           0         0,0           2
+wf$Design.browse#afterShow                               0,0           0           0         0,0           1
+wf$Design.browse#beforeShow                              0,0           0           0         0,0           1
+wf$Design.browse#companion                               3,0           3           3         0,0           1
+wf$Design.browse#create                                  2,0           2           2         0,0           1
+wf$Design.browse#init                                  218,0         218         218         0,0           1
+wf$Design.browse#inject                                 18,0          18          18         0,0           1
+wf$Design.browse#load                                  511,0         511         511         0,0           1
+wf$Design.browse#uiPermissions                           0,0           0           0         0,0           1
+wf$Design.browse#xml                                    16,0           0          32        16,0           2
+wf$Design.browse@designDs                               13,0          13          13         0,0           1
+wf$Design.browse@designProcessVariableDs                14,0          14          14         0,0           1
+wf$Proc.browse#afterShow                                 0,0           0           0         0,0           1
+wf$Proc.browse#beforeShow                                3,0           3           3         0,0           1
+wf$Proc.browse#create                                   13,0          13          13         0,0           1
+wf$Proc.browse#init                                      9,0           9           9         0,0           1
+wf$Proc.browse#inject                                   30,0          30          30         0,0           1
+wf$Proc.browse#load                                    435,0         435         435         0,0           1
+wf$Proc.browse#uiPermissions                             0,0           0           0         0,0           1
+wf$Proc.browse#xml                                       1,5           0           3         1,5           2
+wf$Proc.browse.lookupWindowActions#init                  0,0           0           0         0,0           1
+wf$Proc.browse@procDs                                  336,0         336         336         0,0           1
+wf$Proc.edit#afterShow                                   0,0           0           0         0,0           1
+wf$Proc.edit#beforeShow                                  3,0           3           3         0,0           1
+wf$Proc.edit#create                                      3,0           3           3         0,0           1
+wf$Proc.edit#init                                       61,0          61          61         0,0           1
+wf$Proc.edit#inject                                     19,0          19          19         0,0           1
+wf$Proc.edit#load                                      936,0         936         936         0,0           1
+wf$Proc.edit#uiPermissions                               0,0           0           0         0,0           1
+wf$Proc.edit#xml                                         0,6           0           3         1,2           5
+wf$Proc.edit.windowActions#init                          0,0           0           0         0,0           1
+wf$Proc.edit.windowActions#inject                        6,0           6           6         0,0           1
+wf$Proc.edit.windowActions#load                         45,0          45          45         0,0           1
+wf$Proc.edit@secRolesDs                                 17,0          17          17         0,0           1
+
+Performance Statistics   2021-11-29 13:32:00 - 2021-11-29 13:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+wf$Design.browse@designDs                                9,0           9           9         0,0           1
+wf$Design.browse@designProcessVariableDs                 6,7           6           8         0,9           3
+
+Performance Statistics   2021-11-29 13:34:00 - 2021-11-29 13:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+wf$Design.deploy#afterShow                               0,0           0           0         0,0           1
+wf$Design.deploy#beforeShow                              0,0           0           0         0,0           1
+wf$Design.deploy#create                                 56,0          56          56         0,0           1
+wf$Design.deploy#init                                   43,0          43          43         0,0           1
+wf$Design.deploy#inject                                  6,0           6           6         0,0           1
+wf$Design.deploy#load                                   86,0          86          86         0,0           1
+wf$Design.deploy#uiPermissions                           0,0           0           0         0,0           1
+wf$Design.deploy#xml                                     2,2           0          13         4,8           6
+wf$Design.deploy@procDs                                 24,0          24          24         0,0           1
+wf$Design.deploy@secRoles                                7,0           7           7         0,0           1
+
+Performance Statistics   2021-11-29 13:36:00 - 2021-11-29 13:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+MenuItem.sec$User.browse                               660,0         660         660         0,0           1
+MenuItem.wf$UserGroup.browse                           355,5          97         614       258,5           2
+editWindowActions#create                                 0,0           0           0         0,0           1
+editWindowActions#xml                                    0,0           0           0         0,0           2
+lookupWindowActions#create                               0,0           0           0         0,0           1
+lookupWindowActions#inject                               0,0           0           0         0,0           1
+lookupWindowActions#load                                 0,0           0           0         0,0           1
+lookupWindowActions#xml                                  0,0           0           0         0,0           2
+sec$User.browse#afterShow                                0,0           0           0         0,0           1
+sec$User.browse#beforeShow                               0,0           0           0         0,0           1
+sec$User.browse#create                                   2,0           2           2         0,0           1
+sec$User.browse#init                                    96,0          96          96         0,0           1
+sec$User.browse#inject                                  10,0          10          10         0,0           1
+sec$User.browse#load                                   110,0         110         110         0,0           1
+sec$User.browse#uiPermissions                            0,0           0           0         0,0           1
+sec$User.browse#xml                                     17,0           0          34        17,0           2
+sec$User.browse.lookupWindowActions#init                 0,0           0           0         0,0           1
+sec$User.browse@usersDs                                  8,0           8           8         0,0           1
+sec$User.edit#afterShow                                  0,0           0           0         0,0           1
+sec$User.edit#beforeShow                                 2,0           2           2         0,0           1
+sec$User.edit#companion                                  1,0           1           1         0,0           1
+sec$User.edit#create                                    18,0          18          18         0,0           1
+sec$User.edit#init                                     101,0         101         101         0,0           1
+sec$User.edit#inject                                    10,0          10          10         0,0           1
+sec$User.edit#load                                     232,0         232         232         0,0           1
+sec$User.edit#uiPermissions                              0,0           0           0         0,0           1
+sec$User.edit#xml                                        1,2           0           6         2,4           5
+sec$User.edit.windowActions#init                         0,0           0           0         0,0           1
+sec$User.edit.windowActions#inject                       0,0           0           0         0,0           1
+sec$User.edit.windowActions#load                         0,0           0           0         0,0           1
+wf$UserGroup.browse#afterShow                            0,0           0           0         0,0           2
+wf$UserGroup.browse#beforeShow                           0,0           0           0         0,0           2
+wf$UserGroup.browse#create                               0,5           0           1         0,5           2
+wf$UserGroup.browse#init                                 1,5           0           3         1,5           2
+wf$UserGroup.browse#inject                               2,5           0           5         2,5           2
+wf$UserGroup.browse#load                                24,5          10          39        14,5           2
+wf$UserGroup.browse#uiPermissions                        0,0           0           0         0,0           2
+wf$UserGroup.browse#xml                                 10,0           0          39        16,7           4
+wf$UserGroup.browse@userGroupsDs                        15,5           9          22         6,5           2
+
+Performance Statistics   2021-11-29 13:38:00 - 2021-11-29 13:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+editWindowActions#create                                 0,0           0           0         0,0           1
+editWindowActions#xml                                    0,0           0           0         0,0           2
+wf$UserGroup.edit#afterShow                              0,0           0           0         0,0           1
+wf$UserGroup.edit#beforeShow                             0,0           0           0         0,0           1
+wf$UserGroup.edit#create                                 0,0           0           0         0,0           1
+wf$UserGroup.edit#init                                   0,0           0           0         0,0           1
+wf$UserGroup.edit#inject                                 6,0           6           6         0,0           1
+wf$UserGroup.edit#load                                  45,0          45          45         0,0           1
+wf$UserGroup.edit#uiPermissions                          0,0           0           0         0,0           1
+wf$UserGroup.edit#xml                                    7,0           0          35        14,0           5
+wf$UserGroup.edit.windowActions#init                     0,0           0           0         0,0           1
+wf$UserGroup.edit.windowActions#inject                   0,0           0           0         0,0           1
+wf$UserGroup.edit.windowActions#load                     0,0           0           0         0,0           1
+
+Performance Statistics   2021-11-29 13:40:00 - 2021-11-29 13:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+editWindowActions#create                                 0,0           0           0         0,0           2
+editWindowActions#xml                                    0,0           0           0         0,0           4
+wf$UserGroup.browse@usersDs                             14,0           8          24         7,1           3
+wf$UserGroup.edit#afterShow                              0,0           0           0         0,0           2
+wf$UserGroup.edit#beforeShow                             0,0           0           0         0,0           2
+wf$UserGroup.edit#create                                 0,0           0           0         0,0           2
+wf$UserGroup.edit#init                                   0,0           0           0         0,0           2
+wf$UserGroup.edit#inject                                 0,0           0           0         0,0           2
+wf$UserGroup.edit#load                                   3,0           2           4         1,0           2
+wf$UserGroup.edit#uiPermissions                          0,0           0           0         0,0           2
+wf$UserGroup.edit#xml                                    0,1           0           1         0,3          10
+wf$UserGroup.edit.windowActions#init                     0,0           0           0         0,0           2
+wf$UserGroup.edit.windowActions#inject                   0,0           0           0         0,0           2
+wf$UserGroup.edit.windowActions#load                     0,0           0           0         0,0           2
+
+Performance Statistics   2021-11-29 13:42:00 - 2021-11-29 13:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+lookupWindowActions#create                               0,0           0           0         0,0           1
+lookupWindowActions#inject                               0,0           0           0         0,0           1
+lookupWindowActions#load                                 0,0           0           0         0,0           1
+lookupWindowActions#xml                                  0,0           0           0         0,0           2
+sec$Role.lookup#afterShow                                0,0           0           0         0,0           1
+sec$Role.lookup#beforeShow                               2,0           2           2         0,0           1
+sec$Role.lookup#create                                   3,0           3           3         0,0           1
+sec$Role.lookup#init                                    18,0          18          18         0,0           1
+sec$Role.lookup#inject                                   7,0           7           7         0,0           1
+sec$Role.lookup#load                                    65,0          65          65         0,0           1
+sec$Role.lookup#uiPermissions                            0,0           0           0         0,0           1
+sec$Role.lookup#xml                                      1,0           0           5         2,0           5
+sec$Role.lookup.lookupWindowActions#init                 0,0           0           0         0,0           1
+wf$UserGroup.browse@usersDs                             10,0          10          10         0,0           2
+
+Performance Statistics   2021-11-29 13:44:00 - 2021-11-29 13:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+lookupWindowActions#create                               0,0           0           0         0,0           1
+lookupWindowActions#inject                               0,0           0           0         0,0           1
+lookupWindowActions#load                                 0,0           0           0         0,0           1
+lookupWindowActions#xml                                  0,0           0           0         0,0           2
+sec$Group.lookup#afterShow                               0,0           0           0         0,0           1
+sec$Group.lookup#beforeShow                              1,0           1           1         0,0           1
+sec$Group.lookup#create                                  1,0           1           1         0,0           1
+sec$Group.lookup#init                                   44,0          44          44         0,0           1
+sec$Group.lookup#inject                                  6,0           6           6         0,0           1
+sec$Group.lookup#load                                  158,0         158         158         0,0           1
+sec$Group.lookup#uiPermissions                           0,0           0           0         0,0           1
+sec$Group.lookup#xml                                     3,2           0          16         6,4           5
+sec$Group.lookup.lookupWindowActions#init                0,0           0           0         0,0           1
+sec$Group.lookup@groupsDs                                8,0           8           8         0,0           1
+
+Performance Statistics   2021-11-29 13:46:00 - 2021-11-29 13:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+MenuItem.sec$User.browse                                76,0          76          76         0,0           1
+editWindowActions#create                                 0,0           0           0         0,0           1
+editWindowActions#xml                                    0,0           0           0         0,0           2
+lookupWindowActions#create                               0,0           0           0         0,0           1
+lookupWindowActions#inject                               0,0           0           0         0,0           1
+lookupWindowActions#load                                 0,0           0           0         0,0           1
+lookupWindowActions#xml                                  0,0           0           0         0,0           2
+sec$User.browse#afterShow                                0,0           0           0         0,0           1
+sec$User.browse#beforeShow                               0,0           0           0         0,0           1
+sec$User.browse#create                                   0,0           0           0         0,0           1
+sec$User.browse#init                                     0,0           0           0         0,0           1
+sec$User.browse#inject                                   0,0           0           0         0,0           1
+sec$User.browse#load                                    12,0          12          12         0,0           1
+sec$User.browse#uiPermissions                            0,0           0           0         0,0           1
+sec$User.browse#xml                                      0,5           0           1         0,5           2
+sec$User.browse.lookupWindowActions#init                 0,0           0           0         0,0           1
+sec$User.browse@usersDs                                  7,0           7           7         0,0           1
+sec$User.edit#afterShow                                  0,0           0           0         0,0           1
+sec$User.edit#beforeShow                                 0,0           0           0         0,0           1
+sec$User.edit#companion                                  0,0           0           0         0,0           1
+sec$User.edit#create                                     0,0           0           0         0,0           1
+sec$User.edit#init                                       5,0           5           5         0,0           1
+sec$User.edit#inject                                     0,0           0           0         0,0           1
+sec$User.edit#load                                      44,0          44          44         0,0           1
+sec$User.edit#uiPermissions                              0,0           0           0         0,0           1
+sec$User.edit#xml                                        0,0           0           0         0,0           5
+sec$User.edit.windowActions#init                         0,0           0           0         0,0           1
+sec$User.edit.windowActions#inject                       0,0           0           0         0,0           1
+sec$User.edit.windowActions#load                         0,0           0           0         0,0           1
+
+Performance Statistics   2021-11-29 13:48:00 - 2021-11-29 13:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+EmployeeDepartmentPositionListFrame#create               1,0           1           1         0,0           1
+EmployeeDepartmentPositionListFrame#xml                  0,5           0           1         0,5           2
+avatarImageFrame#create                                  2,0           2           2         0,0           1
+avatarImageFrame#xml                                     4,0           0           8         4,0           2
+df$Employee.edit#afterShow                               0,0           0           0         0,0           1
+df$Employee.edit#beforeShow                              0,0           0           0         0,0           1
+df$Employee.edit#create                                  1,0           1           1         0,0           1
+df$Employee.edit#init                                    2,0           2           2         0,0           1
+df$Employee.edit#inject                                  8,0           8           8         0,0           1
+df$Employee.edit#load                                  429,0         429         429         0,0           1
+df$Employee.edit#uiPermissions                           0,0           0           0         0,0           1
+df$Employee.edit#xml                                     0,4           0           2         0,8           5
+df$Employee.edit.embeddedImageFrame#init                 0,0           0           0         0,0           1
+df$Employee.edit.embeddedImageFrame#inject               3,0           3           3         0,0           1
+df$Employee.edit.embeddedImageFrame#load                 0,0           0           0         0,0           1
+df$Employee.edit.employeeDepartmentFrame#init            0,0           0           0         0,0           1
+df$Employee.edit.employeeDepartmentFrame#inject          4,0           4           4         0,0           1
+df$Employee.edit.employeeDepartmentFrame#load            0,0           0           0         0,0           1
+df$Employee.edit.employeeDepartmentFrame@employeeDepartmentsDs        43,0          43          43         0,0           1
+df$Employee.edit.employeeDepartmentFrame@employeePositionsDs         6,0           6           6         0,0           1
+df$Employee.edit.facsimileImageFrame#init                0,0           0           0         0,0           1
+df$Employee.edit.facsimileImageFrame#inject             12,0          12          12         0,0           1
+df$Employee.edit.facsimileImageFrame#load                6,0           6           6         0,0           1
+df$Employee.edit.windowActions#init                      0,0           0           0         0,0           1
+df$Employee.edit.windowActions#inject                    0,0           0           0         0,0           1
+df$Employee.edit.windowActions#load                      0,0           0           0         0,0           1
+df$Employee.edit@usersDs                                39,5          16          63        23,5           2
+editWindowActions#create                                 0,0           0           0         0,0           1
+editWindowActions#xml                                    0,0           0           0         0,0           2
+facsimileImageFrame#create                               2,0           2           2         0,0           1
+facsimileImageFrame#xml                                  0,5           0           1         0,5           2
+lookupWindowActions#create                               0,0           0           0         0,0           2
+lookupWindowActions#inject                               0,0           0           0         0,0           2
+lookupWindowActions#load                                 0,0           0           0         0,0           2
+lookupWindowActions#xml                                  0,0           0           0         0,0           4
+sec$Group.lookup#afterShow                               0,0           0           0         0,0           2
+sec$Group.lookup#beforeShow                              0,0           0           0         0,0           2
+sec$Group.lookup#create                                  0,0           0           0         0,0           2
+sec$Group.lookup#init                                    7,5           7           8         0,5           2
+sec$Group.lookup#inject                                  0,0           0           0         0,0           2
+sec$Group.lookup#load                                    1,0           1           1         0,0           2
+sec$Group.lookup#uiPermissions                           0,0           0           0         0,0           2
+sec$Group.lookup#xml                                     0,1           0           1         0,3          10
+sec$Group.lookup.lookupWindowActions#init                0,0           0           0         0,0           2
+sec$Group.lookup@groupsDs                                7,5           7           8         0,5           2
+sec$User.browse@usersDs                                  7,0           7           7         0,0           1
+
+Performance Statistics   2021-11-29 13:50:00 - 2021-11-29 13:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 13:52:00 - 2021-11-29 13:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+editWindowActions#create                                 0,0           0           0         0,0           1
+editWindowActions#xml                                    0,0           0           0         0,0           2
+sec$User.edit#afterShow                                  0,0           0           0         0,0           1
+sec$User.edit#beforeShow                                 0,0           0           0         0,0           1
+sec$User.edit#companion                                  0,0           0           0         0,0           1
+sec$User.edit#create                                     0,0           0           0         0,0           1
+sec$User.edit#init                                       5,0           5           5         0,0           1
+sec$User.edit#inject                                     0,0           0           0         0,0           1
+sec$User.edit#load                                      18,0          18          18         0,0           1
+sec$User.edit#uiPermissions                              0,0           0           0         0,0           1
+sec$User.edit#xml                                       11,8           0          59        23,6           5
+sec$User.edit.windowActions#init                         0,0           0           0         0,0           1
+sec$User.edit.windowActions#inject                       0,0           0           0         0,0           1
+sec$User.edit.windowActions#load                         0,0           0           0         0,0           1
+
+Performance Statistics   2021-11-29 13:54:00 - 2021-11-29 13:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+EmployeeDepartmentPositionListFrame#create               0,0           0           0         0,0           1
+EmployeeDepartmentPositionListFrame#xml                  0,0           0           0         0,0           2
+avatarImageFrame#create                                  0,0           0           0         0,0           1
+avatarImageFrame#xml                                     0,0           0           0         0,0           2
+df$Employee.edit#afterShow                               0,0           0           0         0,0           1
+df$Employee.edit#beforeShow                              0,0           0           0         0,0           1
+df$Employee.edit#create                                  0,0           0           0         0,0           1
+df$Employee.edit#init                                    0,0           0           0         0,0           1
+df$Employee.edit#inject                                  0,0           0           0         0,0           1
+df$Employee.edit#load                                   20,0          20          20         0,0           1
+df$Employee.edit#uiPermissions                           0,0           0           0         0,0           1
+df$Employee.edit#xml                                     0,0           0           0         0,0           5
+df$Employee.edit.embeddedImageFrame#init                 0,0           0           0         0,0           1
+df$Employee.edit.embeddedImageFrame#inject               0,0           0           0         0,0           1
+df$Employee.edit.embeddedImageFrame#load                 0,0           0           0         0,0           1
+df$Employee.edit.employeeDepartmentFrame#init            0,0           0           0         0,0           1
+df$Employee.edit.employeeDepartmentFrame#inject          0,0           0           0         0,0           1
+df$Employee.edit.employeeDepartmentFrame#load            0,0           0           0         0,0           1
+df$Employee.edit.employeeDepartmentFrame@employeeDepartmentsDs         9,0           9           9         0,0           1
+df$Employee.edit.employeeDepartmentFrame@employeePositionsDs         4,0           4           4         0,0           1
+df$Employee.edit.facsimileImageFrame#init                0,0           0           0         0,0           1
+df$Employee.edit.facsimileImageFrame#inject              0,0           0           0         0,0           1
+df$Employee.edit.facsimileImageFrame#load                0,0           0           0         0,0           1
+df$Employee.edit.windowActions#init                      0,0           0           0         0,0           1
+df$Employee.edit.windowActions#inject                    0,0           0           0         0,0           1
+df$Employee.edit.windowActions#load                      0,0           0           0         0,0           1
+df$Employee.edit@usersDs                                10,5           9          12         1,5           2
+editWindowActions#create                                 0,0           0           0         0,0           2
+editWindowActions#xml                                    0,0           0           0         0,0           4
+facsimileImageFrame#create                               1,0           1           1         0,0           1
+facsimileImageFrame#xml                                  0,0           0           0         0,0           2
+lookupWindowActions#create                               0,0           0           0         0,0           1
+lookupWindowActions#inject                               0,0           0           0         0,0           1
+lookupWindowActions#load                                 0,0           0           0         0,0           1
+lookupWindowActions#xml                                  0,0           0           0         0,0           2
+sec$Group.lookup#afterShow                               0,0           0           0         0,0           1
+sec$Group.lookup#beforeShow                              0,0           0           0         0,0           1
+sec$Group.lookup#create                                  0,0           0           0         0,0           1
+sec$Group.lookup#init                                    8,0           8           8         0,0           1
+sec$Group.lookup#inject                                  0,0           0           0         0,0           1
+sec$Group.lookup#load                                    2,0           2           2         0,0           1
+sec$Group.lookup#uiPermissions                           0,0           0           0         0,0           1
+sec$Group.lookup#xml                                     0,2           0           1         0,4           5
+sec$Group.lookup.lookupWindowActions#init                0,0           0           0         0,0           1
+sec$Group.lookup@groupsDs                                7,0           7           7         0,0           1
+sec$User.browse@usersDs                                  7,0           7           7         0,0           1
+sec$User.edit#afterShow                                  0,0           0           0         0,0           1
+sec$User.edit#beforeShow                                 0,0           0           0         0,0           1
+sec$User.edit#companion                                  0,0           0           0         0,0           1
+sec$User.edit#create                                     0,0           0           0         0,0           1
+sec$User.edit#init                                       4,0           4           4         0,0           1
+sec$User.edit#inject                                     0,0           0           0         0,0           1
+sec$User.edit#load                                      11,0          11          11         0,0           1
+sec$User.edit#uiPermissions                              0,0           0           0         0,0           1
+sec$User.edit#xml                                        0,2           0           1         0,4           5
+sec$User.edit.windowActions#init                         0,0           0           0         0,0           1
+sec$User.edit.windowActions#inject                       0,0           0           0         0,0           1
+sec$User.edit.windowActions#load                         0,0           0           0         0,0           1
+
+Performance Statistics   2021-11-29 13:56:00 - 2021-11-29 13:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+EmployeeDepartmentPositionListFrame#create               0,0           0           0         0,0           1
+EmployeeDepartmentPositionListFrame#xml                  0,0           0           0         0,0           2
+avatarImageFrame#create                                  1,0           1           1         0,0           1
+avatarImageFrame#xml                                     0,0           0           0         0,0           2
+df$Employee.edit#afterShow                               0,0           0           0         0,0           1
+df$Employee.edit#beforeShow                              0,0           0           0         0,0           1
+df$Employee.edit#create                                  0,0           0           0         0,0           1
+df$Employee.edit#init                                    0,0           0           0         0,0           1
+df$Employee.edit#inject                                  0,0           0           0         0,0           1
+df$Employee.edit#load                                   20,0          20          20         0,0           1
+df$Employee.edit#uiPermissions                           0,0           0           0         0,0           1
+df$Employee.edit#xml                                     0,0           0           0         0,0           5
+df$Employee.edit.embeddedImageFrame#init                 0,0           0           0         0,0           1
+df$Employee.edit.embeddedImageFrame#inject               0,0           0           0         0,0           1
+df$Employee.edit.embeddedImageFrame#load                 0,0           0           0         0,0           1
+df$Employee.edit.employeeDepartmentFrame#init            0,0           0           0         0,0           1
+df$Employee.edit.employeeDepartmentFrame#inject          0,0           0           0         0,0           1
+df$Employee.edit.employeeDepartmentFrame#load            0,0           0           0         0,0           1
+df$Employee.edit.employeeDepartmentFrame@employeeDepartmentsDs         7,0           7           7         0,0           1
+df$Employee.edit.employeeDepartmentFrame@employeePositionsDs         4,0           4           4         0,0           1
+df$Employee.edit.facsimileImageFrame#init                0,0           0           0         0,0           1
+df$Employee.edit.facsimileImageFrame#inject              0,0           0           0         0,0           1
+df$Employee.edit.facsimileImageFrame#load                0,0           0           0         0,0           1
+df$Employee.edit.windowActions#init                      0,0           0           0         0,0           1
+df$Employee.edit.windowActions#inject                    0,0           0           0         0,0           1
+df$Employee.edit.windowActions#load                      0,0           0           0         0,0           1
+df$Employee.edit@usersDs                                 9,0           9           9         0,0           1
+editWindowActions#create                                 0,0           0           0         0,0           1
+editWindowActions#xml                                    0,0           0           0         0,0           2
+facsimileImageFrame#create                               0,0           0           0         0,0           1
+facsimileImageFrame#xml                                  0,0           0           0         0,0           2
+lookupWindowActions#create                               0,0           0           0         0,0           1
+lookupWindowActions#inject                               0,0           0           0         0,0           1
+lookupWindowActions#load                                 0,0           0           0         0,0           1
+lookupWindowActions#xml                                  0,0           0           0         0,0           2
+sec$Group.lookup#afterShow                               0,0           0           0         0,0           1
+sec$Group.lookup#beforeShow                              0,0           0           0         0,0           1
+sec$Group.lookup#create                                  0,0           0           0         0,0           1
+sec$Group.lookup#init                                    8,0           8           8         0,0           1
+sec$Group.lookup#inject                                  0,0           0           0         0,0           1
+sec$Group.lookup#load                                    1,0           1           1         0,0           1
+sec$Group.lookup#uiPermissions                           0,0           0           0         0,0           1
+sec$Group.lookup#xml                                     0,2           0           1         0,4           5
+sec$Group.lookup.lookupWindowActions#init                0,0           0           0         0,0           1
+sec$Group.lookup@groupsDs                                8,0           8           8         0,0           1
+
+Performance Statistics   2021-11-29 13:58:00 - 2021-11-29 14:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+df$Employee.edit@usersDs                                10,0          10          10         0,0           1
+editWindowActions#create                                 0,0           0           0         0,0           1
+editWindowActions#xml                                    0,0           0           0         0,0           2
+sec$User.browse@usersDs                                  6,0           6           6         0,0           1
+sec$User.edit#afterShow                                  0,0           0           0         0,0           1
+sec$User.edit#beforeShow                                 0,0           0           0         0,0           1
+sec$User.edit#companion                                  0,0           0           0         0,0           1
+sec$User.edit#create                                     1,0           1           1         0,0           1
+sec$User.edit#init                                       4,0           4           4         0,0           1
+sec$User.edit#inject                                     0,0           0           0         0,0           1
+sec$User.edit#load                                      13,0          13          13         0,0           1
+sec$User.edit#uiPermissions                              0,0           0           0         0,0           1
+sec$User.edit#xml                                        0,0           0           0         0,0           5
+sec$User.edit.windowActions#init                         0,0           0           0         0,0           1
+sec$User.edit.windowActions#inject                       0,0           0           0         0,0           1
+sec$User.edit.windowActions#load                         0,0           0           0         0,0           1
+
+Performance Statistics   2021-11-29 14:00:00 - 2021-11-29 14:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+

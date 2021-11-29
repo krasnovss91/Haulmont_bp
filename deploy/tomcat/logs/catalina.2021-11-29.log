@@ -21,3 +21,26 @@
 29-Nov-2021 11:54:05.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/untitled125/deploy/tomcat/webapps/app-mobile-rest] has finished in [10 840] ms
 29-Nov-2021 11:54:05.673 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 29-Nov-2021 11:54:05.995 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [118436] milliseconds
+29-Nov-2021 13:28:28.497 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+29-Nov-2021 13:28:29.012 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Nov-2021 13:28:29.048 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [812] milliseconds
+29-Nov-2021 13:28:29.109 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Nov-2021 13:28:29.110 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.40]
+29-Nov-2021 13:28:29.140 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/untitled125/deploy/tomcat/webapps/app-portal]
+29-Nov-2021 13:28:29.179 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context/Manager] failed to set property [debug] to [0]
+29-Nov-2021 13:28:29.179 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context/Manager] failed to set property [distributable] to [false]
+29-Nov-2021 13:28:39.616 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/untitled125/deploy/tomcat/webapps/app-portal] has finished in [10 445] ms
+29-Nov-2021 13:28:39.617 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/untitled125/deploy/tomcat/webapps/app-core]
+29-Nov-2021 13:28:39.626 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context/Manager] failed to set property [debug] to [0]
+29-Nov-2021 13:28:39.626 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context/Manager] failed to set property [distributable] to [false]
+29-Nov-2021 13:29:07.456 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/untitled125/deploy/tomcat/webapps/app-core] has finished in [27 839] ms
+29-Nov-2021 13:29:07.456 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/untitled125/deploy/tomcat/webapps/app]
+29-Nov-2021 13:29:07.459 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context/Manager] failed to set property [debug] to [0]
+29-Nov-2021 13:29:07.460 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context/Manager] failed to set property [distributable] to [false]
+29-Nov-2021 13:29:20.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/untitled125/deploy/tomcat/webapps/app] has finished in [13 515] ms
+29-Nov-2021 13:29:20.972 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/untitled125/deploy/tomcat/webapps/ROOT]
+29-Nov-2021 13:29:21.031 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/untitled125/deploy/tomcat/webapps/ROOT] has finished in [59] ms
+29-Nov-2021 13:29:21.031 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/user/untitled125/deploy/tomcat/webapps/app-mobile-rest]
+29-Nov-2021 13:29:23.659 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/user/untitled125/deploy/tomcat/webapps/app-mobile-rest] has finished in [2 628] ms
+29-Nov-2021 13:29:23.665 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Nov-2021 13:29:23.700 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [54651] milliseconds
