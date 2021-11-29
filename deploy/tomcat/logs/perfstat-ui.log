@@ -1404,3 +1404,250 @@ task.resolution.form.windowActions#load                  0,0           0        
 voiceControlConsole#create                               0,5           0           1         0,5           2
 voiceControlConsole#xml                                  0,0           0           0         0,0           2
 
+Performance Statistics   2021-11-29 14:56:00 - 2021-11-29 14:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                          4,0           4           4         0,0           1
+MenuItem.df$SimpleDoc.browse                           141,0         141         141         0,0           1
+MenuItem.docCreatorItem                                 71,0          71          71         0,0           1
+TDS null                                                 4,0           4           4         0,0           1
+cardTreeFrame#create                                     1,0           1           1         0,0           1
+cardTreeFrame#xml                                        0,0           0           0         0,0           2
+df$SimpleDoc.browse#afterShow                            0,0           0           0         0,0           1
+df$SimpleDoc.browse#beforeShow                           0,0           0           0         0,0           1
+df$SimpleDoc.browse#create                               0,0           0           0         0,0           1
+df$SimpleDoc.browse#init                                 1,0           1           1         0,0           1
+df$SimpleDoc.browse#inject                               0,0           0           0         0,0           1
+df$SimpleDoc.browse#load                                20,0          20          20         0,0           1
+df$SimpleDoc.browse#uiPermissions                        0,0           0           0         0,0           1
+df$SimpleDoc.browse#xml                                  0,0           0           0         0,0           2
+df$SimpleDoc.browse.cardTreeFrame#init                   0,0           0           0         0,0           1
+df$SimpleDoc.browse.cardTreeFrame#inject                 0,0           0           0         0,0           1
+df$SimpleDoc.browse.cardTreeFrame#load                   1,0           1           1         0,0           1
+df$SimpleDoc.browse.cardTreeFrame@cardTreeDs             0,0           0           0         0,0           1
+df$SimpleDoc.browse.lookupWindowActions#init             0,0           0           0         0,0           1
+df$SimpleDoc.browse.resolutionsFrame#init                0,0           0           0         0,0           1
+df$SimpleDoc.browse.resolutionsFrame#inject              0,0           0           0         0,0           1
+df$SimpleDoc.browse.resolutionsFrame#load                2,0           2           2         0,0           1
+df$SimpleDoc.browse.resolutionsFrame@resolutionsDs        12,0          12          12         0,0           1
+df$SimpleDoc.browse@cardsDs                             49,0          49          49         0,0           1
+docCreator#afterShow                                     0,0           0           0         0,0           1
+docCreator#beforeShow                                    0,0           0           0         0,0           1
+docCreator#create                                        0,0           0           0         0,0           1
+docCreator#init                                         50,0          50          50         0,0           1
+docCreator#inject                                        0,0           0           0         0,0           1
+docCreator#load                                          9,0           9           9         0,0           1
+docCreator#uiPermissions                                 0,0           0           0         0,0           1
+docCreator#xml                                           0,0           0           0         0,0           6
+docCreator.windowActions#init                            0,0           0           0         0,0           1
+docCreator.windowActions#inject                          0,0           0           0         0,0           1
+docCreator.windowActions#load                            0,0           0           0         0,0           1
+docCreator@docKindDs                                    22,0          22          22         0,0           1
+docCreator@templatesDs                                   7,0           6           8         1,0           2
+editWindowActions#create                                 0,0           0           0         0,0           1
+editWindowActions#xml                                    0,0           0           0         0,0           2
+lookupWindowActions#create                               0,0           0           0         0,0           1
+lookupWindowActions#inject                               0,0           0           0         0,0           1
+lookupWindowActions#load                                 0,0           0           0         0,0           1
+lookupWindowActions#xml                                  0,0           0           0         0,0           2
+mainWindow#afterShow                                     1,0           1           1         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                        1,0           1           1         0,0           1
+mainWindow#init                                         13,0          13          13         0,0           1
+mainWindow#inject                                        0,0           0           0         0,0           1
+mainWindow#load                                         24,0          24          24         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           0,0           0           0         0,0           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#load                      0,0           0           0         0,0           1
+resolutionsFrame#create                                  0,0           0           0         0,0           1
+resolutionsFrame#xml                                     0,0           0           0         0,0           2
+voiceControlConsole#create                               0,0           0           0         0,0           1
+voiceControlConsole#xml                                  0,0           0           0         0,0           1
+
+Performance Statistics   2021-11-29 14:58:00 - 2021-11-29 15:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:00:00 - 2021-11-29 15:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:02:00 - 2021-11-29 15:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:04:00 - 2021-11-29 15:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:06:00 - 2021-11-29 15:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:08:00 - 2021-11-29 15:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:10:00 - 2021-11-29 15:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:12:00 - 2021-11-29 15:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:14:00 - 2021-11-29 15:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:16:00 - 2021-11-29 15:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:18:00 - 2021-11-29 15:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:20:00 - 2021-11-29 15:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:22:00 - 2021-11-29 15:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:24:00 - 2021-11-29 15:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:26:00 - 2021-11-29 15:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:28:00 - 2021-11-29 15:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:30:00 - 2021-11-29 15:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:32:00 - 2021-11-29 15:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:34:00 - 2021-11-29 15:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:36:00 - 2021-11-29 15:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:38:00 - 2021-11-29 15:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:40:00 - 2021-11-29 15:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:42:00 - 2021-11-29 15:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:44:00 - 2021-11-29 15:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   0,0           0           0         0,0           1
+loginWindow#create                                      20,0          20          20         0,0           1
+loginWindow#init                                         0,0           0           0         0,0           1
+loginWindow#inject                                       0,0           0           0         0,0           1
+loginWindow#load                                         1,0           1           1         0,0           1
+loginWindow#uiPermissions                                0,0           0           0         0,0           1
+loginWindow#xml                                        122,0           0         244       122,0           2
+
+Performance Statistics   2021-11-29 15:46:00 - 2021-11-29 15:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:48:00 - 2021-11-29 15:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 15:50:00 - 2021-11-29 15:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 16:14:00 - 2021-11-29 16:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         28,0          28          28         0,0           1
+MenuItem.sec$UserSessionEntity.browse                  758,0         758         758         0,0           1
+MenuItem.wf$Design.browse                             1799,0        1799        1799         0,0           1
+TDS null                                                55,0          55          55         0,0           1
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   2,0           2           2         0,0           1
+loginWindow#create                                     136,0         136         136         0,0           1
+loginWindow#init                                        34,0          34          34         0,0           1
+loginWindow#inject                                      65,0          65          65         0,0           1
+loginWindow#load                                       450,0         450         450         0,0           1
+loginWindow#uiPermissions                                1,0           1           1         0,0           1
+loginWindow#xml                                          6,5           0          13         6,5           2
+lookupWindowActions#create                               1,0           1           1         0,0           1
+lookupWindowActions#inject                               8,0           8           8         0,0           1
+lookupWindowActions#load                                 3,0           3           3         0,0           1
+lookupWindowActions#xml                                  0,5           0           1         0,5           2
+mainWindow#afterShow                                     3,0           3           3         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                       14,0          14          14         0,0           1
+mainWindow#init                                        218,0         218         218         0,0           1
+mainWindow#inject                                       15,0          15          15         0,0           1
+mainWindow#load                                       1908,0        1908        1908         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           1,0           0           2         1,0           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    4,0           4           4         0,0           1
+mainWindow.voiceControlConsole#load                     42,0          42          42         0,0           1
+sec$UserSessionEntity.browse#afterShow                   0,0           0           0         0,0           1
+sec$UserSessionEntity.browse#beforeShow                  5,0           5           5         0,0           1
+sec$UserSessionEntity.browse#create                     14,0          14          14         0,0           1
+sec$UserSessionEntity.browse#init                       10,0          10          10         0,0           1
+sec$UserSessionEntity.browse#inject                     34,0          34          34         0,0           1
+sec$UserSessionEntity.browse#load                      596,0         596         596         0,0           1
+sec$UserSessionEntity.browse#uiPermissions               0,0           0           0         0,0           1
+sec$UserSessionEntity.browse#xml                         1,0           0           2         1,0           2
+sec$UserSessionEntity.browse.lookupWindowActions#init         0,0           0           0         0,0           1
+voiceControlConsole#create                              65,0          65          65         0,0           1
+voiceControlConsole#xml                                  1,0           1           1         0,0           1
+wf$Design.browse#afterShow                               0,0           0           0         0,0           1
+wf$Design.browse#beforeShow                              0,0           0           0         0,0           1
+wf$Design.browse#companion                               1,0           1           1         0,0           1
+wf$Design.browse#create                                  1,0           1           1         0,0           1
+wf$Design.browse#init                                  207,0         207         207         0,0           1
+wf$Design.browse#inject                                 14,0          14          14         0,0           1
+wf$Design.browse#load                                  699,0         699         699         0,0           1
+wf$Design.browse#uiPermissions                           0,0           0           0         0,0           1
+wf$Design.browse#xml                                    12,5           0          25        12,5           2
+wf$Design.browse@designDs                              238,0         238         238         0,0           1
+
+Performance Statistics   2021-11-29 16:16:00 - 2021-11-29 16:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+wf$Design.browse@designProcessVariableDs                18,0          18          18         0,0           1
+wf$DesignScript.browse#afterShow                         0,0           0           0         0,0           1
+wf$DesignScript.browse#beforeShow                        3,0           3           3         0,0           1
+wf$DesignScript.browse#create                            0,0           0           0         0,0           1
+wf$DesignScript.browse#init                             13,0          13          13         0,0           1
+wf$DesignScript.browse#inject                            5,0           5           5         0,0           1
+wf$DesignScript.browse#load                            140,0         140         140         0,0           1
+wf$DesignScript.browse#uiPermissions                     0,0           0           0         0,0           1
+wf$DesignScript.browse#xml                               7,3           0          44        16,4           6
+wf$DesignScript.browse@scriptsDs                         9,0           9           9         0,0           1
+
+Performance Statistics   2021-11-29 16:18:00 - 2021-11-29 16:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 16:20:00 - 2021-11-29 16:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 16:22:00 - 2021-11-29 16:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 16:24:00 - 2021-11-29 16:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 16:26:00 - 2021-11-29 16:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 16:28:00 - 2021-11-29 16:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 16:30:00 - 2021-11-29 16:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 16:32:00 - 2021-11-29 16:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 16:34:00 - 2021-11-29 16:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 16:36:00 - 2021-11-29 16:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 16:38:00 - 2021-11-29 16:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
