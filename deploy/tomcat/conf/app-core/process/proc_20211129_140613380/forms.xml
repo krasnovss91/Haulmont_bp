@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<forms xmlns="http://schemas.haulmont.com/workflow/5.0/forms.xsd">
+  <start>
+    <screen id="transition.form" before="true">
+      <param name="cardRolesVisible" value="true"/>
+      <param name="commentVisible" value="true"/>
+      <param name="dueDateVisible" value="false"/>
+      <param name="refusedOnlyVisible" value="false"/>
+      <param name="requiredRoles" value=""/>
+      <param name="visibleRoles" value=""/>
+      <param name="hideAttachments" value="false"/>
+      <param name="requiredAttachmentTypes" value=""/>
+      <param name="formHeight" value=""/>
+      <param name="commentRequired" value="false"/>
+    </screen>
+  </start>
+  <activity name="Soglasovanie">
+    <transition name="Soglasovat" style="wf-success">
+      <screen id="resolution.form" before="true">
+        <param name="attachmentsVisible" value="false"/>
+        <param name="commentRequired" value="false"/>
+        <param name="requiredAttachmentTypes" value=""/>
+      </screen>
+    </transition>
+    <transition name="Otklonit" style="wf-failure">
+      <screen id="resolution.form" before="true">
+        <param name="attachmentsVisible" value="false"/>
+        <param name="commentRequired" value="true"/>
+        <param name="requiredAttachmentTypes" value=""/>
+      </screen>
+    </transition>
+  </activity>
+  <activity name="Dorabotka">
+    <transition name="Na_soglasovanie" style="wf-success">
+      <screen id="resolution.form" before="true">
+        <param name="attachmentsVisible" value="false"/>
+        <param name="commentRequired" value="false"/>
+        <param name="requiredAttachmentTypes" value=""/>
+      </screen>
+    </transition>
+    <transition name="Otmenit" style="wf-failure">
+      <screen id="resolution.form" before="true">
+        <param name="attachmentsVisible" value="false"/>
+        <param name="commentRequired" value="true"/>
+        <param name="requiredAttachmentTypes" value=""/>
+      </screen>
+    </transition>
+  </activity>
+  <activity name="Vizirovanie">
+    <transition name="Soglasovat" style="wf-success">
+      <screen id="resolution.form" before="true">
+        <param name="attachmentsVisible" value="false"/>
+        <param name="commentRequired" value="false"/>
+        <param name="requiredAttachmentTypes" value=""/>
+      </screen>
+    </transition>
+    <transition name="Soglasovat_s_zamechaniyami" style="wf-failure">
+      <screen id="resolution.form" before="true">
+        <param name="attachmentsVisible" value="false"/>
+        <param name="commentRequired" value="true"/>
+        <param name="requiredAttachmentTypes" value=""/>
+      </screen>
+    </transition>
+    <transition name="Otklonit" style="wf-failure">
+      <screen id="resolution.form" before="true">
+        <param name="attachmentsVisible" value="false"/>
+        <param name="commentRequired" value="true"/>
+        <param name="requiredAttachmentTypes" value=""/>
+      </screen>
+    </transition>
+  </activity>
+  <activity name="Utverzhdenie">
+    <transition name="Utverdit" style="wf-success">
+      <screen id="resolution.form" before="true">
+        <param name="attachmentsVisible" value="false"/>
+        <param name="commentRequired" value="false"/>
+        <param name="requiredAttachmentTypes" value=""/>
+      </screen>
+    </transition>
+    <transition name="Na_dorabotku" style="wf-failure">
+      <screen id="resolution.form" before="true">
+        <param name="attachmentsVisible" value="false"/>
+        <param name="commentRequired" value="true"/>
+        <param name="requiredAttachmentTypes" value=""/>
+      </screen>
+    </transition>
+    <transition name="Otmenit" style="wf-failure">
+      <screen id="resolution.form" before="true">
+        <param name="attachmentsVisible" value="false"/>
+        <param name="commentRequired" value="true"/>
+        <param name="requiredAttachmentTypes" value=""/>
+      </screen>
+    </transition>
+  </activity>
+  <cancel>
+    <screen id="resolution.form" before="true">
+      <param name="attachmentsVisible" value="false"/>
+      <param name="commentRequired" value="true"/>
+    </screen>
+  </cancel>
+</forms>
