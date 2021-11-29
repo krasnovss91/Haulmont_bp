@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: io.swagger:swagger-annotations:1.5.21">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.21/swagger-annotations-1.5.21.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

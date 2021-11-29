@@ -1,0 +1,1 @@
+select create_or_update_sec_permissi('SimpleUser', 'report$Report.edit', 10, 0)^

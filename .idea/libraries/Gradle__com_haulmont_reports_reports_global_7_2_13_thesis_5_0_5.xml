@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.haulmont.reports:reports-global:7.2.13-thesis-5.0.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.reports/reports-global/7.2.13-thesis-5.0.5/78b5f70e8b302311e27ddc21b7f69b9c2a90e520/reports-global-7.2.13-thesis-5.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.reports/reports-global/7.2.13-thesis-5.0.5/9aadda8ee7c8a7d869df648eda4d638b178598bb/reports-global-7.2.13-thesis-5.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

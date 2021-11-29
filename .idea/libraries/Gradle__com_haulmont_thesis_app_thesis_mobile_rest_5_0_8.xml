@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.haulmont.thesis.app:thesis-mobile-rest:5.0.8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thesis.app/thesis-mobile-rest/5.0.8/3090065702702fa146d035350b937badf30a2951/thesis-mobile-rest-5.0.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thesis.app/thesis-mobile-rest/5.0.8/d302b2057ec3d024debe3c50bfba1d417b9c07fd/thesis-mobile-rest-5.0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

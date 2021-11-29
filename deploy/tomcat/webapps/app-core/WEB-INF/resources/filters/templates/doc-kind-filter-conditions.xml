@@ -1,0 +1,18 @@
+<!--
+  ~ Copyright (c) 2019 LTD Haulmont Samara. All Rights Reserved.
+  ~ Haulmont Samara proprietary and confidential.
+  ~ Use is subject to license terms.
+  -->
+
+<filter>
+    <and>
+        <c name="docKind" class="com.haulmont.thesis.core.entity.DocKind" caption="msg://docKind"
+           paramWhere="{E}.docType.name = '${entityName}'" type="CUSTOM" entityAlias="d" join="join d.docKind dk">
+            dk.id = :component$genericFilter.docKind51034
+            <param name="component$genericFilter.docKind51034"
+                   javaClass="com.haulmont.thesis.core.entity.DocKind">
+                NULL
+            </param>
+        </c>
+    </and>
+</filter>

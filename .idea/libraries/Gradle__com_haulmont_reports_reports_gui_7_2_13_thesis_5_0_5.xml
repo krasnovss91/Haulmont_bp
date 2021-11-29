@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.haulmont.reports:reports-gui:7.2.13-thesis-5.0.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.reports/reports-gui/7.2.13-thesis-5.0.5/b7b416f79bd5afaf17983c6c8e29b14ba593d13c/reports-gui-7.2.13-thesis-5.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.reports/reports-gui/7.2.13-thesis-5.0.5/d9ae2c12f5ac51d4ee45caf3508e9a332bc03234/reports-gui-7.2.13-thesis-5.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

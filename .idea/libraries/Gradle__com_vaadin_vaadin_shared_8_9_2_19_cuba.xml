@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vaadin:vaadin-shared:8.9.2-19-cuba">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-shared/8.9.2-19-cuba/bf30ec05c318dc82f8a49cce9fd3368c56548600/vaadin-shared-8.9.2-19-cuba.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-shared/8.9.2-19-cuba/fceab02da9f17cfe8d2c3d6f6c437108b23e00e/vaadin-shared-8.9.2-19-cuba-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

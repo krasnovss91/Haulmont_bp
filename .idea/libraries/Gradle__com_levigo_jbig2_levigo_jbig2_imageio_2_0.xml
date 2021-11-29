@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.levigo.jbig2:levigo-jbig2-imageio:2.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.levigo.jbig2/levigo-jbig2-imageio/2.0/d67a342fe6d81928cb5596832a02f6809565470d/levigo-jbig2-imageio-2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.levigo.jbig2/levigo-jbig2-imageio/2.0/cc62527b8d8d12168e0188c4c8e91ea20ce56886/levigo-jbig2-imageio-2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

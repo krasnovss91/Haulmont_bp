@@ -1,0 +1,2 @@
+update SYS_CATEGORY set NAME = 'Входящий документ (ЭДО)' where ID = 'e7b46d3eff894f6481183cd057584b19'^
+update DF_NUMERATOR set NAME = 'Входящий документ (ЭДО)' where ID = '50055f2ae04a45f38773f9538a8d5200'^

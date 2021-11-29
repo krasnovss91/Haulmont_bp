@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.webjars:jquery-ui-touch-punch:0.2.3-2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.webjars/jquery-ui-touch-punch/0.2.3-2/cec7f6f533690c303b972c42f70c38aa8f98d10e/jquery-ui-touch-punch-0.2.3-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.webjars/jquery-ui-touch-punch/0.2.3-2/301e960babb245e719e0e3365cb9ecc134657796/jquery-ui-touch-punch-0.2.3-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

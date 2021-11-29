@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ThesisProjectState">
+    <option name="hasState" value="true" />
+    <option name="cubaModelState">
+      <CubaModelState>
+        <option name="repositories">
+          <list>
+            <RepositoryModelState>
+              <option name="url" value="http://deprecated-repo.haulmont.com:8587/nexus/content/groups/work" />
+              <option name="user" value="external" />
+              <option name="pass" value="12fyi2O4wEb9rByhW9Z7Xw==" />
+              <option name="stateVersion" value="2" />
+            </RepositoryModelState>
+          </list>
+        </option>
+        <option name="appComponents">
+          <list>
+            <DependencyModelState>
+              <option name="group" value="com.haulmont.thesis.app" />
+              <option name="name" value="thesis-global" />
+              <option name="version" value="5.0.8" />
+            </DependencyModelState>
+          </list>
+        </option>
+        <option name="mavenLocal" value="true" />
+        <option name="artifactGroup" value="com.company.untitled125" />
+        <option name="artifactVersion" value="0.1" />
+        <option name="artifactSnapshot" value="true" />
+        <option name="tomcatDir" value="$PROJECT_DIR$/deploy/tomcat" />
+        <option name="copyright" value="Copyright (c) $today.year LTD Haulmont Samara. All Rights Reserved.&#10;Haulmont Samara proprietary and confidential.&#10;Use is subject to license terms." />
+        <option name="groovySupport" value="true" />
+        <option name="gradleVersion" value="5.6.4" />
+        <option name="oracleSystemCredentials">
+          <map>
+            <entry key="_MAIN_">
+              <value>
+                <OracleSystemCredentialsModelState>
+                  <option name="systemUser" value="system" />
+                  <option name="systemPassword" value="manager" />
+                </OracleSystemCredentialsModelState>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="gradlePluginJarPath" value="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.gradle/cuba-plugin/7.2.13-thesis-5.0.5/3f6d280dbf8759b5a861d8e6ad130810efdf240f/cuba-plugin-7.2.13-thesis-5.0.5.jar" />
+        <option name="projectPath" value="$PROJECT_DIR$" />
+        <option name="isAutoConfigurePortal" value="true" />
+        <option name="isAutoConfigureMobileRest" value="true" />
+      </CubaModelState>
+    </option>
+    <option name="dbArtifacts">
+      <map>
+        <entry key="com.haulmont.cuba" value="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.cuba/cuba-core/7.2.13-thesis-5.0.5/7e7074c8389d8380844559db36c804714ceb3d30/cuba-core-7.2.13-thesis-5.0.5-db.zip" />
+        <entry key="com.haulmont.reports" value="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.reports/reports-core/7.2.13-thesis-5.0.5/f5448d5047e268604b002837a8b3708ad719ca65/reports-core-7.2.13-thesis-5.0.5-db.zip" />
+        <entry key="com.haulmont.thesis.app" value="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thesis.app/thesis-core/5.0.8/5802e87259277afaaefca2f7da8c91ab2221d121/thesis-core-5.0.8-db.zip" />
+        <entry key="com.haulmont.workflow" value="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.workflow/workflow-core/7.2.13-thesis-5.0.8/5880ae13c9f484e86d4876d1d31abf0f28d4e46e/workflow-core-7.2.13-thesis-5.0.8-db.zip" />
+      </map>
+    </option>
+    <option name="gradleFilesCRC" value="1674767077" />
+  </component>
+</project>

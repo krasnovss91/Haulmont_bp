@@ -1,0 +1,35 @@
+<svg width="44" height="23" viewBox="0 0 44 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.590088" y="1.43494" width="42" height="21" rx="1.5" fill="#F8F8F8" stroke="#DADADA"/>
+<path d="M16.765 12.5114C16.765 11.683 17.4365 11.0114 18.265 11.0114H24.765C25.5934 11.0114 26.265 11.683 26.265 12.5114V14.5114H16.765V12.5114Z" fill="#AB7E49" stroke="#785938"/>
+<path d="M16.265 12.5114C16.265 11.4068 17.1604 10.5114 18.265 10.5114H24.765C25.8695 10.5114 26.765 11.4068 26.765 12.5114V15.0114H16.265V12.5114Z" fill="#AB7E49"/>
+<rect x="17.2668" y="12.9404" width="1.06731" height="1.06731" fill="#C29E76"/>
+<rect x="17.2668" y="11.2872" width="1.06731" height="1.06731" fill="#AD8F6D"/>
+<rect x="24.692" y="11.2872" width="1.06731" height="1.06731" fill="#AD8F6D"/>
+<rect x="24.692" y="12.9404" width="1.06732" height="1.06732" fill="#C29E76"/>
+<rect x="20.0049" y="11.5069" width="2.97097" height="1.06732" fill="#836038"/>
+<path d="M25.7594 12.3545L17.2668 12.3545C17.2003 12.4726 17.2759 12.6055 17.2669 12.7467V13.2414H25.7594V12.7042C25.7455 12.5788 25.8192 12.4606 25.7594 12.3545Z" fill="#B69C7C"/>
+<path d="M16.765 12.5114C16.765 11.683 17.4365 11.0114 18.265 11.0114H24.765C25.5934 11.0114 26.265 11.683 26.265 12.5114V14.5114H16.765V12.5114Z" stroke="#785938"/>
+<rect x="20.0541" y="9.12025" width="2.92178" height="2.38669" fill="#4B4B4D"/>
+<rect x="20.5902" y="9.50694" width="0.964016" height="2" fill="#787979"/>
+<circle cx="21.5542" cy="7.8136" r="2.5" fill="url(#paint0_radial)"/>
+<rect x="26.9134" y="15.862" width="1.8" height="0.898105" fill="#4B4B4D"/>
+<rect x="25.1134" y="16.7601" width="1.8" height="0.898105" fill="#4B4B4D"/>
+<rect x="26.9134" y="17.6582" width="1.8" height="0.898105" fill="#4B4B4D"/>
+<rect x="23.3648" y="15.862" width="1.8" height="0.898105" fill="#4B4B4D"/>
+<rect x="21.5648" y="16.7601" width="1.8" height="0.898105" fill="#4B4B4D"/>
+<rect x="23.3648" y="17.6582" width="1.8" height="0.898105" fill="#4B4B4D"/>
+<rect x="19.8158" y="15.862" width="1.8" height="0.898105" fill="#4B4B4D"/>
+<rect x="18.0158" y="16.7601" width="1.8" height="0.898105" fill="#4B4B4D"/>
+<rect x="19.8158" y="17.6582" width="1.8" height="0.898105" fill="#4B4B4D"/>
+<rect x="16.2668" y="15.862" width="1.8" height="0.898105" fill="#4B4B4D"/>
+<rect x="14.4668" y="16.7601" width="1.8" height="0.898105" fill="#4B4B4D"/>
+<rect x="16.2668" y="17.6582" width="1.8" height="0.898105" fill="#4B4B4D"/>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(21.5542 7.1362) rotate(90) scale(3.17739)">
+<stop stop-color="#97989A"/>
+<stop offset="0.134568" stop-color="#969799"/>
+<stop offset="0.218343" stop-color="#949597"/>
+<stop offset="0.344004" stop-color="#555555"/>
+</radialGradient>
+</defs>
+</svg>

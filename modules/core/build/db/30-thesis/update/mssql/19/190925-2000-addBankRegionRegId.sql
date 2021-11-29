@@ -1,0 +1,1 @@
+alter table DF_BANK_REGION add REG_ID varchar(9)^

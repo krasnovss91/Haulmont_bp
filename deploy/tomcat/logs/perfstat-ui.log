@@ -1,0 +1,172 @@
+Performance Statistics   2021-11-29 11:54:00 - 2021-11-29 11:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         44,0          44          44         0,0           1
+MenuItem.wf$Design.browse                             3163,0        3163        3163         0,0           1
+TDS null                                               212,0         212         212         0,0           1
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   2,0           2           2         0,0           1
+loginWindow#create                                     564,0         564         564         0,0           1
+loginWindow#init                                       371,0         371         371         0,0           1
+loginWindow#inject                                     658,0         658         658         0,0           1
+loginWindow#load                                      3648,0        3648        3648         0,0           1
+loginWindow#uiPermissions                                1,0           1           1         0,0           1
+loginWindow#xml                                         72,5           0         145        72,5           2
+mainWindow#afterShow                                     3,0           3           3         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                        9,0           9           9         0,0           1
+mainWindow#init                                        648,0         648         648         0,0           1
+mainWindow#inject                                       17,0          17          17         0,0           1
+mainWindow#load                                       2686,0        2686        2686         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                         126,0           0         252       126,0           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    6,0           6           6         0,0           1
+mainWindow.voiceControlConsole#load                     42,0          42          42         0,0           1
+voiceControlConsole#create                              63,0          63          63         0,0           1
+voiceControlConsole#xml                                  1,0           1           1         0,0           1
+wf$Design.browse#afterShow                               0,0           0           0         0,0           1
+wf$Design.browse#beforeShow                              0,0           0           0         0,0           1
+wf$Design.browse#companion                              24,0          24          24         0,0           1
+wf$Design.browse#create                                 14,0          14          14         0,0           1
+wf$Design.browse#init                                  276,0         276         276         0,0           1
+wf$Design.browse#inject                                 18,0          18          18         0,0           1
+wf$Design.browse#load                                 1750,0        1750        1750         0,0           1
+wf$Design.browse#uiPermissions                           0,0           0           0         0,0           1
+wf$Design.browse#xml                                    46,0           0          92        46,0           2
+wf$Design.browse@designDs                              204,0         204         204         0,0           1
+
+Performance Statistics   2021-11-29 11:56:00 - 2021-11-29 11:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+editWindowActions#create                                 1,0           1           1         0,0           1
+editWindowActions#xml                                    0,5           0           1         0,5           2
+wf$Design.browse@designDs                                9,0           9           9         0,0           1
+wf$Design.browse@designProcessVariableDs                11,0          11          11         0,0           1
+wf$Design.edit#afterShow                                 0,0           0           0         0,0           1
+wf$Design.edit#beforeShow                                0,0           0           0         0,0           1
+wf$Design.edit#create                                  100,0         100         100         0,0           1
+wf$Design.edit#init                                      6,0           6           6         0,0           1
+wf$Design.edit#inject                                    6,0           6           6         0,0           1
+wf$Design.edit#load                                    520,0         520         520         0,0           1
+wf$Design.edit#uiPermissions                             0,0           0           0         0,0           1
+wf$Design.edit#xml                                       0,8           0           4         1,6           5
+wf$Design.edit.windowActions#init                        0,0           0           0         0,0           1
+wf$Design.edit.windowActions#inject                      2,0           2           2         0,0           1
+wf$Design.edit.windowActions#load                        8,0           8           8         0,0           1
+
+Performance Statistics   2021-11-29 11:58:00 - 2021-11-29 12:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:00:00 - 2021-11-29 12:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:02:00 - 2021-11-29 12:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:04:00 - 2021-11-29 12:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:06:00 - 2021-11-29 12:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:08:00 - 2021-11-29 12:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:10:00 - 2021-11-29 12:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:12:00 - 2021-11-29 12:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:14:00 - 2021-11-29 12:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:16:00 - 2021-11-29 12:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:18:00 - 2021-11-29 12:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:20:00 - 2021-11-29 12:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:22:00 - 2021-11-29 12:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:24:00 - 2021-11-29 12:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:26:00 - 2021-11-29 12:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:28:00 - 2021-11-29 12:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:30:00 - 2021-11-29 12:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:32:00 - 2021-11-29 12:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:34:00 - 2021-11-29 12:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:36:00 - 2021-11-29 12:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:38:00 - 2021-11-29 12:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:40:00 - 2021-11-29 12:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:42:00 - 2021-11-29 12:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:44:00 - 2021-11-29 12:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:46:00 - 2021-11-29 12:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:48:00 - 2021-11-29 12:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:50:00 - 2021-11-29 12:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:52:00 - 2021-11-29 12:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:54:00 - 2021-11-29 12:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:56:00 - 2021-11-29 12:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 12:58:00 - 2021-11-29 13:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 13:00:00 - 2021-11-29 13:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 13:02:00 - 2021-11-29 13:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 13:04:00 - 2021-11-29 13:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 13:06:00 - 2021-11-29 13:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 13:08:00 - 2021-11-29 13:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 13:10:00 - 2021-11-29 13:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 13:12:00 - 2021-11-29 13:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-11-29 13:14:00 - 2021-11-29 13:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+

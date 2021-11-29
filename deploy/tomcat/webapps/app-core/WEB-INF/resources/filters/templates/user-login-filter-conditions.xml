@@ -1,0 +1,15 @@
+<!--
+  ~ Copyright (c) 2019 LTD Haulmont Samara. All Rights Reserved.
+  ~ Haulmont Samara proprietary and confidential.
+  ~ Use is subject to license terms.
+  -->
+
+<filter>
+    <and>
+        <c name="login" class="java.lang.String"
+           caption="msg://com.haulmont.cuba.security.entity/User.login" type="PROPERTY">
+            u.login like :component$genericFilter.login67609
+            <param name="component$genericFilter.login67609">NULL</param>
+        </c>
+    </and>
+</filter>

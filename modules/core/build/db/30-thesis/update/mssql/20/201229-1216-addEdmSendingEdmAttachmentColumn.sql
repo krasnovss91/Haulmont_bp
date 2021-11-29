@@ -1,0 +1,5 @@
+alter table TS_EDM_SENDING add EDM_ATTACHMENT_ID uniqueidentifier^
+
+create index IDX_TS_EDM_SENDING_EDM_ATT_ID on TS_EDM_SENDING(EDM_ATTACHMENT_ID)^
+
+alter table TS_EDM_SENDING add constraint FK_EDM_SENDING_EDM_ATTACHMENT foreign key (EDM_ATTACHMENT_ID) references WF_ATTACHMENT(ID)^

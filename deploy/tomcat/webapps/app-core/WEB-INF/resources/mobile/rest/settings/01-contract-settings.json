@@ -1,0 +1,276 @@
+{
+  "name": "Договор",
+  "entity_name": "df$Contract",
+  "properties": [
+    {
+      "property": "resolution",
+      "required": false,
+      "readonly": true,
+      "additional_info": false,
+      "multi_line": true,
+      "loc_name": {
+        "ru": "Резолюция",
+        "en": "Resolution"
+      }
+    },
+    {
+      "property": "finishDatePlan",
+      "required": false,
+      "readonly": true,
+      "additional_info": false,
+      "loc_name": {
+        "ru": "Срок исполнения",
+        "en": "Finish date"
+      }
+    },
+    {
+      "property": "cardInitiator",
+      "required": false,
+      "readonly": true,
+      "additional_info": false,
+      "loc_name": {
+        "ru": "Инициатор",
+        "en": "Initiator"
+      }
+    },
+    {
+      "property": "number",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "multi_line": false,
+      "loc_name": {
+        "ru": "Номер",
+        "en": "Number"
+      }
+    },
+    {
+      "property": "date",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Дата",
+        "en": "Date"
+      }
+    },
+    {
+      "property": "organization",
+      "required": false,
+      "readonly": false,
+      "additional_info": true,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Организация",
+        "en": "Organization"
+      }
+    },
+    {
+      "property": "department",
+      "required": false,
+      "readonly": false,
+      "additional_info": true,
+      "detailed_info": false,
+      "query_filter": "e.organization.id \u003d :organization",
+      "loc_name": {
+        "ru": "Подразделение",
+        "en": "Department"
+      }
+    },
+    {
+      "property": "docCategory",
+      "required": false,
+      "readonly": false,
+      "additional_info": true,
+      "detailed_info": false,
+      "query_filter": "(e.docKind.id \u003d :kindId or e.docKind is null) and (e.docType.name\u003d :entityName)",
+      "loc_name": {
+        "ru": "Категория",
+        "en": "Category"
+      }
+    },
+    {
+      "property": "contractor",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Контрагент",
+        "en": "Contractor"
+      },
+      "types_to_select": [
+        "df$Company",
+        "df$Individual"
+      ]
+    },
+    {
+      "property": "contactPerson",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "query_filter": "e.company.id \u003d :contractor",
+      "loc_name": {
+        "ru": "Конт. лицо контрагента",
+        "en": "Contractor contact person"
+      }
+    },
+    {
+      "property": "parentCard",
+      "required": false,
+      "readonly": true,
+      "additional_info": true,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Основание",
+        "en": "Parent card"
+      }
+    },
+    {
+      "property": "active",
+      "required": false,
+      "readonly": false,
+      "additional_info": true,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Активный",
+        "en": "Active"
+      }
+    },
+    {
+      "property": "owner",
+      "required": false,
+      "readonly": false,
+      "additional_info": true,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Куратор",
+        "en": "Owner"
+      }
+    },
+    {
+      "property": "liabilityStart",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Начало обязательств",
+        "en": "Liability starts"
+      }
+    },
+    {
+      "property": "liabilityEnd",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Окончание обязательств",
+        "en": "Liability ends"
+      }
+    },
+    {
+      "property": "amount",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Сумма",
+        "en": "Amount"
+      }
+    },
+    {
+      "property": "currency",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Валюта",
+        "en": "Currency"
+      }
+    },
+    {
+      "property": "vatInclusive",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "НДС в сумме",
+        "en": "VAT Included"
+      }
+    },
+    {
+      "property": "vatRate",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Ставка НДС",
+        "en": "VAT Rate"
+      }
+    },
+    {
+      "property": "vatAmount",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Сумма НДС",
+        "en": "VAT Amount"
+      }
+    },
+    {
+      "property": "comment",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "multi_line": true,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Описание",
+        "en": "Description"
+      }
+    },
+    {
+      "property": "paymentConditions",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "multi_line": true,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Условия платежа",
+        "en": "Payment conditions"
+      }
+    },
+    {
+      "property": "project",
+      "required": false,
+      "readonly": true,
+      "additional_info": true,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Проект",
+        "en": "Project"
+      }
+    },
+    {
+      "property": "availableForAll",
+      "required": false,
+      "readonly": false,
+      "additional_info": true,
+      "loc_name": {
+        "ru": "Договор доступен всем",
+        "en": "Contract is available for all"
+      }
+    }
+  ]
+}

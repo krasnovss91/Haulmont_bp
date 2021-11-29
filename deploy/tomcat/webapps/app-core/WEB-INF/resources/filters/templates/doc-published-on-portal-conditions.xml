@@ -1,0 +1,24 @@
+<!--
+  ~ Copyright (c) 2019 LTD Haulmont Samara. All Rights Reserved.
+  ~ Haulmont Samara proprietary and confidential.
+  ~ Use is subject to license terms.
+  -->
+
+<filter>
+    <and>
+        <c name="portalPublishStateIsNotNull" unary="true" hidden="true" required="true"
+           type="CUSTOM" entityAlias="d" join=", df$SimpleDoc s">
+            {E}.id = s.id and s.portalPublishState is not null
+            <param name="component$genericFilter.wYrNsMHxAI04443" javaClass="java.lang.Boolean">true</param>
+        </c>
+        <c name="portalPublishState" class="com.haulmont.thesis.core.enums.PortalPublishState" type="CUSTOM"
+           caption="msg://com.haulmont.thesis.core.entity/SimpleDoc.portalPublishStateEquals" entityAlias="d"
+           join=", df$SimpleDoc s">
+            s.portalPublishState = :component$genericFilter.gOkAHrChPJ89042
+            <param name="component$genericFilter.gOkAHrChPJ89042"
+                   javaClass="com.haulmont.thesis.core.enums.PortalPublishState">
+                NULL
+            </param>
+        </c>
+    </and>
+</filter>

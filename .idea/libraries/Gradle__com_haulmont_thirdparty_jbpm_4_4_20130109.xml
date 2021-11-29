@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.haulmont.thirdparty:jbpm:4.4.20130109">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thirdparty/jbpm/4.4.20130109/e114497e51f5d5861c801e2d1b80e22e03e52e8b/jbpm-4.4.20130109.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thirdparty/jbpm/4.4.20130109/fb182a208b3d9bb350c43f19beb63ba58a323102/jbpm-4.4.20130109-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

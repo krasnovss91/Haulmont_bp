@@ -1,0 +1,1 @@
+update DF_TYPICAL_RESOLUTION set substituted_creator_id = 'b18e3c10-0328-11e2-969a-fb0e8fd8c622' where substituted_creator_id is null^

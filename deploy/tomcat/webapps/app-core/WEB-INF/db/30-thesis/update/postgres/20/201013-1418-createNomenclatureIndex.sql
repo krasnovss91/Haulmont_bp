@@ -1,0 +1,4 @@
+-- $Id$
+-- Description:
+create index IDX_df_off_file_nomencl_relation_DF_OFFICE_FILE_ID on DF_OFF_FILE_NOMENCL_RELATION(DF_OFFICE_FILE_ID);
+create index IDX_df_off_file_nomencl_relation_DF_OFFICE_FILE_NOMENCL_ID on DF_OFF_FILE_NOMENCL_RELATION(DF_OFFICE_FILE_NOMENCLATURE_ID);

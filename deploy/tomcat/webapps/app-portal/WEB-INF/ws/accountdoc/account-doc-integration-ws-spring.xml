@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2019 LTD Haulmont Samara. All Rights Reserved.
+  ~ Haulmont Samara proprietary and confidential.
+  ~ Use is subject to license terms.
+  -->
+
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+    <bean id="accountDocIntegrationPayloadMapping"
+          class="org.springframework.ws.server.endpoint.mapping.PayloadRootQNameEndpointMapping">
+        <property name="mappings">
+            <props>
+                <prop key="{http://www.haulmont.com/schema/thesis/accountDocIntegration}LoginRequest">
+                    accountDocIntegrationLoginEndpoint
+                </prop>
+                <prop key="{http://www.haulmont.com/schema/thesis/accountDocIntegration}LogoutRequest">
+                    accountDocIntegrationLogoutEndpoint
+                </prop>
+                <prop key="{http://www.haulmont.com/schema/thesis/accountDocIntegration}ImportAccountDocsRequest">
+                    importAccountDocsEndpoint
+                </prop>
+                <prop key="{http://www.haulmont.com/schema/thesis/accountDocIntegration}AsyncImportAccountDocsRequest">
+                    asyncImportAccountDocsEndpoint
+                </prop>
+                <prop key="{http://www.haulmont.com/schema/thesis/accountDocIntegration}GetImportJobStatusRequest">
+                    getImportJobStatusEndpoint
+                </prop>
+            </props>
+        </property>
+        <property name="interceptors">
+            <list>
+                <ref bean="accountDocIntegrationValidatingInterceptor"/>
+                <ref bean="accountDocLoggingInterceptor"/>
+                <ref bean="accountDocImportInterceptor"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="accountDocIntegrationLoginEndpoint"
+          class="com.haulmont.thesis.portal.ws.LoginEndpoint">
+        <property name="service" ref="loginService"/>
+        <property name="schema" value="http://www.haulmont.com/schema/thesis/accountDocIntegration"/>
+        <property name="usePasswordDecryption" value="false"/>
+        <property name="maximumAllowedUnsuccessfulLoginAttemptsCount"
+                  value="${thesis.portal.loginEndPoint.maximumAllowedUnsuccessfulLoginAttemptsCount}"/>
+    </bean>
+
+    <bean id="accountDocIntegrationLogoutEndpoint"
+          class="com.haulmont.thesis.portal.ws.LogoutEndpoint">
+        <property name="service" ref="loginService"/>
+    </bean>
+
+    <bean id="importAccountDocsEndpoint" class="com.haulmont.thesis.portal.accountdoc.ImportAccountDocsEndpoint"/>
+    <bean id="asyncImportAccountDocsEndpoint" class="com.haulmont.thesis.portal.accountdoc.AsyncImportAccountDocsEndpoint"/>
+    <bean id="getImportJobStatusEndpoint" class="com.haulmont.thesis.portal.accountdoc.GetImportJobStatusEndpoint"/>
+
+    <bean id="accountDocIntegrationValidatingInterceptor"
+          class="org.springframework.ws.soap.server.endpoint.interceptor.PayloadValidatingInterceptor">
+        <property name="xsdSchema" ref="accountDocIntegrationSchema"/>
+        <property name="validateRequest" value="true"/>
+        <property name="validateResponse" value="true"/>
+    </bean>
+
+    <bean id="accountDocLoggingInterceptor"
+          class="org.springframework.ws.server.endpoint.interceptor.PayloadLoggingInterceptor"/>
+
+    <bean id="accountDocImportInterceptor"
+          class="com.haulmont.thesis.portal.accountdoc.AccountDocImportInterceptor"/>
+
+    <bean id="accountDocIntegration" class="org.springframework.ws.wsdl.wsdl11.DefaultWsdl11Definition">
+        <property name="schema" ref="accountDocIntegrationSchema"/>
+        <property name="portTypeName" value="AccountDocIntegration"/>
+        <property name="locationUri"
+                  value="http://${cuba.webHostName}:${cuba.webPort}/${cuba.webContextName}/ws/accountDocIntegration"/>
+    </bean>
+
+    <bean id="accountDocIntegrationSchema" class="org.springframework.xml.xsd.SimpleXsdSchema">
+        <property name="xsd" value="/WEB-INF/ws/accountdoc/account-doc-integration.xsd"/>
+    </bean>
+</beans>

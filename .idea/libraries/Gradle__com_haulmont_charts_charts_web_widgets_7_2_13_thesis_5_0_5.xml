@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.haulmont.charts:charts-web-widgets:7.2.13-thesis-5.0.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.charts/charts-web-widgets/7.2.13-thesis-5.0.5/23f6c4067219759b0e2db848a35ae83139eca237/charts-web-widgets-7.2.13-thesis-5.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.charts/charts-web-widgets/7.2.13-thesis-5.0.5/7644234c6e86db127b2bff5f8bae6d24f2149216/charts-web-widgets-7.2.13-thesis-5.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

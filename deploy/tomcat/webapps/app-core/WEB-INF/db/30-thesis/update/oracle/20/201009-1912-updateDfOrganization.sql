@@ -1,0 +1,1 @@
+update DF_ORGANIZATION set HAS_ATTACHMENTS = 0 where HAS_ATTACHMENTS is null^

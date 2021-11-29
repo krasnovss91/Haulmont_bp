@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2019 LTD Haulmont Samara. All Rights Reserved.
+  ~ Haulmont Samara proprietary and confidential.
+  ~ Use is subject to license terms.
+  -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified"
+           elementFormDefault="qualified"
+           xmlns="http://www.haulmont.com/schema/thesis/accountDocIntegration"
+           targetNamespace="http://www.haulmont.com/schema/thesis/accountDocIntegration">
+
+    <!--Login-->
+
+    <xs:element name="LoginRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:string" name="login"/>
+                <xs:element type="xs:string" name="password"/>
+                <xs:element type="xs:string" name="locale"/>
+                <xs:element type="xs:string" name="address"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="LoginResponse" type="xs:string"/>
+
+    <!--Logout-->
+
+    <xs:element name="LogoutRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:string" name="sessionId"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="ImportAccountDocsRequest" type="ImportAccountDocsRequestType"/>
+
+    <xs:element name="ImportAccountDocsResponse" type="accountDocsImportStatusType"/>
+
+    <xs:element name="AsyncImportAccountDocsRequest" type="ImportAccountDocsRequestType"/>
+
+    <xs:element name="AsyncImportAccountDocsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="jobId"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetImportJobStatusRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="sessionId"/>
+                <xs:element name="jobId"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetImportJobStatusResponse" type="accountDocsImportStatusType"/>
+
+    <xs:complexType name="ImportAccountDocsRequestType">
+        <xs:sequence>
+            <xs:element name="sessionId" type="xs:string"/>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element name="invoices" type="invoicesListType"/>
+                <xs:element name="bills" type="billsListType"/>
+                <xs:element name="upds" type="updsListType"/>
+                <xs:element name="acts" type="actsListType"/>
+                <xs:element name="xmlActs" type="xmlActsListType"/>
+                <xs:element name="torg12Documents" type="torg12DocumentListType"/>
+                <xs:element name="xmlTorg12Documents" type="xmlTorg12DocumentListType"/>
+            </xs:choice>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="accountDocsImportStatusType">
+        <xs:sequence>
+            <xs:element name="status" type="importStatusType"/>
+            <xs:element name="exception" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="errorMessage"/>
+                        <xs:element name="errorElement"/>
+                        <xs:element name="stackTrace"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="invoicesListType">
+        <xs:sequence>
+            <xs:element name="invoice" type="formalizedDocType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="billsListType">
+        <xs:sequence>
+            <xs:element name="bill" type="accountDocWithAmountFields" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="updsListType">
+        <xs:sequence>
+            <xs:element name="upd" type="formalizedDocType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="actsListType">
+        <xs:sequence>
+            <xs:element name="act" type="accountDocWithAmountFields" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="xmlActsListType">
+        <xs:sequence>
+            <xs:element name="xmlAct" type="formalizedDocType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="torg12DocumentListType">
+        <xs:sequence>
+            <xs:element name="torg12Document" type="accountDocWithAmountFields" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="xmlTorg12DocumentListType">
+        <xs:sequence>
+            <xs:element name="xmlTorg12Document" type="formalizedDocType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="formalizedDocType">
+        <xs:sequence>
+            <xs:element name="externalId" type="xs:string"/>
+            <xs:choice>
+                <xs:element name="attachmentPath" type="xs:string"/>
+                <xs:element name="rawXml" type="xs:string"/>
+            </xs:choice>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="accountDocWithAmountFields">
+        <xs:sequence>
+            <xs:element type="xs:string" name="externalId"/>
+            <xs:element type="xs:string" name="attachmentPath"/>
+            <xs:element type="xs:string" name="number"/>
+            <xs:element type="xs:string" name="date"/>
+            <xs:element type="xs:string" name="organizationInn"/>
+            <xs:element type="xs:string" name="organizationKpp"/>
+            <xs:element type="xs:string" name="receiverInn"/>
+            <xs:element type="xs:string" name="receiverKpp"/>
+            <xs:element type="xs:string" name="amount"/>
+            <xs:element type="xs:string" name="vatAmount"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="importStatusType" final="restriction">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="ERROR"/>
+            <xs:enumeration value="IN_PROGRESS"/>
+            <xs:enumeration value="DONE"/>
+            <xs:enumeration value="NOT_EXIST"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

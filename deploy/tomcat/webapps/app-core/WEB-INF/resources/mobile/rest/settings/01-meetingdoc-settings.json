@@ -1,0 +1,556 @@
+{
+  "name": "Совещание",
+  "entity_name": "df$MeetingDoc",
+  "properties": [
+    {
+      "property": "status",
+      "required": false,
+      "readonly": true,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Статус",
+        "en": "Status"
+      }
+    },
+    {
+      "property": "number",
+      "required": false,
+      "readonly": false,
+      "multi_line": false,
+      "additional_info": false,
+      "loc_name": {
+        "ru": "Номер",
+        "en": "Meeting ID"
+      }
+    },
+    {
+      "property": "theme",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "multi_line": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Тема",
+        "en": "Subject"
+      }
+    },
+    {
+      "property": "target",
+      "required": false,
+      "readonly": false,
+      "additional_info": true,
+      "multi_line": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Цель",
+        "en": "Objective"
+      }
+    },
+    {
+      "property": "organization",
+      "required": false,
+      "readonly": false,
+      "additional_info": true,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Организация",
+        "en": "Organization"
+      }
+    },
+    {
+      "property": "department",
+      "required": false,
+      "readonly": false,
+      "additional_info": true,
+      "detailed_info": false,
+      "query_filter": "e.organization.id \u003d :organization",
+      "loc_name": {
+        "ru": "Подразделение",
+        "en": "Department"
+      }
+    },
+    {
+      "property": "parentCard",
+      "required": false,
+      "readonly": true,
+      "additional_info": true,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Основание",
+        "en": "Parent card"
+      }
+    },
+    {
+      "property": "docCategory",
+      "required": false,
+      "readonly": false,
+      "additional_info": true,
+      "detailed_info": false,
+      "query_filter": "(e.docKind.id \u003d :kindId or e.docKind is null) and (e.docType.name\u003d :entityName)",
+      "loc_name": {
+        "ru": "Категория",
+        "en": "Category"
+      }
+    },
+    {
+      "property": "dateTime",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "loc_name": {
+        "ru": "Дата начала совещания",
+        "en": "Date of the meeting"
+      }
+    },
+    {
+      "property": "duration",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "loc_name": {
+        "ru": "Длительность",
+        "en": "Duration"
+      }
+    },
+    {
+      "property": "timeUnit",
+      "required": true,
+      "readonly": false,
+      "additional_info": false,
+      "loc_name": {
+        "ru": "Ед. измерения длительности",
+        "en": "Duration time unit"
+      }
+    },
+    {
+      "property": "place",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "multi_line": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Место проведения",
+        "en": "Place"
+      }
+    },
+    {
+      "property": "secretary",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Секретарь",
+        "en": "Secretary"
+      }
+    },
+    {
+      "property": "chairman",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Председатель",
+        "en": "Chairman"
+      }
+    },
+    {
+      "property": "initiator",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Инициатор",
+        "en": "Initiator"
+      }
+    },
+    {
+      "property": "meetingComment",
+      "required": false,
+      "readonly": false,
+      "additional_info": true,
+      "multi_line": true,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Комментарий",
+        "en": "Comment"
+      }
+    },
+    {
+      "property": "availableForAll",
+      "required": false,
+      "readonly": false,
+      "additional_info": true,
+      "loc_name": {
+        "ru": "Совещание доступно всем",
+        "en": "Meeting doc is available for all"
+      }
+    },
+    {
+      "property": "meetingQuestions",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": true,
+      "description_script": "import com.haulmont.cuba.core.global.AppBeans\r\nimport com.haulmont.cuba.core.global.Messages\r\nimport com.haulmont.thesis.core.entity.MeetingDoc\r\nimport com.haulmont.thesis.core.entity.MeetingQuestion\r\nimport org.apache.commons.lang.StringUtils\r\n\r\nMeetingQuestion mq \u003d entity\r\ndef getMsg \u003d { String str -\u003e AppBeans.get(Messages.class).getMessage(MeetingDoc.class, str) }\r\ndef wrapParagraph \u003d { String key, String value -\u003e \"\u003cp\u003e${(key ? getMsg(key) + \": \" : \"\") + value}\u003c/p\u003e\" }\r\n\r\nString description \u003d wrapParagraph(null, \"\u003cb\u003e$mq.question\u003c/b\u003e\")\r\nif (mq.speaker)\r\n    description +\u003d wrapParagraph(\"MeetingQuestion.speaker\", \"$mq.speaker.instanceName\")\r\nif (mq.durationString)\r\n    description +\u003d wrapParagraph(\"MeetingQuestion.duration\", \"$mq.durationString\")\r\nif (StringUtils.isNotBlank(mq.comment))\r\n    description +\u003d wrapParagraph(\"MeetingQuestion.comment\", \"$mq.comment\")\r\nreturn description;",
+      "name_pattern": "${question}",
+      "composition_properties": [
+        {
+          "property": "number",
+          "required": false,
+          "readonly": true,
+          "additional_info": false,
+          "detailed_info": false,
+          "loc_name": {
+            "ru": "Номер",
+            "en": "Number"
+          }
+        },
+        {
+          "property": "question",
+          "required": true,
+          "readonly": false,
+          "additional_info": false,
+          "detailed_info": false,
+          "multi_line": false,
+          "loc_name": {
+            "ru": "Вопрос",
+            "en": "Question"
+          }
+        },
+        {
+          "property": "speaker",
+          "required": false,
+          "readonly": false,
+          "additional_info": false,
+          "detailed_info": false,
+          "loc_name": {
+            "ru": "Докладчик",
+            "en": "Speaker"
+          }
+        },
+        {
+          "property": "duration",
+          "required": false,
+          "readonly": false,
+          "additional_info": false,
+          "loc_name": {
+            "ru": "Длительность",
+            "en": "Duration"
+          }
+        },
+        {
+          "property": "timeUnit",
+          "required": true,
+          "readonly": false,
+          "additional_info": false,
+          "loc_name": {
+            "ru": "Ед. измерения длительности",
+            "en": "Duration time unit"
+          }
+        },
+        {
+          "property": "comment",
+          "required": false,
+          "readonly": false,
+          "additional_info": false,
+          "detailed_info": false,
+          "multi_line": true,
+          "loc_name": {
+            "ru": "Комментарий",
+            "en": "Comment"
+          }
+        }
+      ],
+      "loc_name": {
+        "ru": "Повестка",
+        "en": "Agenda"
+      }
+    },
+    {
+      "property": "solutions",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": true,
+      "description_script": "import com.haulmont.cuba.core.global.AppBeans\r\nimport com.haulmont.cuba.core.global.Messages\r\nimport com.haulmont.thesis.core.entity.Solution\r\nimport org.apache.commons.lang.StringUtils\r\nimport java.text.SimpleDateFormat\r\n\r\nSolution solution \u003d entity;\r\ndef messages \u003d AppBeans.get(Messages.class)\r\ndef getMsg \u003d { String str -\u003e messages.getMessage(Solution.class, str) }\r\ndef wrapParagraph \u003d { String key, String value -\u003e \"\u003cp\u003e${(key ? getMsg(key) + \": \" : \"\") + value}\u003c/p\u003e\" }\r\n\r\ndef questionString \u003d solution.question?.question\r\ndef solutionString \u003d solution.task ? solution.task.taskName : StringUtils.trimToEmpty(solution.solution)\r\ndef executor \u003d solution.task ? solution.task.executor?.instanceName : solution.executor?.instanceName\r\ndef comment \u003d solution.comment\r\ndef dueDate \u003d solution.task ? solution.task.finishDateTimePlan : solution.finishDatePlan\r\ndef dueDateString \u003d dueDate ? new SimpleDateFormat(messages.getMainMessage(\"SolutionsDescriptionScript.dueDateFormat\")).format(dueDate) : null\r\n\r\nString description \u003d \"\";\r\nif (solutionString)\r\n    description +\u003d wrapParagraph(null, \"\u003cb\u003e\" + solutionString + \"\u003c/b\u003e\")\r\nif (questionString)\r\n    description +\u003d wrapParagraph(\"Solution.question\", questionString)\r\nif (executor)\r\n    description +\u003d wrapParagraph(\"Solution.executor\", executor)\r\nif (comment)\r\n    description +\u003d wrapParagraph(\"Solution.comment\", comment)\r\nif (dueDateString)\r\n    description +\u003d wrapParagraph(\"Solution.finishDatePlan\", dueDateString)\r\n\r\nreturn description\r\n",
+      "view_name": "mobile-client-description",
+      "name_pattern": "${solution}",
+      "composition_properties": [
+        {
+          "property": "question",
+          "required": false,
+          "readonly": false,
+          "additional_info": false,
+          "detailed_info": false,
+          "query_filter": "e.meetingDoc.id \u003d :cardId",
+          "loc_name": {
+            "ru": "Вопрос",
+            "en": "Question"
+          }
+        },
+        {
+          "property": "solution",
+          "required": true,
+          "readonly": false,
+          "additional_info": false,
+          "detailed_info": false,
+          "multi_line": true,
+          "loc_name": {
+            "ru": "Решение",
+            "en": "Solution"
+          }
+        },
+        {
+          "property": "initiator",
+          "required": false,
+          "readonly": false,
+          "additional_info": false,
+          "query_filter": "e.active \u003d true and exists(select ur from sec$UserRole ur where ur.user.id \u003d e.id and ur.deleteTs is null and ur.role.name \u003d \u0027task_initiator\u0027)",
+          "loc_name": {
+            "ru": "Инициатор",
+            "en": "Initiator"
+          }
+        },
+        {
+          "property": "executor",
+          "required": false,
+          "readonly": false,
+          "additional_info": false,
+          "detailed_info": false,
+          "query_filter": "e.active \u003d true and exists(select ur from sec$UserRole ur where ur.user.id \u003d e.id and ur.deleteTs is null and ur.role.name \u003d \u0027task_executor\u0027)",
+          "loc_name": {
+            "ru": "Исполнитель",
+            "en": "Assignee"
+          }
+        },
+        {
+          "property": "finishDatePlan",
+          "required": false,
+          "readonly": false,
+          "additional_info": false,
+          "detailed_info": false,
+          "loc_name": {
+            "ru": "Срок исполнения",
+            "en": "Finish Date Plan"
+          }
+        },
+        {
+          "property": "comment",
+          "required": false,
+          "readonly": false,
+          "additional_info": false,
+          "multi_line": true,
+          "loc_name": {
+            "ru": "Комментарий",
+            "en": "Comment"
+          }
+        },
+        {
+          "property": "controller",
+          "required": false,
+          "readonly": false,
+          "additional_info": true,
+          "detailed_info": false,
+          "query_filter": "e.active \u003d true and exists(select ur from sec$UserRole ur where ur.user.id \u003d e.id and ur.deleteTs is null and ur.role.name \u003d \u0027task_controller\u0027)",
+          "loc_name": {
+            "ru": "Контролер",
+            "en": "Reviewer"
+          }
+        },
+        {
+          "property": "observer",
+          "required": false,
+          "readonly": false,
+          "additional_info": true,
+          "detailed_info": false,
+          "query_filter": "e.active \u003d true and exists(select ur from sec$UserRole ur where ur.user.id \u003d e.id and ur.deleteTs is null and ur.role.name \u003d \u0027task_observer\u0027)",
+          "loc_name": {
+            "ru": "Наблюдатель",
+            "en": "Observer"
+          }
+        },
+        {
+          "property": "project",
+          "required": false,
+          "readonly": false,
+          "additional_info": true,
+          "detailed_info": false,
+          "loc_name": {
+            "ru": "Проект",
+            "en": "Main project"
+          }
+        },
+        {
+          "property": "taskType",
+          "required": false,
+          "readonly": false,
+          "additional_info": true,
+          "detailed_info": false,
+          "loc_name": {
+            "ru": "Тип задачи",
+            "en": "Task type"
+          }
+        },
+        {
+          "property": "priority",
+          "required": false,
+          "readonly": false,
+          "additional_info": true,
+          "detailed_info": false,
+          "loc_name": {
+            "ru": "Приоритет задачи",
+            "en": "Task priority"
+          }
+        },
+        {
+          "property": "task",
+          "required": false,
+          "readonly": true,
+          "additional_info": false,
+          "detailed_info": false,
+          "composition_properties": [
+            {
+              "property": "executor",
+              "required": false,
+              "readonly": false,
+              "additional_info": false,
+              "detailed_info": false,
+              "loc_name": {
+                "ru": "Исполнитель",
+                "en": "Assignee"
+              }
+            },
+            {
+              "property": "finishDateTimePlan",
+              "required": false,
+              "readonly": false,
+              "additional_info": false,
+              "detailed_info": false,
+              "loc_name": {
+                "ru": "Выполнить до (время)",
+                "en": "Due date (Time)"
+              }
+            },
+            {
+              "property": "finishDatePlan",
+              "required": false,
+              "readonly": false,
+              "additional_info": false,
+              "detailed_info": false,
+              "loc_name": {
+                "ru": "Выполнить до",
+                "en": "Due date"
+              }
+            },
+            {
+              "property": "description",
+              "required": false,
+              "readonly": false,
+              "additional_info": false,
+              "detailed_info": false,
+              "loc_name": {
+                "ru": "Название",
+                "en": "Description"
+              }
+            },
+            {
+              "property": "state",
+              "required": false,
+              "readonly": false,
+              "additional_info": false,
+              "detailed_info": false,
+              "loc_name": {
+                "ru": "Состояние",
+                "en": "State"
+              }
+            }
+          ],
+          "loc_name": {
+            "ru": "Задача",
+            "en": "Task"
+          }
+        }
+      ],
+      "loc_name": {
+        "ru": "Решения",
+        "en": "Solutions"
+      }
+    },
+    {
+      "property": "participants",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "description_script": "import com.haulmont.cuba.core.global.AppBeans\r\nimport com.haulmont.cuba.core.global.Messages\r\nimport com.haulmont.thesis.core.entity.MeetingParticipant\r\nimport com.haulmont.thesis.core.entity.TsUser\r\n\r\nMeetingParticipant participant \u003d entity\r\ndef messages \u003d AppBeans.get(Messages.class)\r\nTsUser participantUser \u003d participant.user as TsUser\r\nString avatarId \u003d participantUser?.employees ? participantUser.employees[0].mobileAvatar?.id?.toString() : \"\"\r\n\r\nString type;\r\nif (participant.user)\r\n    type \u003d messages.getMainMessage(\"ParticipantsDescriptionScript.employee\")\r\nelse if (participant.contractor || participant.contactPerson)\r\n    type \u003d messages.getMainMessage(\"ParticipantsDescriptionScript.contractor\")\r\nelse\r\n    type \u003d messages.getMainMessage(\"ParticipantsDescriptionScript.external\")\r\n\r\ndef description \u003d \"\u003crowIcon\u003e\u003cavatar\u003e$avatarId\u003c/avatar\u003e\u003c/rowIcon\u003e \u003cp\u003e$type\u003c/p\u003e \u003cp\u003e\u003cb\u003e$participant.instanceName\u003c/b\u003e\u003c/p\u003e\"\r\nreturn description as String;",
+      "view_name": "edit",
+      "name_pattern": "${user}",
+      "composition_properties": [
+        {
+          "property": "user",
+          "required": true,
+          "readonly": false,
+          "additional_info": false,
+          "detailed_info": false,
+          "loc_name": {
+            "ru": "Сотрудник",
+            "en": "User"
+          }
+        },
+        {
+          "property": "outer",
+          "required": false,
+          "readonly": true,
+          "additional_info": false,
+          "multi_line": false,
+          "loc_name": {
+            "ru": "Имя",
+            "en": "Name"
+          }
+        },
+        {
+          "property": "email",
+          "required": false,
+          "readonly": true,
+          "additional_info": false,
+          "multi_line": false,
+          "loc_name": {
+            "ru": "Email",
+            "en": "Email"
+          }
+        },
+        {
+          "property": "contractor",
+          "required": false,
+          "readonly": true,
+          "additional_info": false,
+          "detailed_info": false,
+          "loc_name": {
+            "ru": "Контрагент",
+            "en": "Contractor"
+          }
+        },
+        {
+          "property": "contactPerson",
+          "required": false,
+          "readonly": true,
+          "additional_info": false,
+          "loc_name": {
+            "ru": "Контактное лицо",
+            "en": "Contact person"
+          }
+        }
+      ],
+      "loc_name": {
+        "ru": "Участники",
+        "en": "Members"
+      }
+    }
+  ]
+}

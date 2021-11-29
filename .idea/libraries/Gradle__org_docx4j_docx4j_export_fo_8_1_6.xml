@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.docx4j:docx4j-export-fo:8.1.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.docx4j/docx4j-export-fo/8.1.6/b2a7f91647318061b9530cd17ecf5e83a435874c/docx4j-export-fo-8.1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.docx4j/docx4j-export-fo/8.1.6/b61c16112b803793dbea5e434e7b5f6b37d5b94c/docx4j-export-fo-8.1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

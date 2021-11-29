@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.haulmont.thirdparty:appletintegration:1.2.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thirdparty/appletintegration/1.2.10/f594983c1fe0f58efc735c3a80599d33c058b547/appletintegration-1.2.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thirdparty/appletintegration/1.2.10/1b0cbea209dfcfbc7522fb75cb66e9eda51ed936/appletintegration-1.2.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

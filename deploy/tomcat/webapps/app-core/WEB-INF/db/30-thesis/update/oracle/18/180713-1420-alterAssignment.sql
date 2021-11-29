@@ -1,0 +1,7 @@
+--$Id$
+alter table WF_ASSIGNMENT add BY_MAIL_CLIENT char(1)^
+alter table WF_ASSIGNMENT add SUBSTITUTED_CREATOR_ID varchar2(32 char)^
+
+alter table WF_ASSIGNMENT add constraint FK_WF_ASSIGN_SUB_CREATOR foreign key (SUBSTITUTED_CREATOR_ID) references SEC_USER(ID)^
+
+create index IDX_FK_WF_ASSIGN_SUB_CREATOR on WF_ASSIGNMENT(SUBSTITUTED_CREATOR_ID)^

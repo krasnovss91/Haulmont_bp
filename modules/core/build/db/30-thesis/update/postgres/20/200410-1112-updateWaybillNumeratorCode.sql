@@ -1,0 +1,1 @@
+update DF_NUMERATOR set CODE = 'Товарная накладная' where ID = '42aa9005-7171-4815-a426-fe1d65cc809f' and CODE = 'Накладная';

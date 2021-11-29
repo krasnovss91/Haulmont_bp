@@ -1,0 +1,1 @@
+update TS_MAIL_ACTIVITY_INFO set MAIL_ENABLED = 0 where ACTIVITY_NAME = 'EdmSending'^

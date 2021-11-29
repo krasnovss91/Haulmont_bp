@@ -1,0 +1,1 @@
+update SYS_CATEGORY set NAME = 'Товарная накладная' where ID = '512e83a3d8c945f6b0ded1949a55bced' and NAME = 'Накладная'^

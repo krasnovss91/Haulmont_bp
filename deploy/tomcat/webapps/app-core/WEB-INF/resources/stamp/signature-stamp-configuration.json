@@ -1,0 +1,29 @@
+{
+  "type" : "DIGITAL_SIGNATURE",
+  "name" : "Штамп ЭП",
+  "file" : "stamp/stamp.png",
+  "width" : 230,
+  "height" : 100,
+  "fontName" : "Dialog",
+  "fontStyle": "bold",
+  "fontColor" : "rgba(0,0,0)",
+  "fontSize": 22,
+  "data" : [
+    {
+      "top" : 175,
+      "left" : 45,
+      "value" : "Сертификат: ${cert.number}",
+      "maxLength": 46
+    },
+    {
+      "top" : 205,
+      "left" : 45,
+      "value" : "Владелец: ${cert.owner}"
+    },
+    {
+      "top" : 235,
+      "left" : 45,
+      "value" : "Действителен с ${cert.validAfter} по ${cert.validBefore}"
+    }
+  ]
+}

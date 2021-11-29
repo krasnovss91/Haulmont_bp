@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.atmosphere:atmosphere-spring:2.4.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.atmosphere/atmosphere-spring/2.4.2/69c87dfe76a0fac62e82909da0df11449bfb6fda/atmosphere-spring-2.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.atmosphere/atmosphere-spring/2.4.2/adaa48c324cfdba48b4c17f5516aa39e403e95bc/atmosphere-spring-2.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

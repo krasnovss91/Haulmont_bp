@@ -1,0 +1,1 @@
+delete from TS_COMPLEX_VOICE_COMMAND where id in ('5bbf5374-7c0e-4734-aaf6-2f266e3c3a90', 'e24baa03-8963-492e-9b6d-649d098bca1b', '1d5e3a0c-75a5-44d1-b4cf-4fbd3a8ef9f6', '9d4bb3e4-569c-457e-9b86-e18d4b4b6593', '3d26bf06-d112-48c0-b464-8f95c9a6d642', 'c624e104-d3e6-4b10-b6e9-1617042366e9', '42fe1124-33ed-442b-8839-6eea1b385961');

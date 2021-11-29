@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.docx4j:docx4j-openxml-objects:8.1.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.docx4j/docx4j-openxml-objects/8.1.6/f265266aaf696fdd3b4b90805abe3917b6db8a8f/docx4j-openxml-objects-8.1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.docx4j/docx4j-openxml-objects/8.1.6/150e083212193567be8ebaaac33f7231de28ff1d/docx4j-openxml-objects-8.1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

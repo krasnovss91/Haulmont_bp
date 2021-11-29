@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.haulmont.thirdparty:icepdf-core:6.2.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thirdparty/icepdf-core/6.2.2/f74b0e13d9d33cb8502e00d6c1d3787cc2ba3a1f/icepdf-core-6.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thirdparty/icepdf-core/6.2.2/9fe84cf900835556bb2973ba86fec1599c503438/icepdf-core-6.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

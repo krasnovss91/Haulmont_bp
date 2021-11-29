@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.haulmont.workflow:workflow-global:7.2.13-thesis-5.0.8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.workflow/workflow-global/7.2.13-thesis-5.0.8/5d2c5fac0cd1922c3eeb7d52143b49364703c02/workflow-global-7.2.13-thesis-5.0.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.workflow/workflow-global/7.2.13-thesis-5.0.8/2cd4821184ae300b654ad8224e606d9d7e49b563/workflow-global-7.2.13-thesis-5.0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

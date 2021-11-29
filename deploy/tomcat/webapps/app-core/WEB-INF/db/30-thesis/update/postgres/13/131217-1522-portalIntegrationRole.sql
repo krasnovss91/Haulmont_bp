@@ -1,0 +1,2 @@
+-- $Id$
+insert into SEC_ROLE (id,create_ts,created_by,version,update_ts,updated_by,delete_ts,deleted_by,name,loc_name,description,is_default_role) VALUES (newId(),current_timestamp,'admin',1,current_timestamp,null,null,null,'PortalIntegrationRole','Интеграция с порталом','Пользователь с данной ролью может быть авторизован в Тезис через веб-сервис интеграции с порталом',null);

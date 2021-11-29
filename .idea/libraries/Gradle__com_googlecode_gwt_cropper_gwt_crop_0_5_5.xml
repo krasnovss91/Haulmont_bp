@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.googlecode.gwt-cropper:gwt-crop:0.5.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.googlecode.gwt-cropper/gwt-crop/0.5.5/53be8d40dc5924397fa4d7050cf5fe0910be0df9/gwt-crop-0.5.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.googlecode.gwt-cropper/gwt-crop/0.5.5/2a7d6842c4a4d32dc9e717aa019ad5044a87f34b/gwt-crop-0.5.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

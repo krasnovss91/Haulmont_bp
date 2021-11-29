@@ -1,0 +1,1 @@
+update sys_entity_statistics set lookup_screen_threshold = search_picker_field_threshold + 1 where search_picker_field_threshold is not null^

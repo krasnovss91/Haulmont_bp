@@ -1,0 +1,15 @@
+<!--
+  ~ Copyright (c) 2019 LTD Haulmont Samara. All Rights Reserved.
+  ~ Haulmont Samara proprietary and confidential.
+  ~ Use is subject to license terms.
+  -->
+
+<filter>
+    <and>
+        <c name="state" class="com.haulmont.thesis.core.enums.OfficeFileState" hidden="true" type="PROPERTY"
+           operatorType="EQUAL">
+            o.state = :component$genericFilter.state49708
+            <param name="component$genericFilter.state49708">CLOSED</param>
+        </c>
+    </and>
+</filter>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.eclipse.persistence:org.eclipse.persistence.jpa:2.7.3-14-cuba">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.eclipse.persistence/org.eclipse.persistence.jpa/2.7.3-14-cuba/a57fbacd152bf35a26d405863ff1d45d2a66abd3/org.eclipse.persistence.jpa-2.7.3-14-cuba.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.eclipse.persistence/org.eclipse.persistence.jpa/2.7.3-14-cuba/b3fc89c7d1319ec55abda937bd3d0a7e41d64a1d/org.eclipse.persistence.jpa-2.7.3-14-cuba-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,1 @@
+alter table DF_EMPLOYEE add EDM_CERTIFICATE_THUMBPRINT varchar2 (255 char)^

@@ -1,0 +1,37 @@
+<!--
+  ~ Copyright (c) 2019 LTD Haulmont Samara. All Rights Reserved.
+  ~ Haulmont Samara proprietary and confidential.
+  ~ Use is subject to license terms.
+  -->
+
+<filter>
+    <and>
+        <c name="proc" class="com.haulmont.workflow.core.entity.Proc"
+           caption="msg://com.haulmont.workflow.core.entity/Card.proc"
+           paramWhere="({E}.cardTypes is null or {E}.cardTypes = '' or {E}.cardTypes like '%${entityName}%')"
+           type="CUSTOM" operatorType="EQUAL"
+           join="join {E}.procs cp">cp.proc.id = :component$genericFilter.proc34273
+            <param name="component$genericFilter.proc34273" javaClass="com.haulmont.workflow.core.entity.Proc">NULL</param>
+        </c>
+        <c name="state" class="com.haulmont.workflow.core.entity.ProcState"
+           caption="msg://com.haulmont.workflow.core.entity/Card.state"
+           paramWhere="{E}.proc.id = :component$genericFilter.proc34273" paramView="browse" type="CUSTOM"
+           entityAlias="d">{E}.state = (select concat(concat(',', ps.name), ',') from wf$ProcState ps where ps.id =
+            :component$genericFilter.state08402) and {E}.proc.id = (select ps.proc.id from wf$ProcState ps where ps.id =
+            :component$genericFilter.state08402)
+            <param name="component$genericFilter.state08402" javaClass="com.haulmont.workflow.core.entity.ProcState">NULL</param>
+        </c>
+        <c name="procRole" class="com.haulmont.workflow.core.entity.ProcRole"
+           caption="msg://com.haulmont.workflow.core.entity/CardRole.procRole"
+           paramWhere="{E}.invisible=false and {E}.proc.id = :component$genericFilter.proc34273" type="CUSTOM"
+           entityAlias="d" join="join {E}.roles cr">cr.procRole.id = :component$genericFilter.procRole70614
+            <param name="component$genericFilter.procRole70614" javaClass="com.haulmont.workflow.core.entity.ProcRole">NULL</param>
+        </c>
+        <c name="user" class="com.haulmont.thesis.core.entity.TsUser"
+           caption="msg://com.haulmont.workflow.core.entity/CardRole.user" type="CUSTOM"
+           join="join {E}.roles cr join {E}.procs cp">cr.user.id = :component$genericFilter.user90982 and
+            cr.procRole.proc = cp.proc
+            <param name="component$genericFilter.user90982" javaClass="com.haulmont.thesis.core.entity.TsUser">NULL</param>
+        </c>
+    </and>
+</filter>

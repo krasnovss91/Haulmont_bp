@@ -1,0 +1,17 @@
+update SEC_GROUP set LOC_NAME = '{"captionWithLanguageList":[{"language":"ru","caption":"Полный доступ"},{"language":"en","caption":"Full access"}]}' where ID = '0fa2b1a5-1d68-4d69-9fbd-dff348347f93'^
+update SEC_GROUP set LOC_NAME = '{"captionWithLanguageList":[{"language":"ru","caption":"Ограниченный доступ"},{"language":"en","caption":"Limited access"}]}' where ID = '8e6306e2-9e10-414a-b437-24c91ffef804'^
+update SEC_GROUP set LOC_NAME = '{"captionWithLanguageList":[{"language":"ru","caption":"Делопроизводители"},{"language":"en","caption":"Secretary"}]}' where ID = '7dfe5c72-073f-4e1e-9cf4-1b1bad9c0093'^
+update SEC_GROUP set LOC_NAME = '{"captionWithLanguageList":[{"language":"ru","caption":"Руководитель подразделения"},{"language":"en","caption":"Assistant Manager"}]}' where ID = '8d9ba07c-9ffa-11e1-b99d-8fc5b41c7fbb'^
+update SEC_GROUP set LOC_NAME = '{"captionWithLanguageList":[{"language":"ru","caption":"Руководитель департамента"},{"language":"en","caption":"Head of Department"}]}' where ID = '9fa89a54-9ffa-11e1-b13e-9f4a54bff17e'^
+update SEC_GROUP set LOC_NAME = '{"captionWithLanguageList":[{"language":"ru","caption":"Ограниченный доступ + все договоры"},{"language":"en","caption":"Limited access + all contracts"}]}' where ID = '9e44a053-a31f-4edd-b19b-39e942161dd2'^
+update SEC_GROUP set LOC_NAME = '{"captionWithLanguageList":[{"language":"ru","caption":"Ограниченный доступ + все документы"},{"language":"en","caption":"Limited access + all documents"}]}' where ID = 'b3dc60f5-65b2-47ab-8802-9e8929bf8b29'^
+update SEC_GROUP set LOC_NAME = '{"captionWithLanguageList":[{"language":"ru","caption":"Архивариус"},{"language":"en","caption":"Archivist"}]}' where ID = 'cff945e4-e363-0dc0-d70d-4b5bdb2a2269'^
+
+update WF_PROC set LOC_NAME = '{"captionWithLanguageList":[{"language":"ru","caption":"Ознакомление"},{"language":"en","caption":"Submit for Review"}]}' where JBPM_PROCESS_KEY = 'Acquaintance'^
+update WF_PROC set LOC_NAME = '{"captionWithLanguageList":[{"language":"ru","caption":"Резолюция"},{"language":"en","caption":"Resolution"}]}' where JBPM_PROCESS_KEY = 'Resolution'^
+update WF_PROC set LOC_NAME = '{"captionWithLanguageList":[{"language":"ru","caption":"Регистрация"},{"language":"en","caption":"Registration"}]}' where JBPM_PROCESS_KEY = 'Registration'^
+update WF_PROC set LOC_NAME = '{"captionWithLanguageList":[{"language":"ru","caption":"Согласование"},{"language":"en","caption":"Submit for Approval"}]}' where JBPM_PROCESS_KEY = 'Endorsement'^
+update WF_PROC set LOC_NAME = '{"captionWithLanguageList":[{"language":"ru","caption":"Согласование протокола"},{"language":"en","caption":"Review protocol"}]}' where JBPM_PROCESS_KEY = 'ProtocolEndorsement'^
+update WF_PROC set LOC_NAME = '{"captionWithLanguageList":[{"language":"ru","caption":"Согласование повестки"},{"language":"en","caption":"Review agenda"}]}' where JBPM_PROCESS_KEY = 'AgendaEndorsement'^
+update WF_PROC set LOC_NAME = '{"captionWithLanguageList":[{"language":"ru","caption":"Управление задачами"},{"language":"en","caption":"Task management"}]}' where JBPM_PROCESS_KEY = 'TaskManagement'^
+update WF_PROC set LOC_NAME = '{"captionWithLanguageList":[{"language":"ru","caption":"Обработка входящего из ЭДО"},{"language":"en","caption":"EDM inbound processing"}]}' where JBPM_PROCESS_KEY = 'EdmReceiving'^

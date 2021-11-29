@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.haulmont.thirdparty:notifique:1.1.5-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thirdparty/notifique/1.1.5-SNAPSHOT/3e142b510284496d4f9282f44ddcbf9a4346e176/notifique-1.1.5-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thirdparty/notifique/1.1.5-SNAPSHOT/62ff754a97056bc4d0f8a13743d87fe6a8d06d1f/notifique-1.1.5-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

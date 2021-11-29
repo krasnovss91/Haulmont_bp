@@ -1,0 +1,1 @@
+alter table WF_PROC add AVAILABLE_EDE_SESSION_TYPES varchar2(500 char)^

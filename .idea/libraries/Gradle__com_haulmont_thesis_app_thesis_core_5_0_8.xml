@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.haulmont.thesis.app:thesis-core:5.0.8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thesis.app/thesis-core/5.0.8/aa7b67bf8386465d898a9c9e44756c7de03571d6/thesis-core-5.0.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thesis.app/thesis-core/5.0.8/bd5dccacae406716d94159c8bafaa68b7437227/thesis-core-5.0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

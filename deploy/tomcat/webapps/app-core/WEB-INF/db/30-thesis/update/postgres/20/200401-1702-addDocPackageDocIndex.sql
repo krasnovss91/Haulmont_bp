@@ -1,0 +1,1 @@
+create index IDX_DF_DOC_PACKAGE_DOC_ID on DF_DOC (PACKAGE_DOC_ID)^

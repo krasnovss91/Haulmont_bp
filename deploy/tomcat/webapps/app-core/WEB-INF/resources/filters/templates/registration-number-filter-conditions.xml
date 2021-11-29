@@ -1,0 +1,22 @@
+<!--
+  ~ Copyright (c) 2019 LTD Haulmont Samara. All Rights Reserved.
+  ~ Haulmont Samara proprietary and confidential.
+  ~ Use is subject to license terms.
+  -->
+
+<filter>
+    <and>
+        <c name="regNo"
+           class="java.lang.String"
+           caption="msg://Doc.SysFilter.ByRegistrationNumber.RegNo"
+           type="CUSTOM"
+           entityAlias="d">
+            (((d.docOfficeDocKind = 'I' or d.docOfficeDocKind = 'T') and d.incomeNo like
+            :component$genericFilter.regNo54163) or (d.docOfficeDocKind = 'O' and d.outcomeNo like
+            :component$genericFilter.regNo54163))
+            <param name="component$genericFilter.regNo54163">
+                NULL
+            </param>
+        </c>
+    </and>
+</filter>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.atmosphere:atmosphere-runtime:2.4.30-1-cuba">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.atmosphere/atmosphere-runtime/2.4.30-1-cuba/96b6c681480252de4d27dd49e1002d6853aa934f/atmosphere-runtime-2.4.30-1-cuba.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.atmosphere/atmosphere-runtime/2.4.30-1-cuba/ef7c9c48ff8ac5f14287286fae1926afdd59d623/atmosphere-runtime-2.4.30-1-cuba-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

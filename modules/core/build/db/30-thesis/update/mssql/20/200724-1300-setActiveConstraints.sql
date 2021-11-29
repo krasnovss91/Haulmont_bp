@@ -1,0 +1,1 @@
+update SEC_CONSTRAINT set IS_ACTIVE = 1^

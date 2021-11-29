@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.haulmont.addon.jpawebapi:jpawebapi-jpawebapi:1.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.addon.jpawebapi/jpawebapi-jpawebapi/1.1.0/2d02523ae913ccb7e56c06d20f141e8c551f8bcb/jpawebapi-jpawebapi-1.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.addon.jpawebapi/jpawebapi-jpawebapi/1.1.0/7ab9808e327b33423cd5d0115bfd74a24b00b15c/jpawebapi-jpawebapi-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

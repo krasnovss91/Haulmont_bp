@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.haulmont.thesis.app:thesis-shared-workflow:5.0.8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thesis.app/thesis-shared-workflow/5.0.8/33789d43d83c010669c086c54dd7a8da087d591c/thesis-shared-workflow-5.0.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thesis.app/thesis-shared-workflow/5.0.8/895e7ec44e46a5da8f0d584968fac4787bb6bcf5/thesis-shared-workflow-5.0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

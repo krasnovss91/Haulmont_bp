@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="untitled125.app-core" target="1.8" />
+      <module name="untitled125.app-core.main" target="1.8" />
+      <module name="untitled125.app-core.test" target="1.8" />
+      <module name="untitled125.app-global" target="1.8" />
+      <module name="untitled125.app-global.main" target="1.8" />
+      <module name="untitled125.app-global.test" target="1.8" />
+      <module name="untitled125.app-gui" target="1.8" />
+      <module name="untitled125.app-gui.main" target="1.8" />
+      <module name="untitled125.app-gui.test" target="1.8" />
+      <module name="untitled125.app-mobile-rest" target="1.8" />
+      <module name="untitled125.app-mobile-rest.main" target="1.8" />
+      <module name="untitled125.app-mobile-rest.test" target="1.8" />
+      <module name="untitled125.app-portal" target="1.8" />
+      <module name="untitled125.app-portal.main" target="1.8" />
+      <module name="untitled125.app-portal.test" target="1.8" />
+      <module name="untitled125.app-web" target="1.8" />
+      <module name="untitled125.app-web.main" target="1.8" />
+      <module name="untitled125.app-web.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

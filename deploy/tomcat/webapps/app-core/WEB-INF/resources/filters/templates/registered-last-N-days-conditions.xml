@@ -1,0 +1,14 @@
+<!--
+  ~ Copyright (c) 2019 LTD Haulmont Samara. All Rights Reserved.
+  ~ Haulmont Samara proprietary and confidential.
+  ~ Use is subject to license terms.
+  -->
+
+<filter>
+    <and>
+        <c name="registeredLastNDays" class="java.lang.Integer" caption="msg://numberDays" type="CUSTOM">
+            @between({E}.regDate, now - :component$genericFilter.registeredLastNDays40671 + 1, now + 1, day)
+            <param name="component$genericFilter.registeredLastNDays40671"/>
+        </c>
+    </and>
+</filter>

@@ -1,0 +1,3 @@
+--$Id$
+
+alter table SYS_ENTITY_STATISTICS add SEARCH_PICKER_FIELD_THRESHOLD integer;

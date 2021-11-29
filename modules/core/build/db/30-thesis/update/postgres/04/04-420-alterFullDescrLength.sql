@@ -1,0 +1,2 @@
+-- $Id$
+ALTER TABLE TM_TASK ALTER column FULL_DESCR TYPE text;

@@ -1,0 +1,31 @@
+<!--
+  ~ Copyright (c) 2019 LTD Haulmont Samara. All Rights Reserved.
+  ~ Haulmont Samara proprietary and confidential.
+  ~ Use is subject to license terms.
+  -->
+
+<filter>
+    <and>
+        <c name="proc" class="com.haulmont.workflow.core.entity.Proc"
+           caption="msg://com.haulmont.workflow.core.entity/Card.proc" type="PROPERTY" operatorType="EQUAL">
+            d.proc.id = :component$genericFilter.proc34271
+            <param name="component$genericFilter.proc34271" javaClass="com.haulmont.workflow.core.entity.Proc">
+                NULL
+            </param>
+        </c>
+        <c name="state" class="com.haulmont.thesis.core.enums.DocState"
+           caption="msg://com.haulmont.workflow.core.entity/Card.state" type="CUSTOM" entityAlias="d">
+            d.state like :component$genericFilter.state75186
+            <param name="component$genericFilter.state75186" javaClass="com.haulmont.thesis.core.enums.DocState">
+                NULL
+            </param>
+        </c>
+        <c name="myDepartment" caption="msg://SysFilter.MyDepartment" unary="true" hidden="true" type="CUSTOM"
+           entityAlias="d" join="join d.roles cr">
+            (cr.user.id = :session$userId OR d.substitutedCreator.id = :session$userId
+            OR exists(select em from df$Employee em where em.user.id = cr.user.id
+            and em.department.id in :session$departmentIds))
+            <param name="component$genericFilter.MyDepartment90982">true</param>
+        </c>
+    </and>
+</filter>

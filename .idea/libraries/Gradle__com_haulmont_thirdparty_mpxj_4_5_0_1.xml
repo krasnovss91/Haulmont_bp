@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.haulmont.thirdparty:mpxj:4.5.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thirdparty/mpxj/4.5.0.1/d181cc3ffa67515d60523e4a7d31508711ace01f/mpxj-4.5.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thirdparty/mpxj/4.5.0.1/b3756933f68d2d68ba28a0d02d184e64616fde89/mpxj-4.5.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

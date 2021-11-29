@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.docx4j:docx4j-core:8.1.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.docx4j/docx4j-core/8.1.6/19ffc948acd4ad5984ec9a5ff06893420ef49695/docx4j-core-8.1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.docx4j/docx4j-core/8.1.6/f7931e507c4d1ee212092c52e051be4ce2fdea3f/docx4j-core-8.1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

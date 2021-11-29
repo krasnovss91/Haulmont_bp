@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.vaadin.addons:animator:3.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.vaadin.addons/animator/3.0.0/e67fffc2cc79e64e1345ceb1872a08f044542a51/animator-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.vaadin.addons/animator/3.0.0/b992d4d16bb2745b6532e11b6f7eaa43953f9410/animator-3.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

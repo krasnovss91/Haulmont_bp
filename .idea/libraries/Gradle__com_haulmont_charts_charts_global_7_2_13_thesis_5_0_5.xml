@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.haulmont.charts:charts-global:7.2.13-thesis-5.0.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.charts/charts-global/7.2.13-thesis-5.0.5/2c9bb171072cb0d850691fa56bc202e7a5fe594f/charts-global-7.2.13-thesis-5.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.charts/charts-global/7.2.13-thesis-5.0.5/d8130f4dae093e3a2a04a4fa83dbad58a8d74a5b/charts-global-7.2.13-thesis-5.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

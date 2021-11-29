@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  ~ Copyright (c) 2019 LTD Haulmont Samara. All Rights Reserved.
+  ~ Haulmont Samara proprietary and confidential.
+  ~ Use is subject to license terms.
+  -->
+
+<filters xmlns="http://schemas.haulmont.com/thesis/4.1/filters.xsd">
+
+    <!-- Фильтр по виду документа -->
+    <filterDescriptor>
+        <!-- Список сущностей фильтров которые будут созданы -->
+        <!-- В случае если в условиях фильтра не используется имя сущности, можно его не указывать -->
+        <filterEntities>
+            <!-- Можно указать как экран, так и componentId (например в случае с ts$ArchivistWorkspace) -->
+            <filterEntity entityName="df$Contract" screen="df$Contract.browse"
+                          code="Contract.SysFilter.ByContractKind"/>
+            <filterEntity entityName="df$MeetingDoc" screen="df$MeetingDoc.browse"
+                          code="MeetingDoc.SysFilter.ByMeetingDoctKind"/>
+            <filterEntity entityName="df$SimpleDoc" screen="df$SimpleDoc.browse" code="Doc.SysFilter.ByDocumentKind"/>
+            <filterEntity entityName="df$SimpleDoc" screen="df$Doc.browse" code="Doc.SysFilter.ByDocumentKind"/>
+            <filterEntity entityName="df$SimpleDoc" screen="df$DocIncome.browse" code="Doc.SysFilter.ByDocumentKind"/>
+            <filterEntity entityName="df$SimpleDoc" screen="df$DocOutcome.browse" code="Doc.SysFilter.ByDocumentKind"/>
+            <filterEntity entityName="df$SimpleDoc" screen="df$DocInternal.browse" code="Doc.SysFilter.ByDocumentKind"/>
+            <filterEntity entityName="df$AccountDoc" screen="df$AccountDoc.browse"
+                          code="AccountDoc.SysFilter.ByDocumentKind"/>
+
+            <filterEntity entityName="df$SimpleDoc" screen="df$SimpleDoc.templateBrowse"
+                          code="SimpleDocTemplate.SysFilter.TemplateKind"/>
+            <filterEntity entityName="df$Contract" screen="df$Contract.templateBrowse"
+                          code="ContractTemplate.SysFilter.TemplateKind"/>
+            <filterEntity entityName="df$AccountDoc" screen="df$AccountDoc.templateBrowse"
+                          code="AccountDocTemplate.SysFilter.TemplateKind"/>
+        </filterEntities>
+        <conditions>
+            <!-- Шаблон условий, которые будут подставлены в поле filterXml.
+                Имя сущности в шаблоне задается с помощью алиаса ${entityName},
+                который преобразуется в соответствующий entityName из filterEntity-->
+            <include href="templates/doc-kind-filter-conditions.xml"/>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по участию в процессе и состоянию -->
+    <filterDescriptor>
+        <filterEntities>
+            <!-- Можно указывать сообщение из пакета локализации для аттрибута name -->
+            <filterEntity entityName="df$Contract" screen="df$Contract.browse" code="SysFilter.ByProcRole"
+                          name="msg://com.haulmont.thesis.core.app/filterByProc.name"/>
+            <filterEntity entityName="df$MeetingDoc" screen="df$MeetingDoc.browse" code="SysFilter.ByProcRole"
+                          name="msg://com.haulmont.thesis.core.app/filterByProc.name"/>
+            <filterEntity entityName="df$SimpleDoc" screen="df$SimpleDoc.browse" code="SysFilter.ByProcRole"
+                          name="msg://com.haulmont.thesis.core.app/filterByProc.name"/>
+            <filterEntity entityName="df$AccountDoc" screen="df$AccountDoc.browse" code="SysFilter.ByProcRole"
+                          name="msg://com.haulmont.thesis.core.app/filterByProc.name"/>
+            <filterEntity entityName="df$PackageDoc" screen="df$PackageDoc.browse" code="SysFilter.ByProcRole"
+                          name="msg://com.haulmont.thesis.core.app/filterByProc.name"/>
+
+            <filterEntity entityName="df$Doc" screen="df$Doc.browse" code="SysFilter.ByProcRole"
+                          name="msg://com.haulmont.thesis.core.app/filterByProc.name"/>
+            <filterEntity entityName="df$Doc" screen="df$DocIncome.browse" code="SysFilter.ByProcRole"
+                          name="msg://com.haulmont.thesis.core.app/filterByProc.name"/>
+            <filterEntity entityName="df$Doc" screen="df$DocOutcome.browse" code="SysFilter.ByProcRole"
+                          name="msg://com.haulmont.thesis.core.app/filterByProc.name"/>
+            <filterEntity entityName="df$Doc" screen="df$DocInternal.browse" code="SysFilter.ByProcRole"
+                          name="msg://com.haulmont.thesis.core.app/filterByProc.name"/>
+        </filterEntities>
+        <conditions>
+            <include href="templates/proc-and-state-filter-conditions.xml"/>
+        </conditions>
+    </filterDescriptor>
+
+
+    <!-- Фильтр "Moй отдел" -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$DocIncome.browse" code="SysFilter.MyDepartment"/>
+            <filterEntity screen="df$DocOutcome.browse" code="SysFilter.MyDepartment"/>
+            <filterEntity screen="df$DocInternal.browse" code="SysFilter.MyDepartment"/>
+            <filterEntity screen="df$SimpleDoc.browse" code="SysFilter.MyDepartment"/>
+            <filterEntity screen="df$MeetingDoc.browse" code="SysFilter.MyDepartment"/>
+            <filterEntity screen="df$Doc.browse" code="SysFilter.MyDepartment"/>
+            <filterEntity screen="df$Contract.browse" code="SysFilter.MyDepartment"/>
+            <filterEntity screen="df$AccountDoc.browse" code="SysFilter.MyDepartment"/>
+            <filterEntity screen="df$PackageDoc.browse" code="SysFilter.MyDepartment"/>
+        </filterEntities>
+        <conditions>
+            <include href="templates/my-department-filter-conditions.xml"/>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр "По содержимому" -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$DocIncome.browse" code="Doc.SysFilter.ByContent"/>
+            <filterEntity screen="df$DocOutcome.browse" code="Doc.SysFilter.ByContent"/>
+            <filterEntity screen="df$DocInternal.browse" code="Doc.SysFilter.ByContent"/>
+            <filterEntity screen="df$Doc.browse" code="Doc.SysFilter.ByContent"/>
+            <filterEntity screen="df$SimpleDoc.browse" code="Doc.SysFilter.ByContent"/>
+            <filterEntity screen="df$MeetingDoc.browse" code="Doc.SysFilter.ByContent"/>
+            <filterEntity screen="df$AccountDoc.browse" code="Doc.SysFilter.ByContent"/>
+            <filterEntity screen="df$PackageDoc.browse" code="Doc.SysFilter.ByContent"/>
+        </filterEntities>
+        <conditions>
+            <include href="templates/by-content-filter-conditions.xml"/>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр "По рег. номеру" -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$DocIncome.browse" code="Doc.SysFilter.ByRegistrationNumber"/>
+            <filterEntity screen="df$DocOutcome.browse" code="Doc.SysFilter.ByRegistrationNumber"/>
+            <filterEntity screen="df$DocInternal.browse" code="Doc.SysFilter.ByRegistrationNumber"/>
+            <filterEntity screen="df$Doc.browse" code="Doc.SysFilter.ByRegistrationNumber"/>
+            <filterEntity screen="df$SimpleDoc.browse" code="Doc.SysFilter.ByRegistrationNumber"/>
+            <filterEntity screen="df$AccountDoc.browse" code="Doc.SysFilter.ByRegistrationNumber"/>
+        </filterEntities>
+        <conditions>
+            <include href="templates/registration-number-filter-conditions.xml"/>
+        </conditions>
+    </filterDescriptor>
+
+    <!--Фильтр "Ответ зарегистрирован -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$DocIncome.browse" code="Doc.SysFilter.ResponseRegistered"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="responseDate" class="java.lang.Boolean"
+                       caption="msg://com.haulmont.thesis.core.entity/DocOfficeData.responseDate" type="CUSTOM"
+                       entityAlias="d">((true=:component$genericFilter.responseDate77273 and
+                        d.docOfficeData.responseDate is not null) or (false=:component$genericFilter.responseDate77273
+                        and d.docOfficeData.responseDate is null))
+                        <param name="component$genericFilter.responseDate77273" javaClass="java.lang.Boolean">
+                            true
+                        </param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по состоянию публикации на портале -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$DocIncome.browse" code="Doc.SysFilter.OnPortalPublished"/>
+            <filterEntity screen="df$DocOutcome.browse" code="Doc.SysFilter.OnPortalPublished"/>
+            <filterEntity screen="df$DocInternal.browse" code="Doc.SysFilter.OnPortalPublished"/>
+            <filterEntity screen="df$AccountDoc.browse" code="Doc.SysFilter.OnPortalPublished"/>
+        </filterEntities>
+        <conditions>
+            <include href="templates/doc-published-on-portal-conditions.xml"/>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр отправленных с портала документов -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$DocIncome.browse" code="Doc.SysFilter.FromPortal"/>
+            <filterEntity screen="df$DocOutcome.browse" code="Doc.SysFilter.FromPortal"/>
+            <filterEntity screen="df$DocInternal.browse" code="Doc.SysFilter.FromPortal"/>
+            <filterEntity screen="df$AccountDoc.browse" code="AccountDoc.SysFilter.FromPortal"/>
+        </filterEntities>
+        <conditions>
+            <include href="templates/docs-from-portal-conditions.xml"/>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Зарегистрированы за последние N дней -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$SimpleDoc.browse" code="SimpleDoc.SysFilter.RegisteredLastNDays"/>
+            <filterEntity screen="df$AccountDoc.browse" code="AccountDoc.SysFilter.RegisteredLastNDays"/>
+        </filterEntities>
+        <conditions>
+            <include href="templates/registered-last-N-days-conditions.xml"/>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по указанным адресатам -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$Doc.browse" code="SysFilter.ListDocOnAddressees"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="listDocOnAddressees" caption="msg://SysFilter.ListDocOnAddressees" unary="true"
+                       hidden="true" type="CUSTOM">
+                        d.docOfficeData.sender.id in :param$sendersId
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по указанному отправителю -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$Doc.browse" code="SysFilter.ListDocOnSender"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="listDocOnSender" caption="msg://SysFilter.ListDocOnSender" unary="true"
+                       hidden="true" type="CUSTOM" join="join d.docOfficeData.docOfficeDataAddressees a">
+                        a.addressee.name like :param$nameAddresses
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по состоянию публикации на портале -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$SimpleDoc.browse" code="SimpleDoc.SysFilter.OnPortalPublished"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="portalPublishState" class="com.haulmont.thesis.core.enums.PortalPublishState"
+                       caption="msg://com.haulmont.thesis.core.entity/SimpleDoc.portalPublishState" required="false"
+                       type="PROPERTY" operatorType="EQUAL">
+                        d.portalPublishState = :component$genericFilter.portalPublishState00006
+                        <param name="component$genericFilter.portalPublishState00006"
+                               javaClass="com.haulmont.thesis.core.enums.PortalPublishState">
+                            NULL
+                        </param>
+                    </c>
+                    <c name="portalPublishState" class="com.haulmont.thesis.core.enums.PortalPublishState"
+                       caption="msg://com.haulmont.thesis.core.entity/SimpleDoc.portalPublishState" unary="true"
+                       hidden="true" type="PROPERTY" operatorType="NOT_EMPTY">
+                        d.portalPublishState is not null
+                        <param name="component$genericFilter.portalPublishState22615" javaClass="java.lang.Boolean">
+                            true
+                        </param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр отправленных с портала документов -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$SimpleDoc.browse" code="SimpleDoc.SysFilter.FromPortal"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="portalAuthorEmail" class="java.lang.String"
+                       caption="msg://com.haulmont.thesis.core.entity/SimpleDoc.portalAuthorEmail" type="PROPERTY"
+                       operatorType="CONTAINS">
+                        d.portalAuthorEmail like :component$genericFilter.portalAuthorEmail64557
+                        <param name="component$genericFilter.portalAuthorEmail64557" javaClass="java.lang.String">
+                            NULL
+                        </param>
+                    </c>
+                    <c name="portalAuthorName" class="java.lang.String"
+                       caption="msg://com.haulmont.thesis.core.entity/SimpleDoc.portalAuthorName" type="PROPERTY"
+                       operatorType="CONTAINS">
+                        d.portalAuthorName like :component$genericFilter.portalAuthorName92274
+                        <param name="component$genericFilter.portalAuthorName92274" javaClass="java.lang.String">
+                            NULL
+                        </param>
+                    </c>
+                    <c name="bUIeBSsdch" class="java.lang.Boolean" hidden="true" required="true" type="CUSTOM"
+                       locCaption="С портала" entityAlias="d">
+                        {E}.fromPortal = :component$genericFilter.bUIeBSsdch66068
+                        <param name="component$genericFilter.bUIeBSsdch66068" javaClass="java.lang.Boolean">
+                            true
+                        </param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по категории договора -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$Contract.browse" code="Contract.SysFilter.ByContractCategory"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="category" class="com.haulmont.thesis.core.entity.DocCategory" caption="msg://docCategory"
+                       paramWhere="{E}.docType.name = 'df$Contract'" type="CUSTOM" entityAlias="d">
+                        d.docCategory.id = :component$genericFilter.category84606
+                        <param name="component$genericFilter.category84606">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по контрагенту -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$Contract.browse" code="Contract.SysFilter.ByContractor"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="contractor" class="com.haulmont.thesis.core.entity.Contractor"
+                       caption="msg://com.haulmont.thesis.core.entity/Contract.contractor"
+                       type="PROPERTY">
+                        d.contractor.id = :component$genericFilter.contractor73473
+                        <param name="component$genericFilter.contractor73473">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по сумме -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$Contract.browse" code="Contract.SysFilter.BySum"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="amount" class="java.math.BigDecimal"
+                       caption="msg://com.haulmont.thesis.core.entity/Contract.amount" type="PROPERTY">
+                        d.amount &gt; :component$genericFilter.amount69467
+                        <param name="component$genericFilter.amount69467">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по описанию -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$Contract.browse" code="Contract.SysFilter.ByDescription"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="comment" class="java.lang.String"
+                       caption="msg://com.haulmont.workflow.core.entity/Card.description" type="PROPERTY">
+                        d.comment like :component$genericFilter.description64548
+                        <param name="component$genericFilter.description64548">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Заключены за последние N дней -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$Contract.browse" code="Contract.SysFilter.createdLastNDays"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="concludedLastNDays" class="java.lang.Integer" caption="msg://numberDays" type="CUSTOM">
+                        @between({E}.liabilityStart, now - :component$genericFilter.registeredLastNDays40672 + 1,
+                        now + 1, day)
+                        <param name="component$genericFilter.registeredLastNDays40672"/>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по имени шаблона -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$SimpleDoc.templateBrowse" code="SimpleDocTemplate.SysFilter.TemplateName"/>
+            <filterEntity screen="df$Contract.templateBrowse" code="ContractTemplate.SysFilter.TemplateName"/>
+            <filterEntity screen="df$AccountDoc.templateBrowse" code="AccountDocTemplate.SysFilter.TemplateName"/>
+        </filterEntities>
+        <conditions>
+            <include href="templates/template-name-filter-conditions.xml"/>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр "Закрытые дела" -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$OfficeFile.browse" code="OfficeFile.SysFilter.ClosedFiles"/>
+            <filterEntity screen="df$OfficeFile.lookup" code="OfficeFile.SysFilter.ClosedFiles"/>
+            <filterEntity componentId="ts$ArchivistWorkplace.genericFilter" code="OfficeFile.SysFilter.ClosedFiles"/>
+        </filterEntities>
+        <conditions>
+            <include href="templates/closed-files-filter-conditions.xml"/>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр "В архиве" -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity componentId="ts$ArchivistWorkplace.genericFilter" code="OfficeFile.SysFilter.Archived"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="state" class="com.haulmont.thesis.core.enums.OfficeFileState" hidden="true"
+                       type="PROPERTY" operatorType="EQUAL">
+                        o.state = :component$genericFilter.state49708
+                        <param name="component$genericFilter.state49708">ARCHIVED</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр "Открытые дела" -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$OfficeFile.browse" code="OfficeFile.SysFilter.OpenedFiles"/>
+            <filterEntity screen="df$OfficeFile.lookup" code="OfficeFile.SysFilter.OpenedFiles"/>
+            <filterEntity componentId="ts$ArchivistWorkplace.genericFilter" code="OfficeFile.SysFilter.OpenedFiles"/>
+        </filterEntities>
+        <conditions>
+            <include href="templates/opened-files-filter-conditions.xml"/>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр "Переданные в архив" -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity componentId="ts$ArchivistWorkplace.genericFilter"
+                          code="OfficeFile.SysFilter.PassedToArchives"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="state" class="com.haulmont.thesis.core.enums.OfficeFileState" hidden="true"
+                       type="PROPERTY" operatorType="EQUAL">
+                        o.state = :component$genericFilter.state49708
+                        <param name="component$genericFilter.state49708">IN_ARCHIVE_REQUEST</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр "Уничтоженные дела" -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity componentId="ts$ArchivistWorkplace.genericFilter"
+                          code="OfficeFile.SysFilter.ObliteratedFiles"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="state" class="com.haulmont.thesis.core.enums.OfficeFileState" hidden="true"
+                       type="PROPERTY" operatorType="EQUAL">
+                        o.state = :component$genericFilter.state49708
+                        <param name="component$genericFilter.state49708">DESTROYED</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по наименованию -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$OfficeFile.browse" code="OfficeFile.SysFilter.TomNameIndex"/>
+            <filterEntity screen="df$OfficeFile.lookup" code="OfficeFile.SysFilter.TomNameIndex"/>
+        </filterEntities>
+        <conditions>
+            <include href="templates/tome-name-filter-conditions.xml"/>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по фамилии сотрудника-->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$Employee.browse" code="Employee.SysFilter.ByLastName"
+                          componentId="frame.genericFilter"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="lastName" class="java.lang.String"
+                       caption="msg://com.haulmont.thesis.core.entity/Employee.lastName"
+                       type="PROPERTY">e.lastName like :component$genericFilter.lastName47161
+                        <param name="component$genericFilter.lastName47161">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по подразделению-->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$Employee.browse" code="Employee.SysFilter.ByDepartment"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="department" class="com.haulmont.thesis.core.entity.Department" caption="msg://department"
+                       type="CUSTOM" entityAlias="e" join="join e.employeeDepartmentPositionRelations edpr">
+                        edpr.department.id = :component$genericFilter.department21483
+                        <param name="component$genericFilter.department21483"
+                               javaClass="com.haulmont.thesis.core.entity.Department">
+                            NULL
+                        </param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по ИНН-->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$Company.browse" code="Company.SysFilter.ByTIN"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="inn" class="java.lang.String"
+                       caption="msg://com.haulmont.thesis.core.entity/Contractor.inn"
+                       type="PROPERTY">
+                        c.inn like :component$genericFilter.inn01256
+                        <param name="component$genericFilter.inn01256">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по наименованию-->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$Company.browse" code="Company.SysFilter.ByName"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="name" class="java.lang.String"
+                       caption="msg://com.haulmont.thesis.core.entity/Correspondent.name" type="PROPERTY">
+                        c.name like :component$genericFilter.name91689
+                        <param name="component$genericFilter.name91689">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по фамилии -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$Individual.browse" code="Individual.SysFilter.ByLastName"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="lastName" class="java.lang.String"
+                       caption="msg://com.haulmont.thesis.core.entity/Individual.lastName" type="PROPERTY">
+                        c.lastName like :component$genericFilter.lastName60198
+                        <param name="component$genericFilter.lastName60198">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по БИК -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$Bank.browse" code="Bank.SysFilter.ByBIC"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="bik" class="java.lang.String" caption="msg://com.haulmont.thesis.core.entity/Bank.bik"
+                       type="PROPERTY">
+                        b.bik like :component$genericFilter.bik35752
+                        <param name="component$genericFilter.bik35752">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по логину -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="sec$User.browse" code="User.SysFilter.ByLogin"/>
+            <filterEntity screen="sec$User.lookup" code="User.SysFilter.ByLogin"/>
+        </filterEntities>
+        <conditions>
+            <include href="templates/user-login-filter-conditions.xml"/>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по фамилии -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="sec$User.browse" code="User.SysFilter.ByLastName"/>
+            <filterEntity screen="sec$User.lookup" code="User.SysFilter.ByLastName"/>
+        </filterEntities>
+        <conditions>
+            <include href="templates/user-last-name-filter-conditions.xml"/>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по роли -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="sec$User.browse" code="User.SysFilter.ByRole"/>
+            <filterEntity screen="sec$User.lookup" code="User.SysFilter.ByRole"/>
+        </filterEntities>
+        <conditions>
+            <include href="templates/user-role-filter-conditions.xml"/>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по типу файла-->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="core$FileDescriptor.browse" code="FileDescriptor.SysFilter.ByFileKind"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="extension" class="java.lang.String"
+                       caption="msg://com.haulmont.cuba.core.entity/FileDescriptor.extension" type="PROPERTY">
+                        f.extension like :component$genericFilter.extension79925
+                        <param name="component$genericFilter.extension79925">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по логину пользователя-->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$UserSubstitution.browse" code="UserSubstitution.SysFilter.ByUserLogin"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="user.login" class="java.lang.String"
+                       caption="msg://com.haulmont.thesis.web.ui.usersubstitution/userLogin" type="PROPERTY">
+                        s.user.login like :component$genericFilter.userLogin28356
+                        <param name="component$genericFilter.userLogin28356">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по фамилии пользователя-->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$UserSubstitution.browse" code="UserSubstitution.SysFilter.ByUserLastName"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="user.lastName" class="java.lang.String"
+                       caption="msg://com.haulmont.thesis.web.ui.usersubstitution/userLastName" type="PROPERTY">
+                        s.user.lastName like :component$genericFilter.userLastName51727
+                        <param name="component$genericFilter.userLastName51727">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по логину замещаемого -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$UserSubstitution.browse"
+                          code="UserSubstitution.SysFilter.ByUserSubstitutionLogin"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="substitutedUser.login" class="java.lang.String" type="PROPERTY"
+                       caption="msg://com.haulmont.thesis.web.ui.usersubstitution/userSubstitutionLogin">
+                        s.substitutedUser.login like :component$genericFilter.userSubstitutionLogin35143
+                        <param name="component$genericFilter.userSubstitutionLogin35143">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по фамилии замещаемого -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="df$UserSubstitution.browse"
+                          code="UserSubstitution.SysFilter.ByUserSubstitutionLastName"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="substitutedUser.lastName" class="java.lang.String"
+                       caption="msg://com.haulmont.thesis.web.ui.usersubstitution/userSubstitutionLastName"
+                       type="PROPERTY">
+                        s.substitutedUser.lastName like :component$genericFilter.userSubstitutionLastName33084
+                        <param name="component$genericFilter.userSubstitutionLastName33084">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по пользователям в ролях -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="tm$Task.browse" code="Doc.SysFilter.ProcessRoleUser"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="BoIbcXLzKb" class="com.haulmont.workflow.core.entity.ProcRole"
+                       caption="msg://com.haulmont.cuba.security.entity/Role"
+                       paramWhere="e.proc.jbpmProcessKey = 'TaskManagement' and e.invisible = false" type="CUSTOM"
+                       entityAlias="t" join="join t.roles cr">cr.procRole.id = :component$genericFilter.BoIbcXLzKb85654
+                        <param name="component$genericFilter.BoIbcXLzKb85654">NULL</param>
+                    </c>
+                    <c name="YSDflOMtJr" class="com.haulmont.thesis.core.entity.TsUser"
+                       caption="msg://com.haulmont.cuba.security.entity/User"
+                       paramWhere="{E}.id in (select ur.user.id from sec$UserRole ur where ur.role.id = 
+                        (select pr.role.id from wf$ProcRole pr where pr.id = :component$genericFilter.BoIbcXLzKb85654)
+                        or not exists (select pr.role.id from wf$ProcRole pr where pr.id = :component$genericFilter.BoIbcXLzKb85654))"
+                       type="CUSTOM" entityAlias="t" join="join {E}.roles cr join cr.user u">u.id =
+                        :component$genericFilter.YSDflOMtJr83241
+                        <param name="component$genericFilter.YSDflOMtJr83241">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по инициатору -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="tm$Task.browse" code="Task.SysFilter.ByInitiator"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="initiator" class="com.haulmont.thesis.core.entity.TsUser"
+                       caption="msg://com.haulmont.thesis.core.entity/Task.initiator" type="PROPERTY">t.initiator.id =
+                        :component$genericFilter.initiator94306
+                        <param name="component$genericFilter.initiator94306">NULL</param>
+                    </c>
+                    <c name="finishDateTimePlan" class="java.util.Date"
+                       caption="msg://com.haulmont.thesis.core.entity/AbstractTask.finishDateTimePlan" type="PROPERTY">
+                        t.finishDateTimePlan &gt;= :component$genericFilter.finishDateTimePlan75204
+                        <param name="component$genericFilter.finishDateTimePlan75204">NULL</param>
+                    </c>
+                    <c name="finishDateTimePlan" class="java.util.Date"
+                       caption="msg://com.haulmont.thesis.core.entity/AbstractTask.finishDateTimePlan" type="PROPERTY">
+                        t.finishDateTimePlan &lt;= :component$genericFilter.finishDateTimePlan59728
+                        <param name="component$genericFilter.finishDateTimePlan59728">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!-- Фильтр по исполнителю -->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="tm$Task.browse" code="Task.SysFilter.ByExecutor"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="executor" class="com.haulmont.thesis.core.entity.TsUser"
+                       caption="msg://com.haulmont.thesis.core.entity/Task.executor" type="CUSTOM"
+                       join="join t.roles r">r.code='20-Executor' and
+                        :component$genericFilter.executor33522 = r.user.id
+                        <param name="component$genericFilter.executor33522">NULL</param>
+                    </c>
+                    <c name="finishDateFact" class="java.util.Date"
+                       caption="msg://com.haulmont.thesis.core.entity/AbstractTask.finishDateFact" type="PROPERTY">
+                        t.finishDateFact &gt;= :component$genericFilter.finishDateFact46388
+                        <param name="component$genericFilter.finishDateFact46388">NULL</param>
+                    </c>
+                    <c name="finishDateFact" class="java.util.Date"
+                       caption="msg://com.haulmont.thesis.core.entity/AbstractTask.finishDateFact" type="PROPERTY">
+                        t.finishDateFact &lt;= :component$genericFilter.finishDateFact21667
+                        <param name="component$genericFilter.finishDateFact21667">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!--Фильтр по полному описанию-->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="tm$Task.browse" code="Task.SysFilter.ByFullDescription"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="fullDescr" class="java.lang.String"
+                       caption="msg://com.haulmont.thesis.core.entity/AbstractTask.fullDescr" type="PROPERTY">
+                        t.fullDescr like :component$genericFilter.fullDescr40544
+                        <param name="component$genericFilter.fullDescr40544">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!--Фильтр по группе задач-->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="tm$Task.browse" code="Task.SysFilter.ByTasksGroup"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="taskBelongsToGroup" class="com.haulmont.thesis.core.entity.TaskGroup"
+                       caption="msg://taskBelongsToGroup" paramWhere="e.template = false" type="CUSTOM" entityAlias="t">
+                        t.id in (select tgt.task.id from tm$TaskGroupTask tgt where tgt.taskGroup.id =
+                        :component$genericFilter.taskBelongsToGroup89414)
+                        <param name="component$genericFilter.taskBelongsToGroup89414">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!--Фильтр Мой отдел-->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="tm$Task.browse" code="SysFilter.MyDepartment"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="taskState" class="com.haulmont.thesis.core.enums.TaskState" caption="msg://Task.state"
+                       type="CUSTOM" entityAlias="t">t.state like :component$genericFilter.taskState40670
+                        <param name="component$genericFilter.taskState40670"
+                               javaClass="com.haulmont.thesis.core.enums.TaskState">NULL
+                        </param>
+                    </c>
+                    <c name="myDepartment" caption="msg://SysFilter.MyDepartment" unary="true" hidden="true"
+                       type="CUSTOM" entityAlias="t" join="join t.roles cr">(cr.user.id = :session$userId OR
+                        t.substitutedCreator.id = :session$userId OR exists(select em from df$Employee em where
+                        em.user.id = cr.user.id and em.department.id in :session$departmentIds))
+                        <param name="component$genericFilter.MyDepartment90982">true</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!--Срок выполнения истекает через N дней-->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="tm$Task.browse" code="Task.SysFilter.ToBeDoneInNDays"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="toBeDoneInNDays" class="java.lang.Integer" caption="msg://numberDays" type="CUSTOM">
+                        @between({E}.finishDatePlan, now, now + :component$genericFilter.toBeDone40670 + 1, day)
+                        <param name="component$genericFilter.toBeDone40670"/>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!--Фильтр по имени шаблона-->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="tm$TaskPattern.browse" code="TaskPattern.SysFilter.ByTemplateName"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="patternName" class="java.lang.String"
+                       caption="msg://com.haulmont.thesis.core.entity/TaskPattern.patternName" type="PROPERTY">
+                        tp.patternName like :component$genericFilter.patternName35683
+                        <param name="component$genericFilter.patternName35683">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+    <!--Фильтр по имени шаблона группы задач-->
+    <filterDescriptor>
+        <filterEntities>
+            <filterEntity screen="tm$TaskGroupPattern.browse" code="TaskGroupPattern.SysFilter.ByTemplateName"/>
+        </filterEntities>
+        <conditions>
+            <filter>
+                <and>
+                    <c name="templateName" class="java.lang.String"
+                       caption="msg://com.haulmont.thesis.core.entity/TaskGroup.templateName" type="PROPERTY">
+                        tg.templateName like :component$genericFilter.templateName49253
+                        <param name="component$genericFilter.templateName49253">NULL</param>
+                    </c>
+                </and>
+            </filter>
+        </conditions>
+    </filterDescriptor>
+
+</filters>

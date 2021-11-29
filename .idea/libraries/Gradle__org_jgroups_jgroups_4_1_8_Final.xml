@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jgroups:jgroups:4.1.8.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.jgroups/jgroups/4.1.8.Final/4e86a1f93472d2bce30fc46b5d50e970dd3e5b94/jgroups-4.1.8.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.jgroups/jgroups/4.1.8.Final/59704d060d87c8f15a68133e02bdfa95adf9f808/jgroups-4.1.8.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

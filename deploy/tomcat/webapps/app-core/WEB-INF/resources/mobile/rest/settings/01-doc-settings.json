@@ -1,0 +1,288 @@
+{
+  "name": "Документ",
+  "entity_name": "df$SimpleDoc",
+  "properties": [
+    {
+      "property": "resolution",
+      "required": false,
+      "readonly": true,
+      "additional_info": false,
+      "multi_line": true,
+      "loc_name": {
+        "ru": "Резолюция",
+        "en": "Resolution"
+      }
+    },
+    {
+      "property": "finishDatePlan",
+      "required": false,
+      "readonly": true,
+      "additional_info": false,
+      "loc_name": {
+        "ru": "Срок исполнения",
+        "en": "Finish date"
+      }
+    },
+    {
+      "property": "cardInitiator",
+      "required": false,
+      "readonly": true,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Инициатор",
+        "en": "Initiator"
+      }
+    },
+    {
+      "property": "number",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "multi_line": false,
+      "loc_name": {
+        "ru": "Номер",
+        "en": "Number"
+      }
+    },
+    {
+      "property": "date",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "loc_name": {
+        "ru": "Дата",
+        "en": "Date"
+      }
+    },
+    {
+      "property": "theme",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "multi_line": false,
+      "loc_name": {
+        "ru": "Тема",
+        "en": "Theme"
+      }
+    },
+    {
+      "property": "organization",
+      "required": false,
+      "readonly": false,
+      "additional_info": true,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Организация",
+        "en": "Organization"
+      }
+    },
+    {
+      "property": "department",
+      "required": false,
+      "readonly": false,
+      "additional_info": true,
+      "detailed_info": false,
+      "query_filter": "e.organization.id \u003d :organization",
+      "loc_name": {
+        "ru": "Подразделение",
+        "en": "Department"
+      }
+    },
+    {
+      "property": "contractor",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Контрагент",
+        "en": "Contractor"
+      },
+      "types_to_select": [
+        "df$Company",
+        "df$Individual"
+      ]
+    },
+    {
+      "property": "parentCard",
+      "required": false,
+      "readonly": true,
+      "additional_info": true,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Основание",
+        "en": "Parent card"
+      }
+    },
+    {
+      "property": "docCategory",
+      "required": false,
+      "readonly": false,
+      "additional_info": true,
+      "detailed_info": false,
+      "query_filter": "(e.docKind.id \u003d :kindId or e.docKind is null) and (e.docType.name\u003d :entityName)",
+      "loc_name": {
+        "ru": "Категория",
+        "en": "Category"
+      }
+    },
+    {
+      "property": "docSender",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "loc_name": {
+        "ru": "От",
+        "en": "Send from"
+      }
+    },
+    {
+      "property": "docReceiver",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "loc_name": {
+        "ru": "Кому",
+        "en": "Send to"
+      }
+    },
+    {
+      "property": "docCopyReceiver",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "loc_name": {
+        "ru": "Копия",
+        "en": "Send copy to"
+      }
+    },
+    {
+      "property": "owner",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "loc_name": {
+        "ru": "Куратор",
+        "en": "Manager"
+      }
+    },
+    {
+      "property": "comment",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "multi_line": true,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Содержание",
+        "en": "Comment"
+      }
+    },
+    {
+      "property": "orderCause",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "multi_line": true,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Основание для приказа",
+        "en": "Authorizing document"
+      }
+    },
+    {
+      "property": "orderText",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "multi_line": true,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Текст приказа",
+        "en": "Body of the order"
+      }
+    },
+    {
+      "property": "docOfficeData.docOfficeDataAddressees",
+      "required": false,
+      "readonly": true,
+      "additional_info": false,
+      "detailed_info": false,
+      "description_script": "String title \u003d entity.getInstanceName()\r\nString rowChar \u003d title ? title.charAt(0).toUpperCase() : \"\"\r\nString description \u003d \"\u003crowIcon\u003e$rowChar\u003c/rowIcon\u003e\";\r\nif (title)\r\n    description +\u003d \"\u003cp\u003e\u003cb\u003e$title\u003c/b\u003e\u003c/p\u003e\"\r\nif (entity.officeContactPersonTo)\r\n    description +\u003d \"\u003cp\u003e$entity.officeContactPersonTo.instanceName\u003c/p\u003e\"\r\nreturn description ",
+      "composition_properties": [
+        {
+          "property": "addressee",
+          "required": false,
+          "readonly": true,
+          "additional_info": false,
+          "detailed_info": false,
+          "loc_name": {
+            "ru": "Адресат",
+            "en": "Addressee"
+          }
+        },
+        {
+          "property": "officeContactPersonTo",
+          "required": false,
+          "readonly": true,
+          "additional_info": false,
+          "detailed_info": false,
+          "loc_name": {
+            "ru": "Контактное лицо",
+            "en": "Contact person"
+          }
+        }
+      ],
+      "loc_name": {
+        "ru": "Адресаты",
+        "en": "Addressees"
+      }
+    },
+    {
+      "property": "docOfficeData.sender",
+      "required": false,
+      "readonly": true,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Отправитель",
+        "en": "Sender"
+      }
+    },
+    {
+      "property": "signedBy",
+      "required": false,
+      "readonly": true,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Подписано кем",
+        "en": "Signed by"
+      }
+    },
+    {
+      "property": "project",
+      "required": false,
+      "readonly": true,
+      "additional_info": true,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Проект",
+        "en": "Project"
+      }
+    },
+    {
+      "property": "availableForAll",
+      "required": false,
+      "readonly": false,
+      "additional_info": true,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Документ доступен всем",
+        "en": "Document is available for all"
+      }
+    }
+  ]
+}

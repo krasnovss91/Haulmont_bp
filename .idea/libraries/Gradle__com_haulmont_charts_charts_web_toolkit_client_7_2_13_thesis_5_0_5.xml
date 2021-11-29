@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.haulmont.charts:charts-web-toolkit:client:7.2.13-thesis-5.0.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.charts/charts-web-toolkit/7.2.13-thesis-5.0.5/33c6ed968bd6db0e30858994d92817645b5aebc9/charts-web-toolkit-7.2.13-thesis-5.0.5-client.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.charts/charts-web-toolkit/7.2.13-thesis-5.0.5/768118e596a1357312350c7a6e4d92f2f09f6eec/charts-web-toolkit-7.2.13-thesis-5.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.artofsolving.jodconverter:jodconverter-core:3.7.3.haulmont">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.artofsolving.jodconverter/jodconverter-core/3.7.3.haulmont/b4c709ad2dcd9d6687a6c9f5c392e6afc411ae0b/jodconverter-core-3.7.3.haulmont.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.artofsolving.jodconverter/jodconverter-core/3.7.3.haulmont/1ed12253686b301e6dd13cef24dcf60587173cd9/jodconverter-core-3.7.3.haulmont-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

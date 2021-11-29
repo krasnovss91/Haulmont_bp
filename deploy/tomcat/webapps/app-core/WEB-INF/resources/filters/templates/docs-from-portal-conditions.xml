@@ -1,0 +1,25 @@
+<!--
+  ~ Copyright (c) 2019 LTD Haulmont Samara. All Rights Reserved.
+  ~ Haulmont Samara proprietary and confidential.
+  ~ Use is subject to license terms.
+  -->
+
+<filter>
+    <and>
+        <c name="SuTGdWhtOW" class="java.lang.Boolean" hidden="true" required="true" type="CUSTOM"
+           locCaption="Документ с портала" entityAlias="d" join=", df$SimpleDoc s">
+            {E}.id = s.id and s.fromPortal = :component$genericFilter.SuTGdWhtOW45651
+            <param name="component$genericFilter.SuTGdWhtOW45651" javaClass="java.lang.Boolean">true</param>
+        </c>
+        <c name="rwGNwZjKDu" class="java.lang.String" type="CUSTOM"
+           caption="msg://com.haulmont.thesis.core.entity/SimpleDoc.portalAuthorNameContains" entityAlias="d"
+           join=", df$SimpleDoc s">s.portalAuthorName like :component$genericFilter.rwGNwZjKDu28709
+            <param name="component$genericFilter.rwGNwZjKDu28709" javaClass="java.lang.String">NULL</param>
+        </c>
+        <c name="rAcPiGPmms" class="java.lang.String" type="CUSTOM"
+           caption="msg://com.haulmont.thesis.core.entity/SimpleDoc.portalAuthorEmailContains" entityAlias="d"
+           join=", df$SimpleDoc s">s.portalAuthorEmail like :component$genericFilter.rAcPiGPmms57049
+            <param name="component$genericFilter.rAcPiGPmms57049" javaClass="java.lang.String">NULL</param>
+        </c>
+    </and>
+</filter>

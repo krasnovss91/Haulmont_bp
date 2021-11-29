@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.docx4j:docx4j-JAXB-ReferenceImpl:8.1.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.docx4j/docx4j-JAXB-ReferenceImpl/8.1.6/3872c98936a6bf2c80bde158191bfddfdadc5444/docx4j-JAXB-ReferenceImpl-8.1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.docx4j/docx4j-JAXB-ReferenceImpl/8.1.6/177c8990ac8e2ee1b519cb4de1e8ce8447862ebf/docx4j-JAXB-ReferenceImpl-8.1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

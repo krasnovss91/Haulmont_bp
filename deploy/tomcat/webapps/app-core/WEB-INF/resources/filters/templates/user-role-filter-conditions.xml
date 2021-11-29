@@ -1,0 +1,15 @@
+<!--
+  ~ Copyright (c) 2019 LTD Haulmont Samara. All Rights Reserved.
+  ~ Haulmont Samara proprietary and confidential.
+  ~ Use is subject to license terms.
+  -->
+
+<filter>
+    <and>
+        <c name="customByRole" class="com.haulmont.cuba.security.entity.Role" caption="msg://genericFilter.customByRole"
+           type="CUSTOM" entityAlias="u" join="left join u.userRoles ur">
+            (ur.role.id = :component$genericFilter.customByRole62725)
+            <param name="component$genericFilter.customByRole62725">NULL</param>
+        </c>
+    </and>
+</filter>

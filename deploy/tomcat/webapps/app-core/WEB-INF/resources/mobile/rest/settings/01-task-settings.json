@@ -1,0 +1,151 @@
+{
+  "name": "Задача",
+  "entity_name": "tm$Task",
+  "properties": [
+    {
+      "property": "initiator",
+      "required": false,
+      "readonly": true,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Инициатор",
+        "en": "Initiator"
+      }
+    },
+    {
+      "property": "executor",
+      "required": false,
+      "readonly": true,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Исполнитель",
+        "en": "Executor"
+      }
+    },
+    {
+      "property": "taskName",
+      "required": true,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "multi_line": false,
+      "loc_name": {
+        "ru": "Название",
+        "en": "Name"
+      }
+    },
+    {
+      "property": "finishDateTimePlan",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Выполнить до",
+        "en": "Complete due"
+      }
+    },
+    {
+      "property": "taskType",
+      "readonly": true,
+      "required": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Тип задачи",
+        "en": "Task type"
+      }
+    },
+    {
+      "property": "priority",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Приоритет",
+        "en": "Priority"
+      }
+    },
+    {
+      "property": "parentCard",
+      "required": false,
+      "readonly": true,
+      "additional_info": true,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Основание",
+        "en": "Parent card"
+      }
+    },
+    {
+      "property": "primaryTask",
+      "required": false,
+      "readonly": true,
+      "additional_info": true,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Зависит от",
+        "en": "Depends on"
+      }
+    },
+    {
+      "property": "reassignEnabled",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Переназначение возможно",
+        "en": "Reassign enabled"
+      }
+    },
+    {
+      "property": "refuseEnabled",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Отказ возможен",
+        "en": "Refuse enabled"
+      }
+    },
+    {
+      "property": "confirmRequired",
+      "required": false,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Не требует подтверждения выполнения",
+        "en": "Does not require completion confirmation"
+      }
+    },
+    {
+      "property": "fullDescr",
+      "required": false,
+      "multi_line": true,
+      "readonly": false,
+      "additional_info": false,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Полное описание",
+        "en": "Full description"
+      }
+    },
+    {
+      "property": "project",
+      "required": false,
+      "readonly": true,
+      "additional_info": true,
+      "detailed_info": false,
+      "loc_name": {
+        "ru": "Проект",
+        "en": "Project"
+      }
+    }
+  ]
+}

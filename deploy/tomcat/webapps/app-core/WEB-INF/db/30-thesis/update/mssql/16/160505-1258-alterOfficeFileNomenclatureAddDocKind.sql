@@ -1,0 +1,3 @@
+-- $Id$
+-- Description:
+ALTER TABLE DF_OFFICE_FILE_NOMENCLATURE ADD DOC_KIND varchar(1);

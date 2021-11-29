@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.haulmont.thesis.cryptopro:thesis-cryptopro-global:5.0.8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thesis.cryptopro/thesis-cryptopro-global/5.0.8/967b989dfe1220dee7f0e0eba51c86da9a8e29cd/thesis-cryptopro-global-5.0.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thesis.cryptopro/thesis-cryptopro-global/5.0.8/2a82f19c2e1fb2b3147b27ce8f44799a8d483ae1/thesis-cryptopro-global-5.0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

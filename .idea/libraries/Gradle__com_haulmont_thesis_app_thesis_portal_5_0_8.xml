@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.haulmont.thesis.app:thesis-portal:5.0.8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thesis.app/thesis-portal/5.0.8/94c18963df5b86b09f4750cb4b40eeb09df246eb/thesis-portal-5.0.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.haulmont.thesis.app/thesis-portal/5.0.8/d4e82da2014dd0ecaa635184523b29e198d88bd8/thesis-portal-5.0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
