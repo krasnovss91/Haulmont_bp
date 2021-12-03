@@ -976,3 +976,684 @@ SearchFolders                                            4,5           4        
 Thesis:loadCalendarEvents                                0,8           0           1         0,4           5
 Thesis:loadCardDeadlineInfoTree                          7,2           4          17         4,9           5
 
+Performance Statistics   2021-12-03 13:51:00 - 2021-12-03 13:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                               4,0           4           4         0,0           1
+LoadClass                                                0,0           0           0         0,0           8
+Scheduling.processTasks                                 18,1           5          98        16,9          60
+SearchFolders                                            3,0           3           3         0,0           1
+Thesis:loadCalendarEvents                                1,0           1           1         0,0           1
+Thesis:loadCardDeadlineInfoTree                          5,0           5           5         0,0           1
+
+Performance Statistics   2021-12-03 13:52:00 - 2021-12-03 13:53:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 21,3           5         144        22,6          60
+
+Performance Statistics   2021-12-03 13:53:00 - 2021-12-03 13:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 17,5           5         203        26,9          60
+
+Performance Statistics   2021-12-03 13:54:00 - 2021-12-03 13:55:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 20,7           5          91        17,7          60
+
+Performance Statistics   2021-12-03 13:55:00 - 2021-12-03 13:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 17,1           8          77        11,1          60
+
+Performance Statistics   2021-12-03 13:56:00 - 2021-12-03 13:57:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 27,4           5         266        37,7          60
+
+Performance Statistics   2021-12-03 13:57:00 - 2021-12-03 13:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 40,2           5          98        24,4          60
+
+Performance Statistics   2021-12-03 13:58:00 - 2021-12-03 13:59:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 34,6           9         107        21,2          60
+
+Performance Statistics   2021-12-03 13:59:00 - 2021-12-03 14:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 32,7           5         183        27,0          60
+
+Performance Statistics   2021-12-03 14:00:00 - 2021-12-03 14:01:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 37,6           5         105        26,7          60
+
+Performance Statistics   2021-12-03 14:01:00 - 2021-12-03 14:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              10,0          10          10         0,0           1
+LoadClass                                                0,0           0           0         0,0           3
+Scheduling.processTasks                                 33,9           8         276        40,8          60
+SearchFolders                                            5,0           5           5         0,0           1
+Thesis:loadCalendarEvents                                1,0           1           1         0,0           1
+Thesis:loadCardDeadlineInfoTree                          7,0           7           7         0,0           1
+
+Performance Statistics   2021-12-03 14:02:00 - 2021-12-03 14:03:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0           7
+Scheduling.processTasks                                 22,8           5         198        27,8          60
+
+Performance Statistics   2021-12-03 14:03:00 - 2021-12-03 14:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              11,0          11          11         0,0           1
+LoadClass                                                0,0           0           0         0,0          20
+Scheduling.processTasks                                 28,0          10         197        28,2          60
+SearchFolders                                           23,0          23          23         0,0           1
+Thesis:loadCalendarEvents                                1,0           1           1         0,0           1
+Thesis:loadCardDeadlineInfoTree                          7,0           7           7         0,0           1
+
+Performance Statistics   2021-12-03 14:04:00 - 2021-12-03 14:05:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 25,0           8         185        27,5          60
+
+Performance Statistics   2021-12-03 14:05:00 - 2021-12-03 14:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0           7
+Scheduling.processTasks                                 19,8           5          88        18,4          60
+
+Performance Statistics   2021-12-03 14:06:00 - 2021-12-03 14:07:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 25,1           5          93        21,3          60
+
+Performance Statistics   2021-12-03 14:07:00 - 2021-12-03 14:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 56,2           7        1065       152,7          60
+
+Performance Statistics   2021-12-03 14:08:00 - 2021-12-03 14:09:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 24,7           5         105        21,0          60
+
+Performance Statistics   2021-12-03 14:09:00 - 2021-12-03 14:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 27,8           4         183        32,0          60
+
+Performance Statistics   2021-12-03 14:10:00 - 2021-12-03 14:11:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 18,1           6          74        12,8          60
+
+Performance Statistics   2021-12-03 14:11:00 - 2021-12-03 14:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 18,1           5          85        15,5          60
+
+Performance Statistics   2021-12-03 14:12:00 - 2021-12-03 14:13:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 18,2           8         160        22,3          60
+
+Performance Statistics   2021-12-03 14:13:00 - 2021-12-03 14:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 17,1           5         206        26,2          60
+
+Performance Statistics   2021-12-03 14:14:00 - 2021-12-03 14:15:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 18,2           5         140        21,0          60
+
+Performance Statistics   2021-12-03 14:15:00 - 2021-12-03 14:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 15,7          10          71         8,5          60
+
+Performance Statistics   2021-12-03 14:16:00 - 2021-12-03 14:17:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 16,5           7          66        10,2          60
+
+Performance Statistics   2021-12-03 14:17:00 - 2021-12-03 14:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 14,8           5          53         8,5          60
+
+Performance Statistics   2021-12-03 14:18:00 - 2021-12-03 14:19:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 17,5           7          71        11,0          60
+
+Performance Statistics   2021-12-03 14:19:00 - 2021-12-03 14:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 19,4           6          90        16,3          60
+
+Performance Statistics   2021-12-03 14:20:00 - 2021-12-03 14:21:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 18,2           5          79        13,5          60
+
+Performance Statistics   2021-12-03 14:21:00 - 2021-12-03 14:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 20,2           8         120        18,3          60
+
+Performance Statistics   2021-12-03 14:22:00 - 2021-12-03 14:23:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 15,1           4          56        11,3          60
+
+Performance Statistics   2021-12-03 14:23:00 - 2021-12-03 14:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 19,9           4         207        26,9          60
+
+Performance Statistics   2021-12-03 14:24:00 - 2021-12-03 14:25:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 17,4           9          76        10,8          60
+
+Performance Statistics   2021-12-03 14:25:00 - 2021-12-03 14:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 40,5           6         102        24,6          60
+
+Performance Statistics   2021-12-03 14:26:00 - 2021-12-03 14:27:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 41,7           5         114        25,4          60
+
+Performance Statistics   2021-12-03 14:27:00 - 2021-12-03 14:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 37,6           7         101        25,3          60
+
+Performance Statistics   2021-12-03 14:28:00 - 2021-12-03 14:29:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 37,1           5          80        22,4          60
+
+Performance Statistics   2021-12-03 14:29:00 - 2021-12-03 14:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 42,0          10         361        53,1          60
+
+Performance Statistics   2021-12-03 14:30:00 - 2021-12-03 14:31:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 41,9           8         384        65,3          60
+
+Performance Statistics   2021-12-03 14:31:00 - 2021-12-03 14:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 28,2           5          97        25,5          60
+
+Performance Statistics   2021-12-03 14:32:00 - 2021-12-03 14:33:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 23,8           9         153        25,5          60
+
+Performance Statistics   2021-12-03 14:33:00 - 2021-12-03 14:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 30,3           5         231        33,6          60
+
+Performance Statistics   2021-12-03 14:34:00 - 2021-12-03 14:35:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 82,5           6         522        91,0          60
+
+Performance Statistics   2021-12-03 14:35:00 - 2021-12-03 14:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 80,6           9         472       100,6          60
+
+Performance Statistics   2021-12-03 14:36:00 - 2021-12-03 14:37:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 23,9           6          82        18,4          60
+
+Performance Statistics   2021-12-03 14:37:00 - 2021-12-03 14:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 59,3           5         345        67,3          60
+
+Performance Statistics   2021-12-03 14:38:00 - 2021-12-03 14:39:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                134,7          17         571       135,6          60
+
+Performance Statistics   2021-12-03 14:39:00 - 2021-12-03 14:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                764,1         166        6606       949,6          60
+
+Performance Statistics   2021-12-03 14:40:00 - 2021-12-03 14:41:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                197,7          30        1348       220,4          60
+
+Performance Statistics   2021-12-03 14:41:00 - 2021-12-03 14:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                179,9           9         781       170,4          60
+
+Performance Statistics   2021-12-03 14:42:00 - 2021-12-03 14:43:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 86,6           6         568       101,7          60
+
+Performance Statistics   2021-12-03 14:43:00 - 2021-12-03 14:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 75,9           5         524       112,7          60
+
+Performance Statistics   2021-12-03 14:44:00 - 2021-12-03 14:45:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 39,6           9         285        46,9          60
+
+Performance Statistics   2021-12-03 14:45:00 - 2021-12-03 14:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 56,7           8         543        89,3          60
+
+Performance Statistics   2021-12-03 14:46:00 - 2021-12-03 14:47:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 23,7           5          71        16,9          60
+
+Performance Statistics   2021-12-03 14:47:00 - 2021-12-03 14:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 22,6           8         104        21,0          60
+
+Performance Statistics   2021-12-03 14:48:00 - 2021-12-03 14:49:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 22,0           5         124        22,7          60
+
+Performance Statistics   2021-12-03 14:49:00 - 2021-12-03 14:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 22,7           5         146        26,4          60
+
+Performance Statistics   2021-12-03 14:50:00 - 2021-12-03 14:51:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 18,0           9          61        11,7          60
+
+Performance Statistics   2021-12-03 14:51:00 - 2021-12-03 14:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 70,6           8         473        97,1          60
+
+Performance Statistics   2021-12-03 14:52:00 - 2021-12-03 14:53:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                114,6          11         552       112,0          60
+
+Performance Statistics   2021-12-03 14:53:00 - 2021-12-03 14:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 32,5           9         305        38,7          60
+
+Performance Statistics   2021-12-03 14:54:00 - 2021-12-03 14:55:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 37,0           8         266        44,9          60
+
+Performance Statistics   2021-12-03 14:55:00 - 2021-12-03 14:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 30,0           6         143        23,1          60
+
+Performance Statistics   2021-12-03 14:56:00 - 2021-12-03 14:57:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 26,8           9          79        16,4          60
+
+Performance Statistics   2021-12-03 14:57:00 - 2021-12-03 14:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 26,0           5         258        36,1          60
+
+Performance Statistics   2021-12-03 14:58:00 - 2021-12-03 14:59:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 26,7           4         244        32,3          60
+
+Performance Statistics   2021-12-03 14:59:00 - 2021-12-03 15:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 18,1          10          53         9,0          60
+
+Performance Statistics   2021-12-03 15:00:00 - 2021-12-03 15:01:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 23,9           7         111        20,9          60
+
+Performance Statistics   2021-12-03 15:01:00 - 2021-12-03 15:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 16,8           5          64        12,1          60
+
+Performance Statistics   2021-12-03 15:02:00 - 2021-12-03 15:03:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 34,4           3         283        44,8          60
+
+Performance Statistics   2021-12-03 15:03:00 - 2021-12-03 15:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 25,4           5         199        32,2          60
+
+Performance Statistics   2021-12-03 15:04:00 - 2021-12-03 15:05:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 21,1           5          90        18,6          60
+
+Performance Statistics   2021-12-03 15:05:00 - 2021-12-03 15:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 24,4           9         186        26,1          60
+
+Performance Statistics   2021-12-03 15:06:00 - 2021-12-03 15:07:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 33,0           7         264        43,9          60
+
+Performance Statistics   2021-12-03 15:07:00 - 2021-12-03 15:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                             155,0         155         155         0,0           1
+LoadClass                                                0,0           0           0         0,0           5
+Scheduling.processTasks                                 61,8           5         417        72,6          60
+SearchFolders                                            6,0           6           6         0,0           1
+Thesis:loadCalendarEvents                                9,0           9           9         0,0           1
+Thesis:loadCardDeadlineInfoTree                         27,0          27          27         0,0           1
+
+Performance Statistics   2021-12-03 15:08:00 - 2021-12-03 15:09:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0           5
+Scheduling.processTasks                                 25,9           8          94        18,9          60
+
+Performance Statistics   2021-12-03 15:09:00 - 2021-12-03 15:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 24,5           8          93        19,2          60
+
+Performance Statistics   2021-12-03 15:10:00 - 2021-12-03 15:11:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              85,0          85          85         0,0           1
+Scheduling.processTasks                                 19,0           5         153        19,9          60
+
+Performance Statistics   2021-12-03 15:11:00 - 2021-12-03 15:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0          32
+Scheduling.processTasks                                 25,0          10         162        25,7          60
+
+Performance Statistics   2021-12-03 15:12:00 - 2021-12-03 15:13:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0          16
+Messages.searchClasspath                                 0,1           0          30         1,4         493
+Messages.searchFiles                                     0,0           0           0         0,0         493
+Messages.searchRemotely                                  1,3           0          33         5,9          30
+Scheduling.processTasks                                 39,7           7         199        43,2          60
+
+Performance Statistics   2021-12-03 15:13:00 - 2021-12-03 15:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              10,0          10          10         0,0           1
+LoadClass                                                0,0           0           0         0,0           8
+Scheduling.processTasks                                 38,5           5         243        41,1          60
+
+Performance Statistics   2021-12-03 15:14:00 - 2021-12-03 15:15:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 25,5           9         200        30,7          60
+
+Performance Statistics   2021-12-03 15:15:00 - 2021-12-03 15:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 17,0           7          47         8,4          60
+
+Performance Statistics   2021-12-03 15:16:00 - 2021-12-03 15:17:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 21,6           4         107        20,6          60
+
+Performance Statistics   2021-12-03 15:17:00 - 2021-12-03 15:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 26,1           9         280        44,8          60
+
+Performance Statistics   2021-12-03 15:18:00 - 2021-12-03 15:19:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 19,5           6          83        15,3          60
+
+Performance Statistics   2021-12-03 15:19:00 - 2021-12-03 15:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 41,1           7         284        41,2          60
+
+Performance Statistics   2021-12-03 15:20:00 - 2021-12-03 15:21:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 36,0           6         105        23,6          60
+
+Performance Statistics   2021-12-03 15:21:00 - 2021-12-03 15:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 38,8          12         117        22,5          60
+
+Performance Statistics   2021-12-03 15:22:00 - 2021-12-03 15:23:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 32,2           6          93        23,6          60
+
+Performance Statistics   2021-12-03 15:23:00 - 2021-12-03 15:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 27,3           4         199        27,7          60
+
+Performance Statistics   2021-12-03 15:24:00 - 2021-12-03 15:25:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 27,0           5         115        22,4          60
+
+Performance Statistics   2021-12-03 15:25:00 - 2021-12-03 15:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 26,2          10          95        18,7          60
+
+Performance Statistics   2021-12-03 15:26:00 - 2021-12-03 15:27:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 25,9           6          85        22,6          60
+
+Performance Statistics   2021-12-03 15:27:00 - 2021-12-03 15:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 21,8           4         157        24,0          60
+
+Performance Statistics   2021-12-03 15:28:00 - 2021-12-03 15:29:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 24,1           9          78        17,8          60
+
+Performance Statistics   2021-12-03 15:29:00 - 2021-12-03 15:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 23,1           9          69        16,9          60
+
+Performance Statistics   2021-12-03 15:30:00 - 2021-12-03 15:31:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 23,1           7         124        22,4          60
+
+Performance Statistics   2021-12-03 15:31:00 - 2021-12-03 15:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 19,1           5          71        16,8          60
+
+Performance Statistics   2021-12-03 15:32:00 - 2021-12-03 15:33:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 69,5          10         274        59,7          60
+
+Performance Statistics   2021-12-03 15:33:00 - 2021-12-03 15:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 37,8           6         291        56,9          60
+
+Performance Statistics   2021-12-03 15:34:00 - 2021-12-03 15:35:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 49,5           5         380        69,3          60
+
+Performance Statistics   2021-12-03 15:35:00 - 2021-12-03 15:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0,0           0           0         0,0           1
+Scheduling.processTasks                                146,4          10         939       158,2          60
+
+Performance Statistics   2021-12-03 15:36:00 - 2021-12-03 15:37:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 78,2          10         559       111,5          60
+
+Performance Statistics   2021-12-03 15:37:00 - 2021-12-03 15:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 62,9           5         411        69,7          60
+
+Performance Statistics   2021-12-03 15:38:00 - 2021-12-03 15:39:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 99,8          11        1471       199,1          60
+
+Performance Statistics   2021-12-03 15:39:00 - 2021-12-03 15:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                            1653,0        1653        1653         0,0           1
+LoadClass                                                0,0           0           0         0,0           2
+Scheduling.processTasks                                160,0          20         564       108,7          60
+SearchFolders                                           55,0          55          55         0,0           1
+Thesis:loadCalendarEvents                                2,0           2           2         0,0           1
+Thesis:loadCardDeadlineInfoTree                          9,0           9           9         0,0           1
+
+Performance Statistics   2021-12-03 15:40:00 - 2021-12-03 15:41:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              62,0           4         120        58,0           2
+CardBrowserDataSource.loadCardActorsInfo                21,0           0          42        21,0           2
+LoadClass                                                0,0           0           0         0,0          18
+Scheduling.processTasks                                 46,0           9         321        63,7          60
+
+Performance Statistics   2021-12-03 15:41:00 - 2021-12-03 15:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                               5,0           4           6         0,8           3
+CardBrowserDataSource.loadCardActorsInfo                 0,0           0           0         0,0           1
+LoadClass                                                0,0           0           0         0,0          50
+Messages.searchClasspath                                 0,0           0           0         0,0          33
+Messages.searchFiles                                     0,0           0           0         0,0          33
+Messages.searchRemotely                                  0,0           0           0         0,0           2
+Scheduling.processTasks                                 61,1           8         524        86,2          60
+
+Performance Statistics   2021-12-03 15:42:00 - 2021-12-03 15:43:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 26,4           5         120        21,9          60
+
+Performance Statistics   2021-12-03 15:43:00 - 2021-12-03 15:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 38,0          10         312        49,7          60
+
+Performance Statistics   2021-12-03 15:44:00 - 2021-12-03 15:45:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 47,8           8         243        50,4          60
+
+Performance Statistics   2021-12-03 15:45:00 - 2021-12-03 15:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 39,7           8         132        27,7          60
+
+Performance Statistics   2021-12-03 15:46:00 - 2021-12-03 15:47:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 41,3          11         303        42,6          60
+
+Performance Statistics   2021-12-03 15:47:00 - 2021-12-03 15:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 34,7           8          94        22,3          60
+
+Performance Statistics   2021-12-03 15:48:00 - 2021-12-03 15:49:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 42,1           6          89        23,2          60
+
+Performance Statistics   2021-12-03 15:49:00 - 2021-12-03 15:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 40,3           5         229        35,9          60
+
+Performance Statistics   2021-12-03 15:50:00 - 2021-12-03 15:51:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 24,7           7          91        20,1          60
+
+Performance Statistics   2021-12-03 15:51:00 - 2021-12-03 15:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 21,9           5          74        16,7          60
+
+Performance Statistics   2021-12-03 15:52:00 - 2021-12-03 15:53:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 27,7          10          94        21,0          60
+
+Performance Statistics   2021-12-03 15:53:00 - 2021-12-03 15:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 32,7           6         201        35,6          60
+
+Performance Statistics   2021-12-03 15:54:00 - 2021-12-03 15:55:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 23,6           6          85        18,6          60
+
+Performance Statistics   2021-12-03 15:55:00 - 2021-12-03 15:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 26,2           5          70        16,2          60
+
+Performance Statistics   2021-12-03 15:56:00 - 2021-12-03 15:57:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 20,2           8          85        19,3          60
+
+Performance Statistics   2021-12-03 15:57:00 - 2021-12-03 15:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 28,5           5         217        35,7          60
+
+Performance Statistics   2021-12-03 15:58:00 - 2021-12-03 15:59:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 21,8           9         101        19,4          60
+
+Performance Statistics   2021-12-03 15:59:00 - 2021-12-03 16:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 25,9           7         250        33,4          60
+
+Performance Statistics   2021-12-03 16:00:00 - 2021-12-03 16:01:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 18,8           6          74        14,9          60
+
+Performance Statistics   2021-12-03 16:01:00 - 2021-12-03 16:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 19,5           5          87        16,7          60
+
+Performance Statistics   2021-12-03 16:02:00 - 2021-12-03 16:03:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 23,9           7         160        27,7          60
+
+Performance Statistics   2021-12-03 16:03:00 - 2021-12-03 16:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 44,5           5         361        62,8          60
+
+Performance Statistics   2021-12-03 16:04:00 - 2021-12-03 16:05:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                 89,8          11         484       104,0          60
+
+Performance Statistics   2021-12-03 16:05:00 - 2021-12-03 16:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                             160,0         160         160         0,0           1
+LoadClass                                                0,0           0           0         0,0           3
+Scheduling.processTasks                                 78,6           9         443        81,2          60
+SearchFolders                                            8,0           8           8         0,0           1
+Thesis:loadCalendarEvents                               55,0          55          55         0,0           1
+Thesis:loadCardDeadlineInfoTree                         12,0          12          12         0,0           1
+
+Performance Statistics   2021-12-03 16:06:00 - 2021-12-03 16:07:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                               5,0           5           5         0,0           2
+CardBrowserDataSource.loadCardActorsInfo                15,0           0          30        15,0           2
+LoadClass                                                0,0           0           0         0,0          15
+Scheduling.processTasks                                 36,3           6         231        42,6          60
+
+Performance Statistics   2021-12-03 16:07:00 - 2021-12-03 16:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                222,4          56         897       151,9          60
+
+Performance Statistics   2021-12-03 16:08:00 - 2021-12-03 16:09:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                266,9          43        1488       301,3          60
+
+Performance Statistics   2021-12-03 16:09:00 - 2021-12-03 16:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                             628,0           4        2498      1079,6           4
+CardBrowserDataSource.loadCardActorsInfo                 0,0           0           0         0,0           1
+LoadClass                                                0,0           0           0         0,0          55
+Scheduling.processTasks                                 76,1          10         358        81,8          60
+
+Performance Statistics   2021-12-03 16:10:00 - 2021-12-03 16:11:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              11,4           4          23         8,7           5
+CardBrowserDataSource.loadCardActorsInfo                34,5          29          40         5,5           2
+LoadClass                                                0,0           0           1         0,2          38
+Scheduling.processTasks                                 26,2           7         245        31,6          60
+SearchFolders                                            4,5           4           5         0,5           2
+Thesis:loadCalendarEvents                                4,6           1          19         7,2           5
+Thesis:loadCardDeadlineInfoTree                          8,2           6          14         3,1           5
+
+Performance Statistics   2021-12-03 16:11:00 - 2021-12-03 16:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                               4,8           1           8         2,5           4
+CardBrowserDataSource.loadCardActorsInfo                30,0          30          30         0,0           1
+LoadClass                                                0,0           0           1         0,2          37
+Messages.searchClasspath                                 0,0           0           1         0,2          33
+Messages.searchFiles                                     0,0           0           0         0,0          33
+Messages.searchRemotely                                  1,0           0           2         1,0           2
+Scheduling.processTasks                                 20,0           5         111        18,6          60
+SearchFolders                                            5,0           5           5         0,0           2
+Thesis:loadCalendarEvents                                1,0           1           1         0,0           4
+Thesis:loadCardDeadlineInfoTree                         10,5           6          22         6,7           4
+
+Performance Statistics   2021-12-03 16:12:00 - 2021-12-03 16:13:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              10,0           4          21         6,6           4
+CardBrowserDataSource.loadCardActorsInfo                25,5          25          26         0,5           2
+LoadClass                                                0,0           0           0         0,0          51
+Messages.searchClasspath                                 0,0           0           1         0,1         193
+Messages.searchFiles                                     0,0           0           0         0,0         193
+Messages.searchRemotely                                  0,2           0           2         0,5          13
+Scheduling.processTasks                                 29,5           5          86        19,8          60
+SearchFolders                                           15,5           4          27        11,5           2
+Thesis:loadCalendarEvents                                1,0           1           1         0,0           4
+Thesis:loadCardDeadlineInfoTree                          6,0           3           9         2,5           4
+
+Performance Statistics   2021-12-03 16:13:00 - 2021-12-03 16:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                               5,7           4           8         1,7           3
+LoadClass                                                0,0           0           1         0,1          87
+Scheduling.processTasks                                 41,4           8         364        51,8          60
+SearchFolders                                            4,3           4           5         0,5           3
+Thesis:loadCalendarEvents                                0,7           0           1         0,5           6
+Thesis:loadCardDeadlineInfoTree                          6,7           3          13         3,4           6
+
+Performance Statistics   2021-12-03 16:14:00 - 2021-12-03 16:15:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                               3,3           1           5         1,7           3
+CardBrowserDataSource.loadCardActorsInfo                26,0          26          26         0,0           1
+LoadClass                                                0,0           0           0         0,0          35
+Scheduling.processTasks                                 42,7           7         324        45,0          60
+SearchFolders                                            4,0           4           4         0,0           1
+Thesis:loadCalendarEvents                                0,3           0           1         0,5           3
+Thesis:loadCardDeadlineInfoTree                          6,0           4           9         2,2           3
+
+Performance Statistics   2021-12-03 16:15:00 - 2021-12-03 16:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              19,5           5          34        14,5           2
+LoadClass                                                0,0           0           0         0,0          29
+Scheduling.processTasks                                 54,5           6         226        47,6          60
+SearchFolders                                           23,5           4          43        19,5           2
+Thesis:loadCalendarEvents                                1,3           1           2         0,5           3
+Thesis:loadCardDeadlineInfoTree                         10,7           4          23         8,7           3
+
+Performance Statistics   2021-12-03 16:16:00 - 2021-12-03 16:17:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Scheduling.processTasks                                138,4          18         995       137,9          60
+

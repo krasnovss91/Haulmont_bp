@@ -3176,3 +3176,1254 @@ sec$User.changePassword#xml                              0,0           0        
 voiceControlConsole#create                               0,2           0           1         0,4           6
 voiceControlConsole#xml                                  0,0           0           0         0,0           6
 
+Performance Statistics   2021-12-03 13:50:00 - 2021-12-03 13:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                          7,3           4          17         4,4           6
+MenuItem.df$SimpleDoc.browse                           108,0         108         108         0,0           1
+TDS null                                                 7,5           4          17         4,3           6
+cardTreeFrame#create                                     0,0           0           0         0,0           1
+cardTreeFrame#xml                                        0,0           0           0         0,0           2
+df$SimpleDoc.browse#afterShow                            0,0           0           0         0,0           1
+df$SimpleDoc.browse#beforeShow                           0,0           0           0         0,0           1
+df$SimpleDoc.browse#create                               0,0           0           0         0,0           1
+df$SimpleDoc.browse#init                                 1,0           1           1         0,0           1
+df$SimpleDoc.browse#inject                               0,0           0           0         0,0           1
+df$SimpleDoc.browse#load                                16,0          16          16         0,0           1
+df$SimpleDoc.browse#uiPermissions                        0,0           0           0         0,0           1
+df$SimpleDoc.browse#xml                                  0,5           0           1         0,5           2
+df$SimpleDoc.browse.cardTreeFrame#init                   0,0           0           0         0,0           1
+df$SimpleDoc.browse.cardTreeFrame#inject                 0,0           0           0         0,0           1
+df$SimpleDoc.browse.cardTreeFrame#load                   1,0           1           1         0,0           1
+df$SimpleDoc.browse.cardTreeFrame@cardTreeDs             0,0           0           0         0,0           1
+df$SimpleDoc.browse.lookupWindowActions#init             0,0           0           0         0,0           1
+df$SimpleDoc.browse.resolutionsFrame#init                0,0           0           0         0,0           1
+df$SimpleDoc.browse.resolutionsFrame#inject              0,0           0           0         0,0           1
+df$SimpleDoc.browse.resolutionsFrame#load                1,0           1           1         0,0           1
+df$SimpleDoc.browse.resolutionsFrame@resolutionsDs         7,0           7           7         0,0           1
+df$SimpleDoc.browse@cardsDs                             25,0          25          25         0,0           1
+editWindowActions#create                                 0,0           0           0         0,0           2
+editWindowActions#xml                                    0,0           0           0         0,0           4
+loginWindow#afterShow                                    0,0           0           0         0,0           4
+loginWindow#beforeShow                                   0,0           0           0         0,0           4
+loginWindow#create                                       0,0           0           0         0,0           4
+loginWindow#init                                         0,0           0           0         0,0           4
+loginWindow#inject                                       0,0           0           0         0,0           4
+loginWindow#load                                         0,0           0           0         0,0           4
+loginWindow#uiPermissions                                0,0           0           0         0,0           4
+loginWindow#xml                                          0,0           0           0         0,0           8
+lookupWindowActions#create                               0,0           0           0         0,0           1
+lookupWindowActions#inject                               0,0           0           0         0,0           1
+lookupWindowActions#load                                 0,0           0           0         0,0           1
+lookupWindowActions#xml                                  0,0           0           0         0,0           2
+mainWindow#afterShow                                     0,7           0           1         0,5           3
+mainWindow#beforeShow                                    0,0           0           0         0,0           3
+mainWindow#create                                        1,0           1           1         0,0           3
+mainWindow#init                                         15,3          14          16         0,9           3
+mainWindow#inject                                        0,0           0           0         0,0           3
+mainWindow#load                                         20,7          16          29         5,9           3
+mainWindow#uiPermissions                                 0,0           0           0         0,0           3
+mainWindow#xml                                           0,0           0           0         0,0           6
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           3
+mainWindow.voiceControlConsole#inject                    0,0           0           0         0,0           3
+mainWindow.voiceControlConsole#load                      0,0           0           0         0,0           3
+resolution.form#afterShow                                0,0           0           0         0,0           2
+resolution.form#beforeShow                               1,0           1           1         0,0           2
+resolution.form#create                                   0,0           0           0         0,0           2
+resolution.form#init                                     7,0           7           7         0,0           2
+resolution.form#inject                                   0,0           0           0         0,0           2
+resolution.form#load                                     3,0           3           3         0,0           2
+resolution.form#uiPermissions                            0,0           0           0         0,0           2
+resolution.form#xml                                      0,0           0           0         0,0          12
+resolution.form.windowActions#init                       0,0           0           0         0,0           2
+resolution.form.windowActions#inject                     0,0           0           0         0,0           2
+resolution.form.windowActions#load                       0,0           0           0         0,0           2
+resolutionsFrame#create                                  0,0           0           0         0,0           1
+resolutionsFrame#xml                                     0,0           0           0         0,0           2
+sec$User.changePassword#afterShow                        0,0           0           0         0,0           2
+sec$User.changePassword#beforeShow                       0,0           0           0         0,0           2
+sec$User.changePassword#create                           0,0           0           0         0,0           2
+sec$User.changePassword#init                             0,0           0           0         0,0           2
+sec$User.changePassword#inject                           0,0           0           0         0,0           2
+sec$User.changePassword#load                             1,0           1           1         0,0           2
+sec$User.changePassword#uiPermissions                    0,0           0           0         0,0           2
+sec$User.changePassword#xml                              0,0           0           0         0,0          12
+voiceControlConsole#create                               0,3           0           1         0,5           3
+voiceControlConsole#xml                                  0,0           0           0         0,0           3
+
+Performance Statistics   2021-12-03 13:52:00 - 2021-12-03 13:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 13:54:00 - 2021-12-03 13:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 13:56:00 - 2021-12-03 13:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 13:58:00 - 2021-12-03 14:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:00:00 - 2021-12-03 14:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                          7,0           7           7         0,0           1
+TDS null                                                 7,0           7           7         0,0           1
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   0,0           0           0         0,0           1
+loginWindow#create                                       0,0           0           0         0,0           1
+loginWindow#init                                         0,0           0           0         0,0           1
+loginWindow#inject                                       0,0           0           0         0,0           1
+loginWindow#load                                         1,0           1           1         0,0           1
+loginWindow#uiPermissions                                0,0           0           0         0,0           1
+loginWindow#xml                                          1,5           0           3         1,5           2
+mainWindow#afterShow                                     1,0           1           1         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                        2,0           2           2         0,0           1
+mainWindow#init                                         20,0          20          20         0,0           1
+mainWindow#inject                                        0,0           0           0         0,0           1
+mainWindow#load                                         42,0          42          42         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           0,0           0           0         0,0           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#load                      0,0           0           0         0,0           1
+voiceControlConsole#create                               0,0           0           0         0,0           1
+voiceControlConsole#xml                                  0,0           0           0         0,0           1
+
+Performance Statistics   2021-12-03 14:02:00 - 2021-12-03 14:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                          7,0           7           7         0,0           1
+MenuItem.sec$Role.browse                                18,0          18          18         0,0           1
+MenuItem.sec$User.browse                                49,0          49          49         0,0           1
+MenuItem.wf$Design.browse                               48,0          48          48         0,0           1
+TDS null                                                 7,0           7           7         0,0           1
+editWindowActions#create                                 0,0           0           0         0,0           1
+editWindowActions#xml                                    0,0           0           0         0,0           2
+lookupWindowActions#create                               0,0           0           0         0,0           3
+lookupWindowActions#inject                               0,0           0           0         0,0           3
+lookupWindowActions#load                                 0,0           0           0         0,0           3
+lookupWindowActions#xml                                  0,0           0           0         0,0           6
+mainWindow#afterShow                                     1,0           1           1         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                        1,0           1           1         0,0           1
+mainWindow#init                                         20,0          20          20         0,0           1
+mainWindow#inject                                        0,0           0           0         0,0           1
+mainWindow#load                                         45,0          45          45         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           0,0           0           0         0,0           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#load                      0,0           0           0         0,0           1
+sec$Group.lookup#afterShow                               0,0           0           0         0,0           1
+sec$Group.lookup#beforeShow                              0,0           0           0         0,0           1
+sec$Group.lookup#create                                  0,0           0           0         0,0           1
+sec$Group.lookup#init                                   19,0          19          19         0,0           1
+sec$Group.lookup#inject                                  0,0           0           0         0,0           1
+sec$Group.lookup#load                                    2,0           2           2         0,0           1
+sec$Group.lookup#uiPermissions                           0,0           0           0         0,0           1
+sec$Group.lookup#xml                                     0,0           0           0         0,0           5
+sec$Group.lookup.lookupWindowActions#init                0,0           0           0         0,0           1
+sec$Group.lookup@groupsDs                               18,0          18          18         0,0           1
+sec$Role.browse#afterShow                                0,0           0           0         0,0           1
+sec$Role.browse#beforeShow                               1,0           1           1         0,0           1
+sec$Role.browse#create                                   0,0           0           0         0,0           1
+sec$Role.browse#init                                     0,0           0           0         0,0           1
+sec$Role.browse#inject                                   0,0           0           0         0,0           1
+sec$Role.browse#load                                     6,0           6           6         0,0           1
+sec$Role.browse#uiPermissions                            0,0           0           0         0,0           1
+sec$Role.browse#xml                                      0,0           0           0         0,0           2
+sec$Role.browse.lookupWindowActions#init                 0,0           0           0         0,0           1
+sec$User.browse#afterShow                                0,0           0           0         0,0           1
+sec$User.browse#beforeShow                               0,0           0           0         0,0           1
+sec$User.browse#create                                   0,0           0           0         0,0           1
+sec$User.browse#init                                     0,0           0           0         0,0           1
+sec$User.browse#inject                                   0,0           0           0         0,0           1
+sec$User.browse#load                                     5,0           5           5         0,0           1
+sec$User.browse#uiPermissions                            0,0           0           0         0,0           1
+sec$User.browse#xml                                      0,0           0           0         0,0           2
+sec$User.browse.lookupWindowActions#init                 0,0           0           0         0,0           1
+sec$User.browse@usersDs                                  5,0           5           5         0,0           1
+sec$User.edit#afterShow                                  0,0           0           0         0,0           1
+sec$User.edit#beforeShow                                 1,0           1           1         0,0           1
+sec$User.edit#companion                                  0,0           0           0         0,0           1
+sec$User.edit#create                                     0,0           0           0         0,0           1
+sec$User.edit#init                                       3,0           3           3         0,0           1
+sec$User.edit#inject                                     0,0           0           0         0,0           1
+sec$User.edit#load                                      10,0          10          10         0,0           1
+sec$User.edit#uiPermissions                              0,0           0           0         0,0           1
+sec$User.edit#xml                                        0,0           0           0         0,0           5
+sec$User.edit.windowActions#init                         0,0           0           0         0,0           1
+sec$User.edit.windowActions#inject                       0,0           0           0         0,0           1
+sec$User.edit.windowActions#load                         0,0           0           0         0,0           1
+voiceControlConsole#create                               0,0           0           0         0,0           1
+voiceControlConsole#xml                                  0,0           0           0         0,0           1
+wf$Design.browse#afterShow                               0,0           0           0         0,0           1
+wf$Design.browse#beforeShow                              0,0           0           0         0,0           1
+wf$Design.browse#companion                               0,0           0           0         0,0           1
+wf$Design.browse#create                                  0,0           0           0         0,0           1
+wf$Design.browse#init                                    1,0           1           1         0,0           1
+wf$Design.browse#inject                                  0,0           0           0         0,0           1
+wf$Design.browse#load                                    6,0           6           6         0,0           1
+wf$Design.browse#uiPermissions                           0,0           0           0         0,0           1
+wf$Design.browse#xml                                     0,0           0           0         0,0           2
+wf$Design.browse@designDs                                3,0           3           3         0,0           1
+wf$Design.browse@designProcessVariableDs                 5,0           5           5         0,0           1
+wf$DesignScript.browse#afterShow                         0,0           0           0         0,0           1
+wf$DesignScript.browse#beforeShow                        2,0           2           2         0,0           1
+wf$DesignScript.browse#create                            0,0           0           0         0,0           1
+wf$DesignScript.browse#init                              0,0           0           0         0,0           1
+wf$DesignScript.browse#inject                            0,0           0           0         0,0           1
+wf$DesignScript.browse#load                              2,0           2           2         0,0           1
+wf$DesignScript.browse#uiPermissions                     0,0           0           0         0,0           1
+wf$DesignScript.browse#xml                               0,2           0           1         0,4           6
+wf$DesignScript.browse@scriptsDs                         4,0           4           4         0,0           1
+
+Performance Statistics   2021-12-03 14:04:00 - 2021-12-03 14:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+MenuItem.wf$Design.browse                               33,0          33          33         0,0           1
+wf$Design.browse#afterShow                               0,0           0           0         0,0           1
+wf$Design.browse#beforeShow                              0,0           0           0         0,0           1
+wf$Design.browse#companion                               0,0           0           0         0,0           1
+wf$Design.browse#create                                  0,0           0           0         0,0           1
+wf$Design.browse#init                                    1,0           1           1         0,0           1
+wf$Design.browse#inject                                  0,0           0           0         0,0           1
+wf$Design.browse#load                                    6,0           6           6         0,0           1
+wf$Design.browse#uiPermissions                           0,0           0           0         0,0           1
+wf$Design.browse#xml                                     0,0           0           0         0,0           2
+wf$Design.browse@designDs                                3,0           3           3         0,0           1
+wf$Design.browse@designProcessVariableDs                 4,0           4           4         0,0           1
+wf$DesignScript.browse#afterShow                         0,0           0           0         0,0           1
+wf$DesignScript.browse#beforeShow                        0,0           0           0         0,0           1
+wf$DesignScript.browse#create                            0,0           0           0         0,0           1
+wf$DesignScript.browse#init                              1,0           1           1         0,0           1
+wf$DesignScript.browse#inject                            0,0           0           0         0,0           1
+wf$DesignScript.browse#load                              2,0           2           2         0,0           1
+wf$DesignScript.browse#uiPermissions                     0,0           0           0         0,0           1
+wf$DesignScript.browse#xml                               0,0           0           0         0,0           6
+wf$DesignScript.browse@scriptsDs                         4,0           4           4         0,0           1
+
+Performance Statistics   2021-12-03 14:06:00 - 2021-12-03 14:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:08:00 - 2021-12-03 14:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:10:00 - 2021-12-03 14:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:12:00 - 2021-12-03 14:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:14:00 - 2021-12-03 14:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:16:00 - 2021-12-03 14:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:18:00 - 2021-12-03 14:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:20:00 - 2021-12-03 14:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:22:00 - 2021-12-03 14:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:24:00 - 2021-12-03 14:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:26:00 - 2021-12-03 14:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:28:00 - 2021-12-03 14:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:30:00 - 2021-12-03 14:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:32:00 - 2021-12-03 14:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:34:00 - 2021-12-03 14:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:36:00 - 2021-12-03 14:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:38:00 - 2021-12-03 14:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:40:00 - 2021-12-03 14:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:42:00 - 2021-12-03 14:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:44:00 - 2021-12-03 14:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:46:00 - 2021-12-03 14:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:48:00 - 2021-12-03 14:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:50:00 - 2021-12-03 14:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:52:00 - 2021-12-03 14:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:54:00 - 2021-12-03 14:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:56:00 - 2021-12-03 14:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 14:58:00 - 2021-12-03 15:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:00:00 - 2021-12-03 15:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:02:00 - 2021-12-03 15:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:04:00 - 2021-12-03 15:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:06:00 - 2021-12-03 15:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         28,0          28          28         0,0           1
+MenuItem.wf$Design.browse                              607,0         607         607         0,0           1
+TDS null                                                28,0          28          28         0,0           1
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   0,0           0           0         0,0           1
+loginWindow#create                                       0,0           0           0         0,0           1
+loginWindow#init                                         0,0           0           0         0,0           1
+loginWindow#inject                                       0,0           0           0         0,0           1
+loginWindow#load                                         1,0           1           1         0,0           1
+loginWindow#uiPermissions                                0,0           0           0         0,0           1
+loginWindow#xml                                         30,0           0          60        30,0           2
+mainWindow#afterShow                                     1,0           1           1         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                       22,0          22          22         0,0           1
+mainWindow#init                                        110,0         110         110         0,0           1
+mainWindow#inject                                        0,0           0           0         0,0           1
+mainWindow#load                                        157,0         157         157         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                           0,0           0           0         0,0           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#load                      0,0           0           0         0,0           1
+voiceControlConsole#create                               1,0           1           1         0,0           1
+voiceControlConsole#xml                                  0,0           0           0         0,0           1
+wf$Design.browse#afterShow                               0,0           0           0         0,0           1
+wf$Design.browse#beforeShow                              0,0           0           0         0,0           1
+wf$Design.browse#companion                              31,0          31          31         0,0           1
+wf$Design.browse#create                                  0,0           0           0         0,0           1
+wf$Design.browse#init                                    2,0           2           2         0,0           1
+wf$Design.browse#inject                                  0,0           0           0         0,0           1
+wf$Design.browse#load                                   40,0          40          40         0,0           1
+wf$Design.browse#uiPermissions                           0,0           0           0         0,0           1
+wf$Design.browse#xml                                    35,0           0          70        35,0           2
+wf$Design.browse@designDs                               32,0          32          32         0,0           1
+
+Performance Statistics   2021-12-03 15:08:00 - 2021-12-03 15:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+wf$Design.browse@designProcessVariableDs                58,0          58          58         0,0           1
+wf$DesignScript.browse#afterShow                         0,0           0           0         0,0           1
+wf$DesignScript.browse#beforeShow                        2,0           2           2         0,0           1
+wf$DesignScript.browse#create                            0,0           0           0         0,0           1
+wf$DesignScript.browse#init                              0,0           0           0         0,0           1
+wf$DesignScript.browse#inject                            0,0           0           0         0,0           1
+wf$DesignScript.browse#load                              3,0           3           3         0,0           1
+wf$DesignScript.browse#uiPermissions                     0,0           0           0         0,0           1
+wf$DesignScript.browse#xml                              17,5           0         105        39,1           6
+wf$DesignScript.browse@scriptsDs                        34,0          34          34         0,0           1
+
+Performance Statistics   2021-12-03 15:10:00 - 2021-12-03 15:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+MenuItem.sec$User.browse                               117,0         117         117         0,0           1
+editWindowActions#create                                 0,0           0           0         0,0           3
+editWindowActions#xml                                    0,0           0           0         0,0           6
+lookupWindowActions#create                               0,0           0           0         0,0           2
+lookupWindowActions#inject                               0,0           0           0         0,0           2
+lookupWindowActions#load                                 0,0           0           0         0,0           2
+lookupWindowActions#xml                                  0,0           0           0         0,0           4
+sec$Role.lookup#afterShow                                0,0           0           0         0,0           1
+sec$Role.lookup#beforeShow                               1,0           1           1         0,0           1
+sec$Role.lookup#create                                   0,0           0           0         0,0           1
+sec$Role.lookup#init                                     0,0           0           0         0,0           1
+sec$Role.lookup#inject                                   0,0           0           0         0,0           1
+sec$Role.lookup#load                                     4,0           4           4         0,0           1
+sec$Role.lookup#uiPermissions                            0,0           0           0         0,0           1
+sec$Role.lookup#xml                                      0,0           0           0         0,0           5
+sec$Role.lookup.lookupWindowActions#init                 0,0           0           0         0,0           1
+sec$User.browse#afterShow                                0,0           0           0         0,0           1
+sec$User.browse#beforeShow                               0,0           0           0         0,0           1
+sec$User.browse#create                                   0,0           0           0         0,0           1
+sec$User.browse#init                                     0,0           0           0         0,0           1
+sec$User.browse#inject                                   0,0           0           0         0,0           1
+sec$User.browse#load                                     5,0           5           5         0,0           1
+sec$User.browse#uiPermissions                            0,0           0           0         0,0           1
+sec$User.browse#xml                                      8,5           0          17         8,5           2
+sec$User.browse.lookupWindowActions#init                 0,0           0           0         0,0           1
+sec$User.browse@usersDs                                 18,0          18          18         0,0           1
+sec$User.edit#afterShow                                  0,0           0           0         0,0           3
+sec$User.edit#beforeShow                                 0,3           0           1         0,5           3
+sec$User.edit#companion                                  0,0           0           0         0,0           3
+sec$User.edit#create                                     0,0           0           0         0,0           3
+sec$User.edit#init                                       2,7           2           3         0,5           3
+sec$User.edit#inject                                     0,0           0           0         0,0           3
+sec$User.edit#load                                      10,0           8          12         1,6           3
+sec$User.edit#uiPermissions                              0,0           0           0         0,0           3
+sec$User.edit#xml                                        0,0           0           0         0,0          15
+sec$User.edit.windowActions#init                         0,0           0           0         0,0           3
+sec$User.edit.windowActions#inject                       0,0           0           0         0,0           3
+sec$User.edit.windowActions#load                         0,0           0           0         0,0           3
+
+Performance Statistics   2021-12-03 15:12:00 - 2021-12-03 15:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+MenuItem.docCreatorItem                                235,0         235         235         0,0           1
+MenuItem.wf$Design.browse                               36,0          36          36         0,0           1
+docCreator#afterShow                                     0,0           0           0         0,0           1
+docCreator#beforeShow                                    0,0           0           0         0,0           1
+docCreator#create                                        0,0           0           0         0,0           1
+docCreator#init                                        174,0         174         174         0,0           1
+docCreator#inject                                        0,0           0           0         0,0           1
+docCreator#load                                         53,0          53          53         0,0           1
+docCreator#uiPermissions                                 0,0           0           0         0,0           1
+docCreator#xml                                           0,0           0           0         0,0           6
+docCreator.windowActions#init                            0,0           0           0         0,0           1
+docCreator.windowActions#inject                          0,0           0           0         0,0           1
+docCreator.windowActions#load                            0,0           0           0         0,0           1
+docCreator@docKindDs                                    28,0          28          28         0,0           1
+docCreator@templatesDs                                   6,5           6           7         0,5           2
+editWindowActions#create                                 0,0           0           0         0,0           3
+editWindowActions#xml                                    0,0           0           0         0,0           6
+sec$User.edit#afterShow                                  0,0           0           0         0,0           2
+sec$User.edit#beforeShow                                 0,0           0           0         0,0           2
+sec$User.edit#companion                                  0,0           0           0         0,0           2
+sec$User.edit#create                                     0,0           0           0         0,0           2
+sec$User.edit#init                                       3,0           3           3         0,0           2
+sec$User.edit#inject                                     0,0           0           0         0,0           2
+sec$User.edit#load                                       8,5           8           9         0,5           2
+sec$User.edit#uiPermissions                              0,0           0           0         0,0           2
+sec$User.edit#xml                                        0,0           0           0         0,0          10
+sec$User.edit.windowActions#init                         0,0           0           0         0,0           2
+sec$User.edit.windowActions#inject                       0,0           0           0         0,0           2
+sec$User.edit.windowActions#load                         0,0           0           0         0,0           2
+wf$Design.browse#afterShow                               0,0           0           0         0,0           1
+wf$Design.browse#beforeShow                              0,0           0           0         0,0           1
+wf$Design.browse#companion                               0,0           0           0         0,0           1
+wf$Design.browse#create                                  0,0           0           0         0,0           1
+wf$Design.browse#init                                    1,0           1           1         0,0           1
+wf$Design.browse#inject                                  0,0           0           0         0,0           1
+wf$Design.browse#load                                    9,0           9           9         0,0           1
+wf$Design.browse#uiPermissions                           0,0           0           0         0,0           1
+wf$Design.browse#xml                                     0,0           0           0         0,0           2
+wf$Design.browse@designDs                                3,0           3           3         0,0           1
+wf$Design.browse@designProcessVariableDs                 5,0           5           5         0,0           1
+
+Performance Statistics   2021-12-03 15:14:00 - 2021-12-03 15:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:16:00 - 2021-12-03 15:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:18:00 - 2021-12-03 15:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:20:00 - 2021-12-03 15:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:22:00 - 2021-12-03 15:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:24:00 - 2021-12-03 15:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:26:00 - 2021-12-03 15:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:28:00 - 2021-12-03 15:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:30:00 - 2021-12-03 15:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:32:00 - 2021-12-03 15:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:34:00 - 2021-12-03 15:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   0,0           0           0         0,0           1
+loginWindow#create                                       0,0           0           0         0,0           1
+loginWindow#init                                         3,0           3           3         0,0           1
+loginWindow#inject                                       0,0           0           0         0,0           1
+loginWindow#load                                         1,0           1           1         0,0           1
+loginWindow#uiPermissions                                0,0           0           0         0,0           1
+loginWindow#xml                                         68,5           0         137        68,5           2
+
+Performance Statistics   2021-12-03 15:36:00 - 2021-12-03 15:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:38:00 - 2021-12-03 15:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                          9,0           9           9         0,0           1
+TDS null                                                 9,0           9           9         0,0           1
+mainWindow#afterShow                                     1,0           1           1         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                      153,0         153         153         0,0           1
+mainWindow#init                                         48,0          48          48         0,0           1
+mainWindow#inject                                        0,0           0           0         0,0           1
+mainWindow#load                                        376,0         376         376         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                         267,5           0         535       267,5           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#load                      0,0           0           0         0,0           1
+voiceControlConsole#create                               1,0           1           1         0,0           1
+voiceControlConsole#xml                                  0,0           0           0         0,0           1
+
+Performance Statistics   2021-12-03 15:40:00 - 2021-12-03 15:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+MenuItem.df$SimpleDoc.browse                           830,0         830         830         0,0           1
+actionsFrame#create                                      0,0           0           0         0,0           1
+actionsFrame#xml                                         0,0           0           0         0,0           2
+addresseesFrame#create                                   0,0           0           0         0,0           1
+addresseesFrame#xml                                      0,0           0           0         0,0           2
+cardAttachmentsFrame#create                              1,5           1           2         0,5           2
+cardAttachmentsFrame#xml                                 0,0           0           0         0,0           4
+cardCommentFrame#create                                  2,0           2           2         0,0           1
+cardCommentFrame#xml                                     0,0           0           0         0,0           2
+cardCommentTextAreaFrame#create                          0,0           0           0         0,0           1
+cardCommentTextAreaFrame#xml                             0,0           0           0         0,0           2
+cardProjectsFrame#create                                 1,0           1           1         0,0           1
+cardProjectsFrame#xml                                    0,0           0           0         0,0           2
+cardRolesFrame#create                                    0,5           0           1         0,5           2
+cardRolesFrame#xml                                       0,0           0           0         0,0           4
+cardTreeFrame#create                                     0,0           0           0         0,0           2
+cardTreeFrame#xml                                        0,0           0           0         0,0           4
+df$SimpleDoc.browse#afterShow                            0,0           0           0         0,0           1
+df$SimpleDoc.browse#beforeShow                           0,0           0           0         0,0           1
+df$SimpleDoc.browse#create                              32,0          32          32         0,0           1
+df$SimpleDoc.browse#init                                 1,0           1           1         0,0           1
+df$SimpleDoc.browse#inject                               0,0           0           0         0,0           1
+df$SimpleDoc.browse#load                                58,0          58          58         0,0           1
+df$SimpleDoc.browse#uiPermissions                        0,0           0           0         0,0           1
+df$SimpleDoc.browse#xml                                  0,0           0           0         0,0           2
+df$SimpleDoc.browse.cardTreeFrame#init                   0,0           0           0         0,0           1
+df$SimpleDoc.browse.cardTreeFrame#inject                 0,0           0           0         0,0           1
+df$SimpleDoc.browse.cardTreeFrame#load                   1,0           1           1         0,0           1
+df$SimpleDoc.browse.cardTreeFrame@cardTreeDs             0,0           0           0         0,0           1
+df$SimpleDoc.browse.lookupWindowActions#init             0,0           0           0         0,0           1
+df$SimpleDoc.browse.resolutionsFrame#init                0,0           0           0         0,0           1
+df$SimpleDoc.browse.resolutionsFrame#inject              0,0           0           0         0,0           1
+df$SimpleDoc.browse.resolutionsFrame#load                2,0           2           2         0,0           1
+df$SimpleDoc.browse.resolutionsFrame@resolutionsDs         9,0           9           9         0,0           1
+df$SimpleDoc.browse@cardsDs                             56,0           5         155        70,0           3
+df$SimpleDoc.edit#afterShow                              0,0           0           0         0,0           1
+df$SimpleDoc.edit#beforeShow                             2,0           2           2         0,0           1
+df$SimpleDoc.edit#companion                              0,0           0           0         0,0           1
+df$SimpleDoc.edit#create                                 0,0           0           0         0,0           1
+df$SimpleDoc.edit#init                                   1,0           1           1         0,0           1
+df$SimpleDoc.edit#inject                                 0,0           0           0         0,0           1
+df$SimpleDoc.edit#load                                 153,0         153         153         0,0           1
+df$SimpleDoc.edit#uiPermissions                          0,0           0           0         0,0           1
+df$SimpleDoc.edit#xml                                    0,2           0           1         0,4           5
+df$SimpleDoc.edit.actionsFrame#init                      0,0           0           0         0,0           1
+df$SimpleDoc.edit.actionsFrame#inject                    0,0           0           0         0,0           1
+df$SimpleDoc.edit.actionsFrame#load                      0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardAttachmentsFrame#init              2,0           2           2         0,0           1
+df$SimpleDoc.edit.cardAttachmentsFrame#inject            0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardAttachmentsFrame#load              1,0           1           1         0,0           1
+df$SimpleDoc.edit.cardCommentFrame#init                 28,0          28          28         0,0           1
+df$SimpleDoc.edit.cardCommentFrame#inject                0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardCommentFrame#load                  1,0           1           1         0,0           1
+df$SimpleDoc.edit.cardCommentFrame.cardCommentTextAreaFrame#init         0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardCommentFrame.cardCommentTextAreaFrame#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardCommentFrame.cardCommentTextAreaFrame#load         0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardCommentFrame@commentDs            27,0          27          27         0,0           1
+df$SimpleDoc.edit.cardLinksFrame#init                    0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardLinksFrame#inject                  0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardLinksFrame#load                    0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardProcFrame#init                     0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardProcFrame#inject                   0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardProcFrame#load                     2,0           2           2         0,0           1
+df$SimpleDoc.edit.cardProcFrame.cardRolesFrame#init         0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardProcFrame.cardRolesFrame#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardProcFrame.cardRolesFrame#load         2,0           2           2         0,0           1
+df$SimpleDoc.edit.cardProcFrame.cardRolesFrame@procRolesDs        12,0          12          12         0,0           1
+df$SimpleDoc.edit.cardProcFrame@procDs                  32,0          32          32         0,0           1
+df$SimpleDoc.edit.cardProjectsFrame#init                 0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardProjectsFrame#inject               0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardProjectsFrame#load                 0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardTreeFrame#init                     0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardTreeFrame#inject                   0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardTreeFrame#load                     0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardTreeFrame@cardTreeDs               0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame#init                    0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame#inject                  0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame#load                   15,0          15          15         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame#init         0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame#load        15,0          15          15         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame.addresseesFrame#init         0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame.addresseesFrame#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame.addresseesFrame#load         0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame@companiesDs         4,0           4           4         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame@contactPersonsDs        17,0          17          17         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame@correspondentsDs         4,0           4           4         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame@docReceivingMethodsDs         4,0           4           4         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame@employeeExecutorsDs         5,0           5           5         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame@numeratorsDs         6,0           6           6         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame@officeFilesDs        21,0          12          32         9,1           4
+df$SimpleDoc.edit.docTransferLogFrame#init               0,0           0           0         0,0           1
+df$SimpleDoc.edit.docTransferLogFrame#inject             0,0           0           0         0,0           1
+df$SimpleDoc.edit.docTransferLogFrame#load               0,0           0           0         0,0           1
+df$SimpleDoc.edit.header#init                            0,0           0           0         0,0           1
+df$SimpleDoc.edit.header#inject                          0,0           0           0         0,0           1
+df$SimpleDoc.edit.header#load                            0,0           0           0         0,0           1
+df$SimpleDoc.edit.openHistoryFrame#init                  0,0           0           0         0,0           1
+df$SimpleDoc.edit.openHistoryFrame#inject                0,0           0           0         0,0           1
+df$SimpleDoc.edit.openHistoryFrame#load                  0,0           0           0         0,0           1
+df$SimpleDoc.edit.openHistoryFrame@openHistoryDs         9,0           9           9         0,0           1
+df$SimpleDoc.edit.resolutionsFrame#init                  0,0           0           0         0,0           1
+df$SimpleDoc.edit.resolutionsFrame#inject                0,0           0           0         0,0           1
+df$SimpleDoc.edit.resolutionsFrame#load                  1,0           1           1         0,0           1
+df$SimpleDoc.edit.resolutionsFrame@resolutionsDs        12,0          12          12         0,0           1
+df$SimpleDoc.edit.runtimePropertiesFrameMain#init         0,0           0           0         0,0           1
+df$SimpleDoc.edit.runtimePropertiesFrameMain#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.runtimePropertiesFrameMain#load         0,0           0           0         0,0           1
+df$SimpleDoc.edit.runtimePropertiesFrameTab#init         0,0           0           0         0,0           1
+df$SimpleDoc.edit.runtimePropertiesFrameTab#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.runtimePropertiesFrameTab#load         0,0           0           0         0,0           1
+df$SimpleDoc.edit.startProcessButtonsFrame#init          0,0           0           0         0,0           1
+df$SimpleDoc.edit.startProcessButtonsFrame#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.startProcessButtonsFrame#load          0,0           0           0         0,0           1
+df$SimpleDoc.edit.templateFrame#init                     0,0           0           0         0,0           1
+df$SimpleDoc.edit.templateFrame#inject                   0,0           0           0         0,0           1
+df$SimpleDoc.edit.templateFrame#load                     0,0           0           0         0,0           1
+df$SimpleDoc.edit@attachmentsDs                         15,0          11          23         5,7           3
+df$SimpleDoc.edit@cardRelationsDs                       15,0           8          27         8,5           3
+df$SimpleDoc.edit@categoriesDs                           3,0           3           3         0,0           1
+df$SimpleDoc.edit@categoryDs                             4,7           4           5         0,5           3
+df$SimpleDoc.edit@departmentDs                           4,3           4           5         0,5           3
+df$SimpleDoc.edit@organizationDs                         2,0           2           2         0,0           1
+df$SimpleDoc.edit@versionsDs                             6,8           6           8         0,8           4
+docCreator#afterShow                                     0,0           0           0         0,0           1
+docCreator#beforeShow                                    0,0           0           0         0,0           1
+docCreator#create                                        0,0           0           0         0,0           1
+docCreator#init                                         32,0          32          32         0,0           1
+docCreator#inject                                        0,0           0           0         0,0           1
+docCreator#load                                         47,0          47          47         0,0           1
+docCreator#uiPermissions                                 0,0           0           0         0,0           1
+docCreator#xml                                           0,0           0           0         0,0           6
+docCreator.windowActions#init                            0,0           0           0         0,0           1
+docCreator.windowActions#inject                          0,0           0           0         0,0           1
+docCreator.windowActions#load                            0,0           0           0         0,0           1
+docCreator@docKindDs                                     7,0           7           7         0,0           1
+docCreator@templatesDs                                   5,5           5           6         0,5           2
+docLinksFrame#create                                     0,0           0           0         0,0           1
+docLinksFrame#xml                                        0,0           0           0         0,0           2
+docOfficeDataFrame#create                               10,0          10          10         0,0           1
+docOfficeDataFrame#xml                                   0,0           0           0         0,0           2
+docOfficeFrame#create                                   12,0          12          12         0,0           1
+docOfficeFrame#xml                                       0,0           0           0         0,0           2
+docProcFrame#create                                      4,0           4           4         0,0           1
+docProcFrame#xml                                         0,0           0           0         0,0           2
+docTemplateFrame#create                                  0,0           0           0         0,0           1
+docTemplateFrame#xml                                     0,0           0           0         0,0           2
+docTransferLogFrame#create                               0,0           0           0         0,0           1
+docTransferLogFrame#xml                                  0,0           0           0         0,0           2
+editWindowActions#create                                 0,0           0           0         0,0           2
+editWindowActions#xml                                    0,0           0           0         0,0           4
+lookupWindowActions#create                               0,0           0           0         0,0           1
+lookupWindowActions#inject                               0,0           0           0         0,0           1
+lookupWindowActions#load                                 0,0           0           0         0,0           1
+lookupWindowActions#xml                                  0,0           0           0         0,0           2
+openHistoryFrame#create                                  0,0           0           0         0,0           1
+openHistoryFrame#xml                                     0,0           0           0         0,0           2
+resolutionsFrame#create                                  0,5           0           1         0,5           2
+resolutionsFrame#xml                                     0,0           0           0         0,0           4
+runtimePropertiesFrameMain#xml                          11,0           0          22        11,0           2
+runtimePropertiesFrameTab#xml                            0,0           0           0         0,0           2
+simpleDocHeaderFrame#create                              1,0           1           1         0,0           1
+simpleDocHeaderFrame#xml                                 0,0           0           0         0,0           2
+startProcessButtonsFrame#create                          0,0           0           0         0,0           1
+startProcessButtonsFrame#xml                             0,0           0           0         0,0           2
+transition.form#afterShow                               35,0          35          35         0,0           1
+transition.form#beforeShow                               2,0           2           2         0,0           1
+transition.form#companion                                0,0           0           0         0,0           1
+transition.form#create                                   0,0           0           0         0,0           1
+transition.form#init                                    61,0          61          61         0,0           1
+transition.form#inject                                   0,0           0           0         0,0           1
+transition.form#load                                    12,0          12          12         0,0           1
+transition.form#uiPermissions                            0,0           0           0         0,0           1
+transition.form#xml                                      0,0           0           0         0,0           6
+transition.form.attachmentsFrame#init                   19,0          19          19         0,0           1
+transition.form.attachmentsFrame#inject                  0,0           0           0         0,0           1
+transition.form.attachmentsFrame#load                    1,0           1           1         0,0           1
+transition.form.cardRolesFrame#init                      0,0           0           0         0,0           1
+transition.form.cardRolesFrame#inject                    0,0           0           0         0,0           1
+transition.form.cardRolesFrame#load                      2,0           2           2         0,0           1
+transition.form.cardRolesFrame@procRolesDs              12,0          12          12         0,0           1
+transition.form.windowActions#init                       0,0           0           0         0,0           1
+transition.form.windowActions#inject                     0,0           0           0         0,0           1
+transition.form.windowActions#load                       0,0           0           0         0,0           1
+transition.form@attachmentsDs                            7,7           7           8         0,5           3
+transition.form@cardRolesDs                             12,0          12          12         0,0           1
+
+Performance Statistics   2021-12-03 15:42:00 - 2021-12-03 15:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:44:00 - 2021-12-03 15:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:46:00 - 2021-12-03 15:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:48:00 - 2021-12-03 15:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:50:00 - 2021-12-03 15:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:52:00 - 2021-12-03 15:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:54:00 - 2021-12-03 15:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:56:00 - 2021-12-03 15:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 15:58:00 - 2021-12-03 16:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 16:00:00 - 2021-12-03 16:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 16:02:00 - 2021-12-03 16:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2021-12-03 16:04:00 - 2021-12-03 16:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                         12,0          12          12         0,0           1
+TDS null                                                12,0          12          12         0,0           1
+loginWindow#afterShow                                    0,0           0           0         0,0           1
+loginWindow#beforeShow                                   0,0           0           0         0,0           1
+loginWindow#create                                       0,0           0           0         0,0           1
+loginWindow#init                                         0,0           0           0         0,0           1
+loginWindow#inject                                       0,0           0           0         0,0           1
+loginWindow#load                                        91,0          91          91         0,0           1
+loginWindow#uiPermissions                                0,0           0           0         0,0           1
+loginWindow#xml                                        228,5           0         457       228,5           2
+mainWindow#afterShow                                     1,0           1           1         0,0           1
+mainWindow#beforeShow                                    0,0           0           0         0,0           1
+mainWindow#create                                       22,0          22          22         0,0           1
+mainWindow#init                                        108,0         108         108         0,0           1
+mainWindow#inject                                        0,0           0           0         0,0           1
+mainWindow#load                                         63,0          63          63         0,0           1
+mainWindow#uiPermissions                                 0,0           0           0         0,0           1
+mainWindow#xml                                          33,0           0          66        33,0           2
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#inject                    0,0           0           0         0,0           1
+mainWindow.voiceControlConsole#load                      0,0           0           0         0,0           1
+voiceControlConsole#create                               0,0           0           0         0,0           1
+voiceControlConsole#xml                                  0,0           0           0         0,0           1
+
+Performance Statistics   2021-12-03 16:06:00 - 2021-12-03 16:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+MenuItem.df$SimpleDoc.browse                           211,0         211         211         0,0           1
+MenuItem.sec$User.browse                                73,0          73          73         0,0           1
+cardTreeFrame#create                                     1,0           1           1         0,0           1
+cardTreeFrame#xml                                        0,0           0           0         0,0           2
+df$SimpleDoc.browse#afterShow                            0,0           0           0         0,0           1
+df$SimpleDoc.browse#beforeShow                           0,0           0           0         0,0           1
+df$SimpleDoc.browse#create                              37,0          37          37         0,0           1
+df$SimpleDoc.browse#init                                 1,0           1           1         0,0           1
+df$SimpleDoc.browse#inject                               0,0           0           0         0,0           1
+df$SimpleDoc.browse#load                                18,0          18          18         0,0           1
+df$SimpleDoc.browse#uiPermissions                        0,0           0           0         0,0           1
+df$SimpleDoc.browse#xml                                  0,0           0           0         0,0           2
+df$SimpleDoc.browse.cardTreeFrame#init                   0,0           0           0         0,0           1
+df$SimpleDoc.browse.cardTreeFrame#inject                 0,0           0           0         0,0           1
+df$SimpleDoc.browse.cardTreeFrame#load                   1,0           1           1         0,0           1
+df$SimpleDoc.browse.cardTreeFrame@cardTreeDs             0,0           0           0         0,0           1
+df$SimpleDoc.browse.lookupWindowActions#init             0,0           0           0         0,0           1
+df$SimpleDoc.browse.resolutionsFrame#init                0,0           0           0         0,0           1
+df$SimpleDoc.browse.resolutionsFrame#inject              0,0           0           0         0,0           1
+df$SimpleDoc.browse.resolutionsFrame#load                1,0           1           1         0,0           1
+df$SimpleDoc.browse.resolutionsFrame@resolutionsDs        14,0          14          14         0,0           1
+df$SimpleDoc.browse@cardsDs                             45,0           6          84        39,0           2
+lookupWindowActions#create                               0,0           0           0         0,0           2
+lookupWindowActions#inject                               0,0           0           0         0,0           2
+lookupWindowActions#load                                 0,0           0           0         0,0           2
+lookupWindowActions#xml                                  0,0           0           0         0,0           4
+resolutionsFrame#create                                  0,0           0           0         0,0           1
+resolutionsFrame#xml                                     0,0           0           0         0,0           2
+sec$User.browse#afterShow                                0,0           0           0         0,0           1
+sec$User.browse#beforeShow                               0,0           0           0         0,0           1
+sec$User.browse#create                                   0,0           0           0         0,0           1
+sec$User.browse#init                                     0,0           0           0         0,0           1
+sec$User.browse#inject                                   0,0           0           0         0,0           1
+sec$User.browse#load                                     4,0           4           4         0,0           1
+sec$User.browse#uiPermissions                            0,0           0           0         0,0           1
+sec$User.browse#xml                                      0,0           0           0         0,0           2
+sec$User.browse.lookupWindowActions#init                 0,0           0           0         0,0           1
+sec$User.browse@usersDs                                  5,0           5           5         0,0           1
+
+Performance Statistics   2021-12-03 16:08:00 - 2021-12-03 16:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+actionsFrame#create                                      0,0           0           0         0,0           1
+actionsFrame#xml                                         0,0           0           0         0,0           2
+addresseesFrame#create                                   0,0           0           0         0,0           1
+addresseesFrame#xml                                      0,0           0           0         0,0           2
+cardAttachmentsFrame#create                             98,5           1         196        97,5           2
+cardAttachmentsFrame#xml                                 0,0           0           0         0,0           4
+cardCommentFrame#create                                  1,0           1           1         0,0           1
+cardCommentFrame#xml                                     0,0           0           0         0,0           2
+cardCommentTextAreaFrame#create                          0,0           0           0         0,0           1
+cardCommentTextAreaFrame#xml                             0,0           0           0         0,0           2
+cardProjectsFrame#create                                 0,0           0           0         0,0           1
+cardProjectsFrame#xml                                    0,0           0           0         0,0           2
+cardRolesFrame#create                                    0,0           0           0         0,0           2
+cardRolesFrame#xml                                       0,0           0           0         0,0           4
+cardTreeFrame#create                                     0,0           0           0         0,0           1
+cardTreeFrame#xml                                        0,0           0           0         0,0           2
+df$SimpleDoc.browse@cardsDs                              5,0           5           5         0,0           1
+df$SimpleDoc.edit#afterShow                              0,0           0           0         0,0           1
+df$SimpleDoc.edit#beforeShow                            21,0          21          21         0,0           1
+df$SimpleDoc.edit#companion                              0,0           0           0         0,0           1
+df$SimpleDoc.edit#create                                 0,0           0           0         0,0           1
+df$SimpleDoc.edit#init                                   1,0           1           1         0,0           1
+df$SimpleDoc.edit#inject                                 0,0           0           0         0,0           1
+df$SimpleDoc.edit#load                                 299,0         299         299         0,0           1
+df$SimpleDoc.edit#uiPermissions                          0,0           0           0         0,0           1
+df$SimpleDoc.edit#xml                                    0,0           0           0         0,0           5
+df$SimpleDoc.edit.actionsFrame#init                      0,0           0           0         0,0           1
+df$SimpleDoc.edit.actionsFrame#inject                    0,0           0           0         0,0           1
+df$SimpleDoc.edit.actionsFrame#load                      0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardAttachmentsFrame#init              2,0           2           2         0,0           1
+df$SimpleDoc.edit.cardAttachmentsFrame#inject            0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardAttachmentsFrame#load              2,0           2           2         0,0           1
+df$SimpleDoc.edit.cardCommentFrame#init                  7,0           7           7         0,0           1
+df$SimpleDoc.edit.cardCommentFrame#inject                0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardCommentFrame#load                  0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardCommentFrame.cardCommentTextAreaFrame#init         0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardCommentFrame.cardCommentTextAreaFrame#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardCommentFrame.cardCommentTextAreaFrame#load         0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardCommentFrame@commentDs             5,0           5           5         0,0           1
+df$SimpleDoc.edit.cardLinksFrame#init                    0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardLinksFrame#inject                  0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardLinksFrame#load                    1,0           1           1         0,0           1
+df$SimpleDoc.edit.cardProcFrame#init                     0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardProcFrame#inject                   0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardProcFrame#load                     2,0           2           2         0,0           1
+df$SimpleDoc.edit.cardProcFrame.cardRolesFrame#init         0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardProcFrame.cardRolesFrame#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardProcFrame.cardRolesFrame#load         2,0           2           2         0,0           1
+df$SimpleDoc.edit.cardProcFrame.cardRolesFrame@procRolesDs        11,0          11          11         0,0           1
+df$SimpleDoc.edit.cardProcFrame@procDs                  17,0          17          17         0,0           1
+df$SimpleDoc.edit.cardProjectsFrame#init                 0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardProjectsFrame#inject               0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardProjectsFrame#load                 0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardTreeFrame#init                     0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardTreeFrame#inject                   0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardTreeFrame#load                     1,0           1           1         0,0           1
+df$SimpleDoc.edit.cardTreeFrame@cardTreeDs               0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame#init                    0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame#inject                  0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame#load                    5,0           5           5         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame#init         0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame#load         5,0           5           5         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame.addresseesFrame#init         0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame.addresseesFrame#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame.addresseesFrame#load         0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame@companiesDs         2,0           2           2         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame@contactPersonsDs         4,0           4           4         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame@correspondentsDs         3,0           3           3         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame@docReceivingMethodsDs         9,0           9           9         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame@employeeExecutorsDs         5,0           5           5         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame@numeratorsDs         3,0           3           3         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame@officeFilesDs        13,0          10          19         3,5           4
+df$SimpleDoc.edit.docTransferLogFrame#init               0,0           0           0         0,0           1
+df$SimpleDoc.edit.docTransferLogFrame#inject             0,0           0           0         0,0           1
+df$SimpleDoc.edit.docTransferLogFrame#load               1,0           1           1         0,0           1
+df$SimpleDoc.edit.header#init                            0,0           0           0         0,0           1
+df$SimpleDoc.edit.header#inject                          0,0           0           0         0,0           1
+df$SimpleDoc.edit.header#load                            1,0           1           1         0,0           1
+df$SimpleDoc.edit.openHistoryFrame#init                  0,0           0           0         0,0           1
+df$SimpleDoc.edit.openHistoryFrame#inject                0,0           0           0         0,0           1
+df$SimpleDoc.edit.openHistoryFrame#load                  0,0           0           0         0,0           1
+df$SimpleDoc.edit.openHistoryFrame@openHistoryDs         7,0           7           7         0,0           1
+df$SimpleDoc.edit.resolutionsFrame#init                  0,0           0           0         0,0           1
+df$SimpleDoc.edit.resolutionsFrame#inject                0,0           0           0         0,0           1
+df$SimpleDoc.edit.resolutionsFrame#load                  1,0           1           1         0,0           1
+df$SimpleDoc.edit.resolutionsFrame@resolutionsDs        11,0          11          11         0,0           1
+df$SimpleDoc.edit.runtimePropertiesFrameMain#init         0,0           0           0         0,0           1
+df$SimpleDoc.edit.runtimePropertiesFrameMain#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.runtimePropertiesFrameMain#load         0,0           0           0         0,0           1
+df$SimpleDoc.edit.runtimePropertiesFrameTab#init         0,0           0           0         0,0           1
+df$SimpleDoc.edit.runtimePropertiesFrameTab#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.runtimePropertiesFrameTab#load         0,0           0           0         0,0           1
+df$SimpleDoc.edit.startProcessButtonsFrame#init          0,0           0           0         0,0           1
+df$SimpleDoc.edit.startProcessButtonsFrame#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.startProcessButtonsFrame#load          0,0           0           0         0,0           1
+df$SimpleDoc.edit.templateFrame#init                     0,0           0           0         0,0           1
+df$SimpleDoc.edit.templateFrame#inject                   0,0           0           0         0,0           1
+df$SimpleDoc.edit.templateFrame#load                     0,0           0           0         0,0           1
+df$SimpleDoc.edit@attachmentsDs                         10,7           9          12         1,2           3
+df$SimpleDoc.edit@cardRelationsDs                       17,0           9          30         9,3           3
+df$SimpleDoc.edit@categoriesDs                           4,0           4           4         0,0           1
+df$SimpleDoc.edit@categoryDs                             6,0           5           7         0,8           3
+df$SimpleDoc.edit@departmentDs                           4,0           4           4         0,0           3
+df$SimpleDoc.edit@organizationDs                         3,0           3           3         0,0           1
+df$SimpleDoc.edit@versionsDs                             6,3           5           9         1,6           4
+docCreator#afterShow                                     0,0           0           0         0,0           1
+docCreator#beforeShow                                    0,0           0           0         0,0           1
+docCreator#create                                        2,0           2           2         0,0           1
+docCreator#init                                         66,0          66          66         0,0           1
+docCreator#inject                                        0,0           0           0         0,0           1
+docCreator#load                                         95,0          95          95         0,0           1
+docCreator#uiPermissions                                 0,0           0           0         0,0           1
+docCreator#xml                                         157,0           0         942       351,1           6
+docCreator.windowActions#init                            0,0           0           0         0,0           1
+docCreator.windowActions#inject                          0,0           0           0         0,0           1
+docCreator.windowActions#load                            0,0           0           0         0,0           1
+docCreator@docKindDs                                    28,0          28          28         0,0           1
+docCreator@templatesDs                                   8,0           7           9         1,0           2
+docLinksFrame#create                                     0,0           0           0         0,0           1
+docLinksFrame#xml                                        0,0           0           0         0,0           2
+docOfficeDataFrame#create                               13,0          13          13         0,0           1
+docOfficeDataFrame#xml                                   0,0           0           0         0,0           2
+docOfficeFrame#create                                   15,0          15          15         0,0           1
+docOfficeFrame#xml                                       0,0           0           0         0,0           2
+docProcFrame#create                                      4,0           4           4         0,0           1
+docProcFrame#xml                                         0,0           0           0         0,0           2
+docTemplateFrame#create                                  0,0           0           0         0,0           1
+docTemplateFrame#xml                                     0,0           0           0         0,0           2
+docTransferLogFrame#create                               0,0           0           0         0,0           1
+docTransferLogFrame#xml                                  0,0           0           0         0,0           2
+editWindowActions#create                                 0,0           0           0         0,0           2
+editWindowActions#xml                                    0,0           0           0         0,0           4
+openHistoryFrame#create                                  0,0           0           0         0,0           1
+openHistoryFrame#xml                                     0,0           0           0         0,0           2
+resolutionsFrame#create                                  0,0           0           0         0,0           1
+resolutionsFrame#xml                                     0,0           0           0         0,0           2
+runtimePropertiesFrameMain#xml                           0,0           0           0         0,0           2
+runtimePropertiesFrameTab#xml                            0,0           0           0         0,0           2
+simpleDocHeaderFrame#create                              0,0           0           0         0,0           1
+simpleDocHeaderFrame#xml                                 0,0           0           0         0,0           2
+startProcessButtonsFrame#create                          0,0           0           0         0,0           1
+startProcessButtonsFrame#xml                             0,0           0           0         0,0           2
+transition.form#afterShow                               24,0          24          24         0,0           1
+transition.form#beforeShow                               1,0           1           1         0,0           1
+transition.form#companion                                0,0           0           0         0,0           1
+transition.form#create                                   0,0           0           0         0,0           1
+transition.form#init                                    67,0          67          67         0,0           1
+transition.form#inject                                   0,0           0           0         0,0           1
+transition.form#load                                    15,0          15          15         0,0           1
+transition.form#uiPermissions                            0,0           0           0         0,0           1
+transition.form#xml                                      0,0           0           0         0,0           6
+transition.form.attachmentsFrame#init                   19,0          19          19         0,0           1
+transition.form.attachmentsFrame#inject                  0,0           0           0         0,0           1
+transition.form.attachmentsFrame#load                    2,0           2           2         0,0           1
+transition.form.cardRolesFrame#init                      0,0           0           0         0,0           1
+transition.form.cardRolesFrame#inject                    0,0           0           0         0,0           1
+transition.form.cardRolesFrame#load                      2,0           2           2         0,0           1
+transition.form.cardRolesFrame@procRolesDs              14,0          14          14         0,0           1
+transition.form.windowActions#init                       0,0           0           0         0,0           1
+transition.form.windowActions#inject                     0,0           0           0         0,0           1
+transition.form.windowActions#load                       0,0           0           0         0,0           1
+transition.form@attachmentsDs                            7,7           7           9         0,9           3
+transition.form@cardRolesDs                             14,0          14          14         0,0           1
+
+Performance Statistics   2021-12-03 16:10:00 - 2021-12-03 16:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                          9,6           6          23         5,7           9
+MenuItem.df$SimpleDoc.browse                           158,5         148         169        10,5           2
+TDS null                                                10,0           6          23         5,5           9
+cardTreeFrame#create                                     0,0           0           0         0,0           2
+cardTreeFrame#xml                                        0,0           0           0         0,0           4
+df$SimpleDoc.browse#afterShow                            0,0           0           0         0,0           2
+df$SimpleDoc.browse#beforeShow                           0,0           0           0         0,0           2
+df$SimpleDoc.browse#create                               0,0           0           0         0,0           2
+df$SimpleDoc.browse#init                                 1,0           1           1         0,0           2
+df$SimpleDoc.browse#inject                               0,0           0           0         0,0           2
+df$SimpleDoc.browse#load                                15,0          15          15         0,0           2
+df$SimpleDoc.browse#uiPermissions                        0,0           0           0         0,0           2
+df$SimpleDoc.browse#xml                                  9,0           0          35        15,0           4
+df$SimpleDoc.browse.cardTreeFrame#init                   0,0           0           0         0,0           2
+df$SimpleDoc.browse.cardTreeFrame#inject                 0,0           0           0         0,0           2
+df$SimpleDoc.browse.cardTreeFrame#load                   1,0           1           1         0,0           2
+df$SimpleDoc.browse.cardTreeFrame@cardTreeDs             0,0           0           0         0,0           2
+df$SimpleDoc.browse.lookupWindowActions#init             0,0           0           0         0,0           2
+df$SimpleDoc.browse.resolutionsFrame#init                0,0           0           0         0,0           2
+df$SimpleDoc.browse.resolutionsFrame#inject              0,0           0           0         0,0           2
+df$SimpleDoc.browse.resolutionsFrame#load                1,0           1           1         0,0           2
+df$SimpleDoc.browse.resolutionsFrame@resolutionsDs        10,5          10          11         0,5           2
+df$SimpleDoc.browse@cardsDs                             63,0          53          83        14,1           3
+editWindowActions#create                                 0,0           0           0         0,0           2
+editWindowActions#xml                                    0,0           0           0         0,0           4
+loginWindow#afterShow                                    0,0           0           0         0,0           5
+loginWindow#beforeShow                                   0,0           0           0         0,0           5
+loginWindow#create                                       0,0           0           0         0,0           5
+loginWindow#init                                         0,0           0           0         0,0           5
+loginWindow#inject                                       0,0           0           0         0,0           5
+loginWindow#load                                         0,4           0           1         0,5           5
+loginWindow#uiPermissions                                0,0           0           0         0,0           5
+loginWindow#xml                                          0,0           0           0         0,0          10
+lookupWindowActions#create                               0,0           0           0         0,0           2
+lookupWindowActions#inject                               0,0           0           0         0,0           2
+lookupWindowActions#load                                 0,0           0           0         0,0           2
+lookupWindowActions#xml                                  0,0           0           0         0,0           4
+mainWindow#afterShow                                     0,5           0           1         0,5           4
+mainWindow#beforeShow                                    0,0           0           0         0,0           4
+mainWindow#create                                        1,0           1           1         0,0           4
+mainWindow#init                                         29,8          16          53        15,0           4
+mainWindow#inject                                        0,0           0           0         0,0           4
+mainWindow#load                                         28,5          26          33         2,7           4
+mainWindow#uiPermissions                                 0,0           0           0         0,0           4
+mainWindow#xml                                           0,0           0           0         0,0           8
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           4
+mainWindow.voiceControlConsole#inject                    0,0           0           0         0,0           4
+mainWindow.voiceControlConsole#load                      0,0           0           0         0,0           4
+resolution.form#afterShow                                0,0           0           0         0,0           2
+resolution.form#beforeShow                               1,0           1           1         0,0           2
+resolution.form#create                                   0,0           0           0         0,0           2
+resolution.form#init                                    20,0          18          22         2,0           2
+resolution.form#inject                                   0,0           0           0         0,0           2
+resolution.form#load                                     3,0           3           3         0,0           2
+resolution.form#uiPermissions                            0,0           0           0         0,0           2
+resolution.form#xml                                      0,0           0           0         0,0          12
+resolution.form.windowActions#init                       0,0           0           0         0,0           2
+resolution.form.windowActions#inject                     0,0           0           0         0,0           2
+resolution.form.windowActions#load                       0,0           0           0         0,0           2
+resolutionsFrame#create                                  0,0           0           0         0,0           2
+resolutionsFrame#xml                                     0,0           0           0         0,0           4
+sec$User.changePassword#afterShow                        0,0           0           0         0,0           2
+sec$User.changePassword#beforeShow                       0,0           0           0         0,0           2
+sec$User.changePassword#create                           0,0           0           0         0,0           2
+sec$User.changePassword#init                             0,0           0           0         0,0           2
+sec$User.changePassword#inject                           0,0           0           0         0,0           2
+sec$User.changePassword#load                             1,0           1           1         0,0           2
+sec$User.changePassword#uiPermissions                    0,0           0           0         0,0           2
+sec$User.changePassword#xml                              0,0           0           0         0,0          12
+voiceControlConsole#create                               0,0           0           0         0,0           4
+voiceControlConsole#xml                                  0,0           0           0         0,0           4
+
+Performance Statistics   2021-12-03 16:12:00 - 2021-12-03 16:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+CardDeadlineDatasource#loadTree                          7,4           4          15         3,6          10
+MenuItem.df$SimpleDoc.browse                           137,0         137         137         0,0           1
+MenuItem.tm$Task.browse                                188,0         188         188         0,0           1
+TDS null                                                 8,7           4          16         4,2          10
+actionsFrame#create                                      0,0           0           0         0,0           1
+actionsFrame#xml                                         0,0           0           0         0,0           2
+addresseesFrame#create                                   0,0           0           0         0,0           1
+addresseesFrame#xml                                      0,0           0           0         0,0           2
+cardAttachmentsFrame#create                              1,0           1           1         0,0           1
+cardAttachmentsFrame#xml                                 0,0           0           0         0,0           2
+cardCommentFrame#create                                  3,0           3           3         0,0           1
+cardCommentFrame#xml                                     0,0           0           0         0,0           2
+cardCommentTextAreaFrame#create                          0,0           0           0         0,0           1
+cardCommentTextAreaFrame#xml                             0,0           0           0         0,0           2
+cardProjectsFrame#create                                 0,0           0           0         0,0           1
+cardProjectsFrame#xml                                    0,0           0           0         0,0           2
+cardRolesFrame#create                                    0,0           0           0         0,0           1
+cardRolesFrame#xml                                       0,0           0           0         0,0           2
+cardTreeFrame#create                                     0,0           0           0         0,0           3
+cardTreeFrame#xml                                        0,0           0           0         0,0           6
+df$SimpleDoc.browse#afterShow                            0,0           0           0         0,0           1
+df$SimpleDoc.browse#beforeShow                           0,0           0           0         0,0           1
+df$SimpleDoc.browse#create                               0,0           0           0         0,0           1
+df$SimpleDoc.browse#init                                 1,0           1           1         0,0           1
+df$SimpleDoc.browse#inject                               0,0           0           0         0,0           1
+df$SimpleDoc.browse#load                                16,0          16          16         0,0           1
+df$SimpleDoc.browse#uiPermissions                        0,0           0           0         0,0           1
+df$SimpleDoc.browse#xml                                  0,0           0           0         0,0           2
+df$SimpleDoc.browse.cardTreeFrame#init                   0,0           0           0         0,0           1
+df$SimpleDoc.browse.cardTreeFrame#inject                 0,0           0           0         0,0           1
+df$SimpleDoc.browse.cardTreeFrame#load                   0,0           0           0         0,0           1
+df$SimpleDoc.browse.cardTreeFrame@cardTreeDs             0,0           0           0         0,0           1
+df$SimpleDoc.browse.lookupWindowActions#init             0,0           0           0         0,0           1
+df$SimpleDoc.browse.resolutionsFrame#init                0,0           0           0         0,0           1
+df$SimpleDoc.browse.resolutionsFrame#inject              0,0           0           0         0,0           1
+df$SimpleDoc.browse.resolutionsFrame#load                1,0           1           1         0,0           1
+df$SimpleDoc.browse.resolutionsFrame@resolutionsDs        11,0          11          11         0,0           1
+df$SimpleDoc.browse@cardsDs                             53,0          53          53         0,0           1
+df$SimpleDoc.edit#afterShow                              0,0           0           0         0,0           1
+df$SimpleDoc.edit#beforeShow                             1,0           1           1         0,0           1
+df$SimpleDoc.edit#companion                              0,0           0           0         0,0           1
+df$SimpleDoc.edit#create                                 0,0           0           0         0,0           1
+df$SimpleDoc.edit#init                                   1,0           1           1         0,0           1
+df$SimpleDoc.edit#inject                                 0,0           0           0         0,0           1
+df$SimpleDoc.edit#load                                 118,0         118         118         0,0           1
+df$SimpleDoc.edit#uiPermissions                          0,0           0           0         0,0           1
+df$SimpleDoc.edit#xml                                    0,0           0           0         0,0           5
+df$SimpleDoc.edit.actionsFrame#init                      0,0           0           0         0,0           1
+df$SimpleDoc.edit.actionsFrame#inject                    0,0           0           0         0,0           1
+df$SimpleDoc.edit.actionsFrame#load                      0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardAttachmentsFrame#init              2,0           2           2         0,0           1
+df$SimpleDoc.edit.cardAttachmentsFrame#inject            0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardAttachmentsFrame#load              1,0           1           1         0,0           1
+df$SimpleDoc.edit.cardCommentFrame#init                 11,0          11          11         0,0           1
+df$SimpleDoc.edit.cardCommentFrame#inject                0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardCommentFrame#load                  1,0           1           1         0,0           1
+df$SimpleDoc.edit.cardCommentFrame.cardCommentTextAreaFrame#init         0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardCommentFrame.cardCommentTextAreaFrame#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardCommentFrame.cardCommentTextAreaFrame#load         0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardCommentFrame@commentDs             9,0           9           9         0,0           1
+df$SimpleDoc.edit.cardLinksFrame#init                    0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardLinksFrame#inject                  0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardLinksFrame#load                    1,0           1           1         0,0           1
+df$SimpleDoc.edit.cardProcFrame#init                     0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardProcFrame#inject                   0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardProcFrame#load                     3,0           3           3         0,0           1
+df$SimpleDoc.edit.cardProcFrame.cardRolesFrame#init         0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardProcFrame.cardRolesFrame#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardProcFrame.cardRolesFrame#load         2,0           2           2         0,0           1
+df$SimpleDoc.edit.cardProcFrame@procDs                  22,0          22          22         0,0           1
+df$SimpleDoc.edit.cardProjectsFrame#init                 0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardProjectsFrame#inject               0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardProjectsFrame#load                 0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardTreeFrame#init                     0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardTreeFrame#inject                   0,0           0           0         0,0           1
+df$SimpleDoc.edit.cardTreeFrame#load                     1,0           1           1         0,0           1
+df$SimpleDoc.edit.cardTreeFrame@cardTreeDs               0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame#init                    0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame#inject                  0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame#load                    6,0           6           6         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame#init         0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame#load         5,0           5           5         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame.addresseesFrame#init         0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame.addresseesFrame#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame.addresseesFrame#load         0,0           0           0         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame@contactPersonsDs         2,0           2           2         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame@docReceivingMethodsDs         2,0           2           2         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame@employeeExecutorsDs         3,0           3           3         0,0           1
+df$SimpleDoc.edit.docOfficeFrame.docOfficeDataFrame@officeFilesDs        11,0          11          11         0,0           1
+df$SimpleDoc.edit.docTransferLogFrame#init               0,0           0           0         0,0           1
+df$SimpleDoc.edit.docTransferLogFrame#inject             0,0           0           0         0,0           1
+df$SimpleDoc.edit.docTransferLogFrame#load               1,0           1           1         0,0           1
+df$SimpleDoc.edit.header#init                            0,0           0           0         0,0           1
+df$SimpleDoc.edit.header#inject                          0,0           0           0         0,0           1
+df$SimpleDoc.edit.header#load                            1,0           1           1         0,0           1
+df$SimpleDoc.edit.openHistoryFrame#init                  0,0           0           0         0,0           1
+df$SimpleDoc.edit.openHistoryFrame#inject                0,0           0           0         0,0           1
+df$SimpleDoc.edit.openHistoryFrame#load                  0,0           0           0         0,0           1
+df$SimpleDoc.edit.openHistoryFrame@openHistoryDs         4,0           4           4         0,0           1
+df$SimpleDoc.edit.resolutionsFrame#init                  0,0           0           0         0,0           1
+df$SimpleDoc.edit.resolutionsFrame#inject                0,0           0           0         0,0           1
+df$SimpleDoc.edit.resolutionsFrame#load                  1,0           1           1         0,0           1
+df$SimpleDoc.edit.resolutionsFrame@resolutionsDs        14,0          14          14         0,0           1
+df$SimpleDoc.edit.runtimePropertiesFrameMain#init         0,0           0           0         0,0           1
+df$SimpleDoc.edit.runtimePropertiesFrameMain#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.runtimePropertiesFrameMain#load         0,0           0           0         0,0           1
+df$SimpleDoc.edit.runtimePropertiesFrameTab#init         0,0           0           0         0,0           1
+df$SimpleDoc.edit.runtimePropertiesFrameTab#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.runtimePropertiesFrameTab#load         0,0           0           0         0,0           1
+df$SimpleDoc.edit.startProcessButtonsFrame#init          0,0           0           0         0,0           1
+df$SimpleDoc.edit.startProcessButtonsFrame#inject         0,0           0           0         0,0           1
+df$SimpleDoc.edit.startProcessButtonsFrame#load          0,0           0           0         0,0           1
+df$SimpleDoc.edit.templateFrame#init                     0,0           0           0         0,0           1
+df$SimpleDoc.edit.templateFrame#inject                   0,0           0           0         0,0           1
+df$SimpleDoc.edit.templateFrame#load                     0,0           0           0         0,0           1
+df$SimpleDoc.edit@attachmentsDs                          8,0           8           8         0,0           1
+df$SimpleDoc.edit@cardRelationsDs                       10,0          10          10         0,0           1
+df$SimpleDoc.edit@categoriesDs                           3,0           3           3         0,0           1
+df$SimpleDoc.edit@versionsDs                            14,3          13          16         1,2           3
+docLinksFrame#create                                     0,0           0           0         0,0           1
+docLinksFrame#xml                                        0,0           0           0         0,0           2
+docOfficeDataFrame#create                               13,0          13          13         0,0           1
+docOfficeDataFrame#xml                                   0,0           0           0         0,0           2
+docOfficeFrame#create                                   14,0          14          14         0,0           1
+docOfficeFrame#xml                                       0,0           0           0         0,0           2
+docProcFrame#create                                      2,0           2           2         0,0           1
+docProcFrame#xml                                         0,0           0           0         0,0           2
+docTemplateFrame#create                                  0,0           0           0         0,0           1
+docTemplateFrame#xml                                     0,0           0           0         0,0           2
+docTransferLogFrame#create                               0,0           0           0         0,0           1
+docTransferLogFrame#xml                                  0,0           0           0         0,0           2
+editWindowActions#create                                 0,0           0           0         0,0           3
+editWindowActions#xml                                    0,0           0           0         0,0           6
+loginWindow#afterShow                                    0,0           0           0         0,0           4
+loginWindow#beforeShow                                   0,0           0           0         0,0           4
+loginWindow#create                                       0,0           0           0         0,0           4
+loginWindow#init                                         0,0           0           0         0,0           4
+loginWindow#inject                                       0,0           0           0         0,0           4
+loginWindow#load                                         0,0           0           0         0,0           4
+loginWindow#uiPermissions                                0,0           0           0         0,0           4
+loginWindow#xml                                          0,0           0           0         0,0           8
+lookupWindowActions#create                               0,0           0           0         0,0           2
+lookupWindowActions#inject                               0,0           0           0         0,0           2
+lookupWindowActions#load                                 0,0           0           0         0,0           2
+lookupWindowActions#xml                                  0,0           0           0         0,0           4
+mainWindow#afterShow                                     0,2           0           1         0,4           5
+mainWindow#beforeShow                                    0,0           0           0         0,0           5
+mainWindow#create                                        1,0           1           1         0,0           5
+mainWindow#init                                         16,4          12          20         3,3           5
+mainWindow#inject                                        0,0           0           0         0,0           5
+mainWindow#load                                         20,0          19          21         0,9           5
+mainWindow#uiPermissions                                 0,0           0           0         0,0           5
+mainWindow#xml                                           0,0           0           0         0,0          10
+mainWindow.voiceControlConsole#init                      0,0           0           0         0,0           5
+mainWindow.voiceControlConsole#inject                    0,0           0           0         0,0           5
+mainWindow.voiceControlConsole#load                      0,0           0           0         0,0           5
+openHistoryFrame#create                                  0,0           0           0         0,0           1
+openHistoryFrame#xml                                     0,0           0           0         0,0           2
+resolution.form#afterShow                                0,0           0           0         0,0           3
+resolution.form#beforeShow                               1,0           1           1         0,0           3
+resolution.form#create                                   0,0           0           0         0,0           3
+resolution.form#init                                    19,3          18          21         1,2           3
+resolution.form#inject                                   0,0           0           0         0,0           3
+resolution.form#load                                     3,3           3           4         0,5           3
+resolution.form#uiPermissions                            0,0           0           0         0,0           3
+resolution.form#xml                                      0,0           0           0         0,0          18
+resolution.form.windowActions#init                       0,0           0           0         0,0           3
+resolution.form.windowActions#inject                     0,0           0           0         0,0           3
+resolution.form.windowActions#load                       0,0           0           0         0,0           3
+resolutionsFrame#create                                  0,0           0           0         0,0           2
+resolutionsFrame#xml                                     0,0           0           0         0,0           4
+runtimePropertiesFrameMain#xml                           0,0           0           0         0,0           2
+runtimePropertiesFrameTab#xml                            0,0           0           0         0,0           2
+sec$User.changePassword#afterShow                        0,0           0           0         0,0           3
+sec$User.changePassword#beforeShow                       0,0           0           0         0,0           3
+sec$User.changePassword#create                           0,0           0           0         0,0           3
+sec$User.changePassword#init                             0,0           0           0         0,0           3
+sec$User.changePassword#inject                           0,0           0           0         0,0           3
+sec$User.changePassword#load                             1,0           1           1         0,0           3
+sec$User.changePassword#uiPermissions                    0,0           0           0         0,0           3
+sec$User.changePassword#xml                              0,0           0           0         0,0          18
+simpleDocHeaderFrame#create                              0,0           0           0         0,0           1
+simpleDocHeaderFrame#xml                                 0,0           0           0         0,0           2
+startProcessButtonsFrame#create                          0,0           0           0         0,0           1
+startProcessButtonsFrame#xml                             0,0           0           0         0,0           2
+taskResolutionsFrame#create                              0,0           0           0         0,0           1
+taskResolutionsFrame#xml                                 0,0           0           0         0,0           2
+tm$Task.browse#afterShow                                 0,0           0           0         0,0           1
+tm$Task.browse#beforeShow                                0,0           0           0         0,0           1
+tm$Task.browse#create                                    0,0           0           0         0,0           1
+tm$Task.browse#init                                     25,0          25          25         0,0           1
+tm$Task.browse#inject                                    0,0           0           0         0,0           1
+tm$Task.browse#load                                     36,0          36          36         0,0           1
+tm$Task.browse#uiPermissions                             0,0           0           0         0,0           1
+tm$Task.browse#xml                                       0,0           0           0         0,0           2
+tm$Task.browse.cardTreeFrame#init                        0,0           0           0         0,0           1
+tm$Task.browse.cardTreeFrame#inject                      0,0           0           0         0,0           1
+tm$Task.browse.cardTreeFrame#load                        2,0           2           2         0,0           1
+tm$Task.browse.cardTreeFrame@cardTreeDs                  0,0           0           0         0,0           1
+tm$Task.browse.lookupWindowActions#init                  0,0           0           0         0,0           1
+tm$Task.browse.resolutionsFrame#init                     0,0           0           0         0,0           1
+tm$Task.browse.resolutionsFrame#inject                   0,0           0           0         0,0           1
+tm$Task.browse.resolutionsFrame#load                    19,0          19          19         0,0           1
+tm$Task.browse.resolutionsFrame@resolutionsDs           20,0          20          20         0,0           1
+tm$Task.browse@cardsDs                                  50,0          50          50         0,0           1
+voiceControlConsole#create                               0,0           0           0         0,0           5
+voiceControlConsole#xml                                  0,0           0           0         0,0           5
+
