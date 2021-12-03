@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<process xmlns="http://jbpm.org/4.2/jpdl" name="proc_20211203_121851490" key="proc_20211203_121851490">  
+  <start name="Nachalo"> 
+    <transition name="Ok" to="Started"/> 
+  </start>  
+  <custom name="Started" class="com.haulmont.thesis.core.activity.task.StartActivity"> 
+    <transition name="out" to="Soglasovanie"/> 
+  </custom>  
+  <custom class="com.haulmont.workflow.core.activity.UniversalAssigner" name="Soglasovanie"> 
+    <property name="role"> 
+      <string value="Согласующий"/> 
+    </property>  
+    <transition name="Soglasovat" to="Vizirovanie"/>  
+    <transition name="Otklonit" to="Sozdanie_versii"/>  
+    <property name="successTransition"> 
+      <string value="Soglasovat"/> 
+    </property> 
+  </custom>  
+  <custom class="com.haulmont.workflow.core.activity.Assigner" name="Dorabotka"> 
+    <property name="role"> 
+      <string value="Инициатор"/> 
+    </property>  
+    <transition name="Na_soglasovanie" to="Soglasovanie"/>  
+    <transition name="Otmenit" to="Otmenen"/> 
+  </custom>  
+  <custom class="com.haulmont.workflow.core.activity.Assigner" name="Vizirovanie"> 
+    <property name="role"> 
+      <string value="Визирующий"/> 
+    </property>  
+    <transition name="Soglasovat" to="Utverzhdenie"/>  
+    <transition name="Soglasovat_s_zamechaniyami" to="Utverzhdenie"/>  
+    <transition name="Otklonit" to="Sozdanie_versii"/> 
+  </custom>  
+  <custom class="com.haulmont.thesis.core.activity.doc.VersionCreator" name="Sozdanie_versii"> 
+    <transition name="out" to="Vybor1"/> 
+  </custom>  
+  <custom class="com.haulmont.workflow.core.activity.Assigner" name="Utverzhdenie"> 
+    <property name="role"> 
+      <string value="Утверждающий"/> 
+    </property>  
+    <transition name="Utverdit" to="Utverzhden"/>  
+    <transition name="Na_dorabotku" to="Sozdanie_versii"/>  
+    <transition name="Otmenit" to="Otmenen"/> 
+  </custom>  
+  <custom class="com.haulmont.workflow.core.activity.CardActivity" name="Utverzhden"> 
+    <transition name="out" to="Zadacha"/> 
+  </custom>  
+  <custom class="com.haulmont.workflow.core.activity.CardActivity" name="Otmenen"> 
+    <transition name="out" to="Konec1"/> 
+  </custom>  
+  <custom class="com.haulmont.thesis.core.activity.task.TaskCreateActivity" name="Zadacha"> 
+    <transition name="Zadacha_zavershena" to="Konec1"/>  
+    <transition name="Zadacha_otmenena" to="Konec1"/>  
+    <property name="roleInitiator"> 
+      <string value="Утверждающий"/> 
+    </property>  
+    <property name="roleExecutor"> 
+      <string value="Инициатор"/> 
+    </property>  
+    <property name="taskName"> 
+      <string value="Задача"/> 
+    </property>  
+    <property name="taskName"> 
+      <string value="Задача"/> 
+    </property>  
+    <property name="transitionAtTheCancelTask"> 
+      <string value="Zadacha_zavershena"/> 
+    </property>  
+    <property name="transitionAtTheEndTask"> 
+      <string value="Zadacha_zavershena"/> 
+    </property>  
+    <property name="waitCompletion"> 
+      <true/> 
+    </property> 
+  </custom>  
+  <end name="Konec1"/>  
+  <custom class="com.haulmont.workflow.core.activity.Decision" name="Vybor1"> 
+    <transition name="yes" to="1"/>  
+    <transition name="no" to="Dorabotka"/>  
+    <property name="scriptName"> 
+      <string value="script_68b52723_9b6c_9600_2a32_e3596a5b0350.groovy"/> 
+    </property> 
+  </custom>  
+  <custom class="com.haulmont.thesis.core.activity.doc.ScriptExecution" name="1"> 
+    <transition name="out" to="Dorabotka"/>  
+    <property name="scriptName"> 
+      <string value="script_68b52723_9b6c_9600_2a32_e3596a5b0350.groovy"/> 
+    </property> 
+  </custom>  
+  <on event="end"> 
+    <event-listener class="com.haulmont.workflow.core.activity.EndProcessListener"/> 
+  </on>  
+  <on event="start"> 
+    <event-listener class="com.haulmont.workflow.core.activity.StartProcessListener"/> 
+  </on>  
+  <on event="end"> 
+    <event-listener class="com.haulmont.workflow.core.activity.RemoveTimersEventListener"/> 
+  </on> 
+</process>
